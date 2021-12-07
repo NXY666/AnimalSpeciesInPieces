@@ -8,10 +8,10 @@ public class FrameContainer extends JFrame {
 
 	public FrameContainer() {
 		setTitle("CssPic");
-		setSize(700, 700);
+		setSize(1400, 1000);
 
 		getContentPane().setBackground(Color.GRAY);
-		setResizable(false);
+		// setResizable(false);
 		Toolkit tool = Toolkit.getDefaultToolkit();
 		Dimension d = tool.getScreenSize();
 		setLocation((d.width - getWidth()) / 2, (d.height - getHeight()) / 2);

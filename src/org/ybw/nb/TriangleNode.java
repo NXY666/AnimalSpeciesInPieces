@@ -5,21 +5,34 @@ import java.awt.*;
 public class TriangleNode {
 	int[][] setP, nowP;
 	double[] moveSpeed = {1, 1, 1};
-	Color bg;
+	Color setBg, nowBg;
 
-	public TriangleNode(int[][] setP, Color bg) {
+	public TriangleNode(int[][] setP, String setBg) {
 		this.setP = setP;
 		this.nowP = setP;
-		this.bg = bg;
+		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
+		this.nowBg = this.setBg;
 	}
 
-	public void setLocation(int[][] setP, Color bg) {
+	public TriangleNode(int[][] setP, Color setBg) {
 		this.setP = setP;
-		this.bg = bg;
+		this.nowP = setP;
+		this.setBg = setBg;
+		this.nowBg = this.setBg;
 	}
 
-	public void setBg(Color bg) {
-		this.bg = bg;
+	public void setLocation(int[][] setP, Color setBg) {
+		this.setP = setP;
+		this.setBg = setBg;
+	}
+
+	public void setLocation(int[][] setP, String setBg) {
+		this.setP = setP;
+		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
+	}
+
+	public void setBg(Color setBg) {
+		this.setBg = setBg;
 	}
 
 	public double[] getVector(int dotIndex, int[][] nowP, int[][] setP) {
@@ -37,7 +50,6 @@ public class TriangleNode {
 		double dy = (vector[1] < 0 ? -1 : 1) * Math.min(Math.abs(vector[1] * moveSpeed[dotIndex]), Math.abs(vector[3]));
 
 		moveSpeed[dotIndex] = dx * dx + dy * dy;
-		System.out.println(moveSpeed[dotIndex]);
 		if (moveSpeed[dotIndex] > 10) {
 			moveSpeed[dotIndex] = 10;
 		} else if (moveSpeed[dotIndex] < 1) {
@@ -46,13 +58,22 @@ public class TriangleNode {
 
 		nowP[0][dotIndex] += (dx > 0 && dx < 1) ? 1 : dx;
 		nowP[1][dotIndex] += (dy > 0 && dy < 1) ? 1 : dy;
+
+		if (setBg.getRGB() != nowBg.getRGB()) {
+			int dc = setBg.getRGB() - nowBg.getRGB() / 100;
+			if (Math.abs(dc) < 100) {
+				nowBg = new Color(setBg.getRGB());
+			} else {
+				nowBg = new Color(nowBg.getRGB() + dc);
+			}
+		}
 	}
 
 	public void render(Graphics2D graphics2D) {
 		for (int i = 0; i < 3; i++) {
 			movePoint(i, nowP, setP);
 		}
-		graphics2D.setColor(bg);
+		graphics2D.setColor(nowBg);
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
 	}
 }
