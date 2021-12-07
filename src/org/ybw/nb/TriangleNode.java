@@ -44,30 +44,20 @@ public class TriangleNode {
 		nowP[0][dotIndex] += (dx > 0 && dx < 1) ? 1 : dx;
 		nowP[1][dotIndex] += (dy > 0 && dy < 1) ? 1 : dy;
 
-		if (setBg.getRed()!= nowBg.getRed()) {
-			int dis;
-			if(setBg.getRed()-nowBg.getRed()>0)
-				dis=1;
-			else
-				dis=-1;
-			nowBg=new Color(nowBg.getRed()+dis,nowBg.getGreen(),nowBg.getBlue());
+		if (setBg.getRed() != nowBg.getRed()) {
+			int dis = setBg.getRed() - nowBg.getRed() > 0 ? 1 : -1;
+			nowBg = new Color(nowBg.getRed() + dis, nowBg.getGreen(), nowBg.getBlue());
 		}
-		if (setBg.getBlue()!= nowBg.getBlue()) {
-			int dis;
-			if(setBg.getBlue()-nowBg.getBlue()>0)
-				dis=1;
-			else
-				dis=-1;
-			nowBg=new Color(nowBg.getRed(),nowBg.getGreen(),nowBg.getBlue()+dis);
-		}if (setBg.getGreen()!= nowBg.getGreen()) {
-			int dis;
-			if(setBg.getGreen()-nowBg.getGreen()>0)
-				dis=1;
-			else
-				dis=-1;
-			nowBg=new Color(nowBg.getRed(),nowBg.getGreen()+dis,nowBg.getBlue());
+		if (setBg.getBlue() != nowBg.getBlue()) {
+			int dis = setBg.getBlue() - nowBg.getBlue() > 0 ? 1 : -1;
+			nowBg = new Color(nowBg.getRed(), nowBg.getGreen(), nowBg.getBlue() + dis);
+		}
+		if (setBg.getGreen() != nowBg.getGreen()) {
+			int dis = setBg.getGreen() - nowBg.getGreen() > 0 ? 1 : -1;
+			nowBg = new Color(nowBg.getRed(), nowBg.getGreen() + dis, nowBg.getBlue());
 		}
 	}
+
 	//			int dc = setBg.getRGB()/100 - nowBg.getRGB() / 100;
 //			if (Math.abs(dc) < 100) {
 //				nowBg = new Color(setBg.getRGB());
