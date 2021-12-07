@@ -3,46 +3,73 @@ package org.ybw.nb;
 import java.awt.*;
 
 public class TriangleNode {
-	int[][] setP, nowP;
-	double[] moveSpeed = {1, 1, 1};
+	//      过去   现在   未来
+	int[][] oldP, nowP, setP;
 	Color setBg, nowBg;
+
+	//移动参数
+	int totalFrame = 50, usedFrame = 0, waitFrame = 0;
 
 	public TriangleNode(int[][] setP, String setBg) {
 		this.setP = setP;
-		this.nowP = setP;
+		int[] triPos = {getRandInt(200, 1200), getRandInt(200, 800)};
+		this.nowP = new int[][]{
+			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},
+			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}
+		};
+		this.oldP = this.nowP;
 		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
 		this.nowBg = this.setBg;
 	}
 
-	public void setLocation(int[][] setP, String setBg) {
-		this.setP = setP;
-		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
+	private int getRandInt(int min, int max) {
+		return (int) (min + Math.random() * (max - min + 1));
 	}
 
+	public void setLocation(int[][] setP, String setBg, int totalFrame, int waitFrame) {
+		this.oldP = this.nowP;
+		this.setP = setP;
+		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
 
-	public double[] getVector(int dotIndex, int[][] nowP, int[][] setP) {
-		double dx = setP[0][dotIndex] - nowP[0][dotIndex], dy = setP[1][dotIndex] - nowP[1][dotIndex];
+		this.waitFrame = waitFrame;
+		this.totalFrame = totalFrame;
+		this.usedFrame = 0;
+	}
+
+	public void kill(int totalFrame, int waitFrame) {
+		this.oldP = this.nowP;
+		this.setP = new int[][]{{700, 700, 700}, {500, 500, 500}};
+
+		this.waitFrame = waitFrame;
+		this.totalFrame = totalFrame;
+		this.usedFrame = 0;
+	}
+
+	/**
+	 * 获取移动向量
+	 *
+	 * @return double[] { x/距离, y/距离, dx, dy }
+	 */
+	public double[] getVector(int dotIndex) {
+		double dx = setP[0][dotIndex] - oldP[0][dotIndex], dy = setP[1][dotIndex] - oldP[1][dotIndex];
 		if (dx == 0 && dy == 0) {
 			return new double[]{0, 0, 0, 0};
 		}
 		double dist = Math.sqrt(dx * dx + dy * dy);
-		return new double[]{dx / dist, dy / dist, dx, dy};//返回水平 垂直速度 以及水平 垂直高度
+		return new double[]{dx / dist, dy / dist, dx, dy};
 	}
 
-	public void movePoint(int dotIndex, int[][] nowP, int[][] setP) {
-		double[] vector = getVector(dotIndex, nowP, setP);
-		double dx = (vector[0] < 0 ? -1 : 1) * Math.min(Math.abs(vector[0] * moveSpeed[dotIndex]), Math.abs(vector[2]));
-		double dy = (vector[1] < 0 ? -1 : 1) * Math.min(Math.abs(vector[1] * moveSpeed[dotIndex]), Math.abs(vector[3]));
+	public double getDistPercent(double timePercent) {
+		double twoPI = 2 * Math.PI;
+		return (twoPI * timePercent - Math.sin(twoPI * timePercent)) / twoPI;
+	}
 
-		moveSpeed[dotIndex] = dx * dx + dy * dy;
-		if (moveSpeed[dotIndex] > 10) {
-			moveSpeed[dotIndex] = 10;
-		} else if (moveSpeed[dotIndex] < 1) {
-			moveSpeed[dotIndex] = 1;
-		}
+	public void movePoint(int dotIndex) {
+		double[] vector = getVector(dotIndex);
+		double distPercent = getDistPercent((double) usedFrame / totalFrame);
 
-		nowP[0][dotIndex] += (dx > 0 && dx < 1) ? 1 : dx;
-		nowP[1][dotIndex] += (dy > 0 && dy < 1) ? 1 : dy;
+		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[2] * distPercent);
+		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[3] * distPercent);
 
 		if (setBg.getRed() != nowBg.getRed()) {
 			int dis = setBg.getRed() - nowBg.getRed() > 0 ? 1 : -1;
@@ -58,15 +85,17 @@ public class TriangleNode {
 		}
 	}
 
-	//			int dc = setBg.getRGB()/100 - nowBg.getRGB() / 100;
-//			if (Math.abs(dc) < 100) {
-//				nowBg = new Color(setBg.getRGB());
-//			} else {
-//				nowBg = new Color(nowBg.getRGB() + dc);
-//			}
 	public void render(Graphics2D graphics2D) {
+		if (waitFrame != 0) {
+			waitFrame--;
+		} else if (usedFrame <= totalFrame) {
+			for (int i = 0; i < 3; i++) {
+				movePoint(i);
+			}
+		}
 		graphics2D.setColor(nowBg);
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
+		usedFrame++;
 	}
 }
 //170 80  140
