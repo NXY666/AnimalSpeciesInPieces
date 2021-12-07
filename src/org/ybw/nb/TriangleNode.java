@@ -60,7 +60,7 @@ public class TriangleNode {
 		nowP[1][dotIndex] += (dy > 0 && dy < 1) ? 1 : dy;
 
 		if (setBg.getRGB() != nowBg.getRGB()) {
-			int dc = setBg.getRGB() - nowBg.getRGB() / 100;
+			int dc = (setBg.getRGB() - nowBg.getRGB()) / 100;
 			if (Math.abs(dc) < 100) {
 				nowBg = new Color(setBg.getRGB());
 			} else {
