@@ -32,16 +32,12 @@ public class MainCanvas extends JPanel {
 
 	@Override
 	public void paint(Graphics graphics) {
-		BufferedImage bi = new BufferedImage(700, 700, BufferedImage.TYPE_INT_RGB);
-		Graphics2D newGraphics = bi.createGraphics();
-		newGraphics.setColor(Color.GRAY);
-		newGraphics.fillRect(0, 0, 700, 700);
+		graphics.setColor(Color.GRAY);
+		graphics.fillRect(0, 0, 700, 720);
 
-		for (int i = 0; i < 30; i++) {
-			triangleNode[i].render(newGraphics);
+		for (int i = 0; i < 1; i++) {
+			triangleNode[i].render((Graphics2D) graphics);
 		}
-
-		graphics.drawImage(bi, 0, 0, null);
 	}
 
 	class ChangeService extends Thread {
@@ -49,14 +45,14 @@ public class MainCanvas extends JPanel {
 		public void run() {
 			try {
 				while (true) {
-					for (int i = 0; i < 30; i++) {
+					for (int i = 0; i < 1; i++) {
 						if (Arrays.deepEquals(triangleNode[i].nowP, triangleNode[i].setP)) {
 							int[][] newPos = new int[][]{{getRandInt(0, 700), getRandInt(0, 700), getRandInt(0, 700)}, {getRandInt(0, 700), getRandInt(0, 700), getRandInt(0, 700)}};
 							triangleNode[i].setLocation(newPos, triangleNode[i].bg);
 						}
 					}
 					repaint();
-					sleep(1);
+					sleep(10);
 				}
 			} catch (InterruptedException e) {
 				e.printStackTrace();

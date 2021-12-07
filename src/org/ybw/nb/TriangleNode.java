@@ -35,19 +35,17 @@ public class TriangleNode {
 		double[] vector = getVector(dotIndex, nowP, setP);
 		double dx = (vector[0] < 0 ? -1 : 1) * Math.min(Math.abs(vector[0] * moveSpeed[dotIndex]), Math.abs(vector[2]));
 		double dy = (vector[1] < 0 ? -1 : 1) * Math.min(Math.abs(vector[1] * moveSpeed[dotIndex]), Math.abs(vector[3]));
-		nowP[0][dotIndex] += (dx > 0 && dx < 1) ? 1 : dx;
-		nowP[1][dotIndex] += (dy > 0 && dy < 1) ? 1 : dy;
 
-		if (Math.sqrt(dx * dx + dy * dy) > 300) {
-			moveSpeed[dotIndex] += 0.1;
-		} else {
-			moveSpeed[dotIndex] = 0.5;
-		}
-		if (moveSpeed[dotIndex] > 5) {
-			moveSpeed[dotIndex] = 5;
+		moveSpeed[dotIndex] = dx * dx + dy * dy;
+		System.out.println(moveSpeed[dotIndex]);
+		if (moveSpeed[dotIndex] > 10) {
+			moveSpeed[dotIndex] = 10;
 		} else if (moveSpeed[dotIndex] < 1) {
 			moveSpeed[dotIndex] = 1;
 		}
+
+		nowP[0][dotIndex] += (dx > 0 && dx < 1) ? 1 : dx;
+		nowP[1][dotIndex] += (dy > 0 && dy < 1) ? 1 : dy;
 	}
 
 	public void render(Graphics2D graphics2D) {
