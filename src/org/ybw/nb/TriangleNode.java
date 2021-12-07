@@ -75,9 +75,6 @@ public class TriangleNode {
 //				nowBg = new Color(nowBg.getRGB() + dc);
 //			}
 	public void render(Graphics2D graphics2D) {
-		for (int i = 0; i < 3; i++) {
-			movePoint(i, nowP, setP);
-		}
 		graphics2D.setColor(nowBg);
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
 	}
