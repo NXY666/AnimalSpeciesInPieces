@@ -14,26 +14,11 @@ public class TriangleNode {
 		this.nowBg = this.setBg;
 	}
 
-	public TriangleNode(int[][] setP, Color setBg) {
-		this.setP = setP;
-		this.nowP = setP;
-		this.setBg = setBg;
-		this.nowBg = this.setBg;
-	}
-
-	public void setLocation(int[][] setP, Color setBg) {
-		this.setP = setP;
-		this.setBg = setBg;
-	}
-
 	public void setLocation(int[][] setP, String setBg) {
 		this.setP = setP;
 		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
 	}
 
-	public void setBg(Color setBg) {
-		this.setBg = setBg;
-	}
 
 	public double[] getVector(int dotIndex, int[][] nowP, int[][] setP) {
 		double dx = setP[0][dotIndex] - nowP[0][dotIndex], dy = setP[1][dotIndex] - nowP[1][dotIndex];
@@ -41,7 +26,7 @@ public class TriangleNode {
 			return new double[]{0, 0, 0, 0};
 		}
 		double dist = Math.sqrt(dx * dx + dy * dy);
-		return new double[]{dx / dist, dy / dist, dx, dy};
+		return new double[]{dx / dist, dy / dist, dx, dy};//返回水平 垂直速度 以及水平 垂直高度
 	}
 
 	public void movePoint(int dotIndex, int[][] nowP, int[][] setP) {
@@ -59,16 +44,36 @@ public class TriangleNode {
 		nowP[0][dotIndex] += (dx > 0 && dx < 1) ? 1 : dx;
 		nowP[1][dotIndex] += (dy > 0 && dy < 1) ? 1 : dy;
 
-		if (setBg.getRGB() != nowBg.getRGB()) {
-			int dc = (setBg.getRGB() - nowBg.getRGB()) / 100;
-			if (Math.abs(dc) < 100) {
-				nowBg = new Color(setBg.getRGB());
-			} else {
-				nowBg = new Color(nowBg.getRGB() + dc);
-			}
+		if (setBg.getRed()!= nowBg.getRed()) {
+			int dis;
+			if(setBg.getRed()-nowBg.getRed()>0)
+				dis=1;
+			else
+				dis=-1;
+			nowBg=new Color(nowBg.getRed()+dis,nowBg.getGreen(),nowBg.getBlue());
+		}
+		if (setBg.getBlue()!= nowBg.getBlue()) {
+			int dis;
+			if(setBg.getBlue()-nowBg.getBlue()>0)
+				dis=1;
+			else
+				dis=-1;
+			nowBg=new Color(nowBg.getRed(),nowBg.getGreen(),nowBg.getBlue()+dis);
+		}if (setBg.getGreen()!= nowBg.getGreen()) {
+			int dis;
+			if(setBg.getGreen()-nowBg.getGreen()>0)
+				dis=1;
+			else
+				dis=-1;
+			nowBg=new Color(nowBg.getRed(),nowBg.getGreen()+dis,nowBg.getBlue());
 		}
 	}
-
+	//			int dc = setBg.getRGB()/100 - nowBg.getRGB() / 100;
+//			if (Math.abs(dc) < 100) {
+//				nowBg = new Color(setBg.getRGB());
+//			} else {
+//				nowBg = new Color(nowBg.getRGB() + dc);
+//			}
 	public void render(Graphics2D graphics2D) {
 		for (int i = 0; i < 3; i++) {
 			movePoint(i, nowP, setP);
@@ -77,3 +82,5 @@ public class TriangleNode {
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
 	}
 }
+//170 80  140
+//200 150 30
