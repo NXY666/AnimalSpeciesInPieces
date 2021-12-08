@@ -71,7 +71,7 @@ public class TriangleNode {
 			return 1;
 		}
 		return res;
-		// return timePercent * timePercent * timePercent * timePercent * timePercent;
+
 	}
 
 	public void movePoint(int dotIndex) {
