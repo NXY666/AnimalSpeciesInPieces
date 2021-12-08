@@ -14,7 +14,7 @@ public class FrameContainer extends JFrame {
 		Dimension d = tool.getScreenSize();
 		setLocation((d.width - getWidth()) / 2, (d.height - getHeight()) / 2);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setPanel(new MainCanvas());
+		add(new MainCanvas());
 
 		setVisible(true);
 	}

@@ -1041,4 +1041,35 @@ public class NodeDataSet {
 	};
 
 	static final String[] BG_COLOR_SET = new String[]{"#84A5DD", "#64D6E2", "#FDAED4", "#785EBB", "#A09DE5", "#A0CADB", "#79BBB5", "#F6D860", "#9988CD", "#EDB948", "#FDACB4", "#DBBE39", "#DFBC94", "#3CCAD1", "#F68F6F", "#9787EA", "#CCC5E3", "#FD9372", "#9B7AD5", "#DE89AC", "#98BFF6", "#FEC54F", "#9784ED", "#F4C3C5", "#63C5AB", "#F4696B", "#E794AE", "#9B7FE6", "#EF9F64", "#87C4A3"};
+
+
+	//四维数组 四个值分别为 处理第几个图片的动画 处理第几个三角的动画（无需填写index 后面有index二维数组） 后面两个就是点的信息
+
+    static int [][][][] NODE_ANIMATION_DATA_TYPE_1  =new int[][][][]{{
+                                                                   {{(int) (12.6 * 31.15), (int) (12.6 * 34.4), (int) (12.6 * 37.35)}, {(int) (9 * 35.571), (int) (9 * 35.9), (int) (9 * 38.2)}},
+                                                                   {{(int) (12.6 * 31.15), (int) (12.6 * 37.45), (int) (12.6 * 34.1)}, {(int) (9 * 35.429), (int) (9 * 38.143), (int) (9 * 37.714)}},
+                                                                   {{(int) (12.6 * 32.65), (int) (12.6 * 33.55), (int) (12.6 * 33.15)}, {(int) (9 * 35.286), (int) (9 * 36.1), (int) (9 * 36)}}
+                                                           }
+    };
+
+	//二维数组 两个个值分别为 处理第几个图片的动画 有动画的三角形的index
+
+    static int [][]     NODE_ANIMATION_INDEX_TYPE_1 =new int[][]{
+            {9,10,11}
+    };
+
+	//同上 第二种动画
+
+	static int [][][][] NODE_ANIMATION_DATA_TYPE_2  =new int[][][][]{{
+																			 {{(int) (12.6 * 25.95), (int) (12.6 * 36.25), (int) (12.6 * 27.85)}, {(int) (9 * 36.857), (int) (9 * 47.714), (int) (9 * 300.714)}}
+																	 }
+
+	};
+
+	//同上 第二种动画
+
+	static int [][]     NODE_ANIMATION_INDEX_TYPE_2 =new int[][]{
+			{4}
+	};
+
 }

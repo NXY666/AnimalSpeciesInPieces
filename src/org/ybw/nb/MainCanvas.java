@@ -3,7 +3,7 @@ package org.ybw.nb;
 import javax.swing.*;
 import java.awt.*;
 
-public class MainCanvas extends JPanel {
+public class MainCanvas extends Component {
 	TriangleNode[] triangleNode;
 
 	int nowAnimalIndex = 0;
@@ -38,6 +38,9 @@ public class MainCanvas extends JPanel {
 					if (++i == NodeDataSet.NODE_COORDINATE_DATA.length) {
 						i = 0;
 					}
+
+
+					nowAnimalIndex++;
 				}
 			} catch (InterruptedException e) {
 				e.printStackTrace();

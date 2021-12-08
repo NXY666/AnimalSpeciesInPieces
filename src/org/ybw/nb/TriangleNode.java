@@ -71,6 +71,7 @@ public class TriangleNode {
 			return 1;
 		}
 		return res;
+
 	}
 
 	public void movePoint(int dotIndex) {
