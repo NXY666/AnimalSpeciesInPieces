@@ -96,8 +96,12 @@ public class MainCanvas extends JPanel {
 	public void paint(Graphics graphics) {
 		graphics.setColor(Color.GRAY);
 		graphics.fillRect(0, 0, 1400, 1000);
+		for(int i=0;i<3;i++)
+		{
+			triangleNode[i+30].render((Graphics2D) graphics);
+		}
 
-		for (int i = 0; i < 33; i++) {
+		for (int i = 0; i < 30; i++) {
 			triangleNode[i].render((Graphics2D) graphics);
 		}
 	}
