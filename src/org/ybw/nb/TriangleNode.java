@@ -97,5 +97,4 @@ public class TriangleNode {
 		usedFrame++;
 	}
 }
-//170 80  140
-//200 150 30
+
