@@ -1,7 +1,8 @@
 package org.ybw.nb;
 
 public class NodeDataSet {
-	static final double SCREEN_X_SCALE = 12.6, SCREEN_Y_SCALE = 9;
+	static final double SCREEN_X_SCALE = 8.4, SCREEN_Y_SCALE = 6;
+	// static final double SCREEN_X_SCALE = 12.6 / 3 * 2, SCREEN_Y_SCALE = 9 / 3 * 2;
 
 	//第X个图 第X个结点 XorY 第X个XorY
 	static final int[][][][] NODE_COORDINATE_DATA = new int[][][][]{
