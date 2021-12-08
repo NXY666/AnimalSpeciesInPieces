@@ -13,13 +13,16 @@ public class TriangleNode {
 	public TriangleNode(int[][] setP, String setBg) {
 		this.setP = setP;
 		int[] triPos = {getRandInt(200, 1200), getRandInt(200, 800)};
-		this.nowP = new int[][]{
+		this.oldP = this.nowP = new int[][]{
 			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},//在画布范围内随机取x点
 			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}//在画布范围内随机取y点
 		};
-		this.oldP = this.nowP;
-		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
-		this.nowBg = this.setBg;
+		this.setBg = this.nowBg = new Color(Integer.parseInt(setBg.substring(1), 16));
+	}
+
+	public TriangleNode() {
+		this.oldP = this.setP = this.nowP = new int[][]{{700, 700, 700}, {500, 500, 500}};
+		this.setBg = this.nowBg = Color.WHITE;
 	}
 
 	private int getRandInt(int min, int max) {
