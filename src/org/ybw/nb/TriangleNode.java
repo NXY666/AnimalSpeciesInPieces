@@ -14,8 +14,8 @@ public class TriangleNode {
 		this.setP = setP;
 		int[] triPos = {getRandInt(200, 1200), getRandInt(200, 800)};
 		this.nowP = new int[][]{
-			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},
-			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}
+			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},//在画布范围内随机取x点
+			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}//在画布范围内随机取y点
 		};
 		this.oldP = this.nowP;
 		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
@@ -48,15 +48,14 @@ public class TriangleNode {
 	/**
 	 * 获取移动向量
 	 *
-	 * @return double[] { x/距离, y/距离, dx, dy }
+	 * @return double[] { dx//水平距离, dy//垂直距离 }
 	 */
 	public double[] getVector(int dotIndex) {
 		double dx = setP[0][dotIndex] - oldP[0][dotIndex], dy = setP[1][dotIndex] - oldP[1][dotIndex];
 		if (dx == 0 && dy == 0) {
 			return new double[]{0, 0, 0, 0};
 		}
-		double dist = Math.sqrt(dx * dx + dy * dy);
-		return new double[]{dx / dist, dy / dist, dx, dy};
+		return new double[]{dx, dy};
 	}
 
 	public double getDistPercent(double timePercent) {
@@ -66,10 +65,10 @@ public class TriangleNode {
 
 	public void movePoint(int dotIndex) {
 		double[] vector = getVector(dotIndex);
-		double distPercent = getDistPercent((double) usedFrame / totalFrame);
-
-		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[2] * distPercent);
-		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[3] * distPercent);
+		double distPercent = getDistPercent((double) usedFrame / totalFrame);//（limit from 0——1）
+		//nowP [0] x 点集合 nowP[1] y 点集合
+		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[0] * distPercent);//disPercent趋于1 水平距离趋于setP
+		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[1] * distPercent);//disPercent趋于1 垂直距离趋于setP
 
 		if (setBg.getRed() != nowBg.getRed()) {
 			int dis = setBg.getRed() - nowBg.getRed() > 0 ? 1 : -1;
