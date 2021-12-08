@@ -5,34 +5,36 @@ import java.awt.*;
 public class TriangleNode {
 	//      过去   现在   未来
 	int[][] oldP, nowP, setP;
-	Color setBg, nowBg;
+	Color setColor, nowColor;
 
 	//移动参数
-	int totalFrame = 50, usedFrame = 0, waitFrame = 0;
+	int totalFrame = getRandInt(50, 100), usedFrame = 0, waitFrame = getRandInt(0, 50);
 
-	public TriangleNode(int[][] setP, String setBg) {
+	public TriangleNode(int[][] setP, String setColor) {
 		this.setP = setP;
-		int[] triPos = {getRandInt(200, 1200), getRandInt(200, 800)};
+		int screenX = (int) (NodeDataSet.SCREEN_X_SCALE * 100), screenY = (int) (NodeDataSet.SCREEN_Y_SCALE * 100);
+		int[] triPos = {getRandInt(200, screenX - 200), getRandInt(200, screenY - 200)};
 		this.oldP = this.nowP = new int[][]{
 			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},//在画布范围内随机取x点
 			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}//在画布范围内随机取y点
 		};
-		this.setBg = this.nowBg = new Color(Integer.parseInt(setBg.substring(1), 16));
+		this.setColor = this.nowColor = Color.decode(setColor);
 	}
 
 	public TriangleNode() {
-		this.oldP = this.setP = this.nowP = new int[][]{{700, 700, 700}, {500, 500, 500}};
-		this.setBg = this.nowBg = Color.WHITE;
+		int screenX = (int) (NodeDataSet.SCREEN_X_SCALE * 50), screenY = (int) (NodeDataSet.SCREEN_Y_SCALE * 50);
+		this.oldP = this.setP = this.nowP = new int[][]{{screenX, screenX, screenX}, {screenY, screenY, screenY}};
+		this.setColor = this.nowColor = Color.WHITE;
 	}
 
 	private int getRandInt(int min, int max) {
 		return (int) (min + Math.random() * (max - min + 1));
 	}
 
-	public void setLocation(int[][] setP, String setBg, int totalFrame, int waitFrame) {
+	public void setLocation(int[][] setP, String setColorStr, int totalFrame, int waitFrame) {
 		this.oldP = this.nowP;
 		this.setP = setP;
-		this.setBg = new Color(Integer.parseInt(setBg.substring(1), 16));
+		this.setColor = Color.decode(setColorStr);
 
 		this.waitFrame = waitFrame;
 		this.totalFrame = totalFrame;
@@ -41,7 +43,8 @@ public class TriangleNode {
 
 	public void kill(int totalFrame, int waitFrame) {
 		this.oldP = this.nowP;
-		this.setP = new int[][]{{700, 700, 700}, {500, 500, 500}};
+		int screenX = (int) (NodeDataSet.SCREEN_X_SCALE * 50), screenY = (int) (NodeDataSet.SCREEN_Y_SCALE * 50);
+		this.setP = new int[][]{{screenX, screenX, screenX}, {screenY, screenY, screenY}};
 
 		this.waitFrame = waitFrame;
 		this.totalFrame = totalFrame;
@@ -62,28 +65,33 @@ public class TriangleNode {
 	}
 
 	public double getDistPercent(double timePercent) {
-		double twoPI = 2 * Math.PI;
-		return (twoPI * timePercent - Math.sin(twoPI * timePercent)) / twoPI;
+		double twoPI = 1 * Math.PI, twoPIT = twoPI * timePercent;
+		double res = ((twoPIT) - Math.sin(twoPIT)) / (1 * Math.PI);
+		if (res > 1) {
+			return 1;
+		}
+		return res;
+		// return timePercent * timePercent * timePercent * timePercent * timePercent;
 	}
 
 	public void movePoint(int dotIndex) {
 		double[] vector = getVector(dotIndex);
-		double distPercent = getDistPercent((double) usedFrame / totalFrame);//（limit from 0——1）
-		//nowP [0] x 点集合 nowP[1] y 点集合
-		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[0] * distPercent);//disPercent趋于1 水平距离趋于setP
-		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[1] * distPercent);//disPercent趋于1 垂直距离趋于setP
+		double distPercent = getDistPercent((double) usedFrame / totalFrame); //（limit from 0——1）
+		// nowP [0] x 点集合 nowP[1] y 点集合
+		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[0] * distPercent); // disPercent趋于1 水平距离趋于setP
+		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[1] * distPercent); // disPercent趋于1 垂直距离趋于setP
 
-		if (setBg.getRed() != nowBg.getRed()) {
-			int dis = setBg.getRed() - nowBg.getRed() > 0 ? 1 : -1;
-			nowBg = new Color(nowBg.getRed() + dis, nowBg.getGreen(), nowBg.getBlue());
+		if (setColor.getRed() != nowColor.getRed()) {
+			int dis = setColor.getRed() - nowColor.getRed() > 0 ? 1 : -1;
+			nowColor = new Color(nowColor.getRed() + dis, nowColor.getGreen(), nowColor.getBlue());
 		}
-		if (setBg.getBlue() != nowBg.getBlue()) {
-			int dis = setBg.getBlue() - nowBg.getBlue() > 0 ? 1 : -1;
-			nowBg = new Color(nowBg.getRed(), nowBg.getGreen(), nowBg.getBlue() + dis);
+		if (setColor.getBlue() != nowColor.getBlue()) {
+			int dis = setColor.getBlue() - nowColor.getBlue() > 0 ? 1 : -1;
+			nowColor = new Color(nowColor.getRed(), nowColor.getGreen(), nowColor.getBlue() + dis);
 		}
-		if (setBg.getGreen() != nowBg.getGreen()) {
-			int dis = setBg.getGreen() - nowBg.getGreen() > 0 ? 1 : -1;
-			nowBg = new Color(nowBg.getRed(), nowBg.getGreen() + dis, nowBg.getBlue());
+		if (setColor.getGreen() != nowColor.getGreen()) {
+			int dis = setColor.getGreen() - nowColor.getGreen() > 0 ? 1 : -1;
+			nowColor = new Color(nowColor.getRed(), nowColor.getGreen() + dis, nowColor.getBlue());
 		}
 	}
 
@@ -95,7 +103,7 @@ public class TriangleNode {
 				movePoint(i);
 			}
 		}
-		graphics2D.setColor(nowBg);
+		graphics2D.setColor(nowColor);
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
 		usedFrame++;
 	}

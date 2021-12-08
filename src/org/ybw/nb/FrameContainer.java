@@ -4,14 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 
 public class FrameContainer extends JFrame {
-	protected int realWidth, realHeight;
-
 	public FrameContainer() {
 		setTitle("CssPic");
-		setSize(1400, 1000);
+		setSize((int) (NodeDataSet.SCREEN_X_SCALE * 100), (int) (NodeDataSet.SCREEN_Y_SCALE * 100) + 40);
 
 		getContentPane().setBackground(Color.GRAY);
-		// setResizable(false);
+		setResizable(false);
 		Toolkit tool = Toolkit.getDefaultToolkit();
 		Dimension d = tool.getScreenSize();
 		setLocation((d.width - getWidth()) / 2, (d.height - getHeight()) / 2);
