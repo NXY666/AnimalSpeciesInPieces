@@ -1,5 +1,7 @@
 package org.ybw.nb;
 
+import org.ybw.nb.animations.AnimationObject;
+
 import javax.swing.*;
 import java.io.IOException;
 
@@ -9,8 +11,9 @@ public class DataContainer {
 	static int[][][][] NODE_COORDINATE_DATA;
 	static String[][] NODE_COLOR_SET;
 	static String[] BG_COLOR_SET;
+	static AnimationObject ANIMATIONS;
 
-	static public void init() throws Exception {
+	static public void init() {
 		try {
 			// 初始化NODE_COORDINATE_DATA
 			double[][][][] tmpNCData = Resource.getJson("#resource_pack/models/models.json", double[][][][].class);
@@ -33,10 +36,12 @@ public class DataContainer {
 			BG_COLOR_SET = Resource.getJson("#resource_pack/colors/background_colors.json", String[].class);
 			// 初始化NODE_COLOR_SET
 			NODE_COLOR_SET = Resource.getJson("#resource_pack/colors/model_colors.json", String[][].class);
+			// 初始化ANIMATIONS
+			ANIMATIONS = Resource.getJson("#resource_pack/models/animations.json", AnimationObject.class);
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "资源初始化失败，请检查资源包文件。(" + e + ")", null, JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "资源初始化失败，请检查资源包文件。(" + e + ")", "错误", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
-			throw new Exception("资源初始化失败，请检查资源包文件。");
+			System.exit(1);
 		}
 	}
 }

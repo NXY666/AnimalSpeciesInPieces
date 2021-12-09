@@ -13,7 +13,8 @@ public class TriangleNode {
 	public TriangleNode(int[][] setP, String setColor) {
 		this.setP = setP;
 		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 100), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 100);
-		int[] triPos = {getRandInt(200, screenX - 200), getRandInt(200, screenY - 200)};
+		int screenSX = (int) (screenX * 0.1), screenSY = (int) (screenY * 0.1);
+		int[] triPos = {getRandInt(screenSX, screenX - screenSX), getRandInt(screenSY, screenY - screenSY)};
 		this.oldP = this.nowP = new int[][]{
 			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},//在画布范围内随机取x点
 			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}//在画布范围内随机取y点
@@ -31,10 +32,20 @@ public class TriangleNode {
 		return (int) (min + Math.random() * (max - min + 1));
 	}
 
+	/**
+	 * 设置三角形新的目的地
+	 *
+	 * @param setP        目的地坐标。 {{x1, x2, x3}, {y1, y2, y3}}
+	 * @param setColorStr 新的三角形颜色，若为null则不作修改。
+	 * @param totalFrame  动画持续时间。
+	 * @param waitFrame   动画启动延时。
+	 */
 	public void setLocation(int[][] setP, String setColorStr, int totalFrame, int waitFrame) {
 		this.oldP = this.nowP;
 		this.setP = setP;
-		this.setColor = Color.decode(setColorStr);
+		if (setColorStr != null) {
+			this.setColor = Color.decode(setColorStr);
+		}
 
 		this.waitFrame = waitFrame;
 		this.totalFrame = totalFrame;
@@ -64,6 +75,15 @@ public class TriangleNode {
 		return new double[]{dx, dy};
 	}
 
+	public double easeInOutQuad(double currentTime, double startValue, double changeValue, double duration) {
+		currentTime /= duration / 2;
+		if (currentTime < 1) {
+			return changeValue / 2 * currentTime * currentTime + startValue;
+		}
+		currentTime--;
+		return -changeValue / 2 * (currentTime * (currentTime - 2) - 1) + startValue;
+	}
+
 	public double getDistPercent(double timePercent) {
 		double twoPI = 1 * Math.PI, twoPIT = twoPI * timePercent;
 		double res = ((twoPIT) - Math.sin(twoPIT)) / (1 * Math.PI);
@@ -76,7 +96,8 @@ public class TriangleNode {
 
 	public void movePoint(int dotIndex) {
 		double[] vector = getVector(dotIndex);
-		double distPercent = getDistPercent((double) usedFrame / totalFrame); //（limit from 0——1）
+		double distPercent = easeInOutQuad(usedFrame, 0, 1, totalFrame); // 百度的缓动函数（CSS用的这个）
+		// double distPercent = getDistPercent((double) usedFrame / totalFrame); //（limit from 0——1）
 		// nowP [0] x 点集合 nowP[1] y 点集合
 		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[0] * distPercent); // disPercent趋于1 水平距离趋于setP
 		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[1] * distPercent); // disPercent趋于1 垂直距离趋于setP
@@ -96,15 +117,15 @@ public class TriangleNode {
 	}
 
 	public void render(Graphics2D graphics2D) {
-		if (waitFrame != 0) {
+		if (waitFrame > 0) {
 			waitFrame--;
 		} else if (usedFrame <= totalFrame) {
 			for (int i = 0; i < 3; i++) {
 				movePoint(i);
 			}
+			usedFrame++;
 		}
 		graphics2D.setColor(nowColor);
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
-		usedFrame++;
 	}
 }
