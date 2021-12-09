@@ -6,7 +6,7 @@ import java.awt.*;
 public class FrameContainer extends JFrame {
 	public FrameContainer() {
 		setTitle("CssPic");
-		setSize((int) (NodeDataSet.SCREEN_X_SCALE * 100), (int) (NodeDataSet.SCREEN_Y_SCALE * 100) + 40);
+		setSize((int) (DataContainer.SCREEN_X_SCALE * 100), (int) (DataContainer.SCREEN_Y_SCALE * 100) + 40);
 
 		getContentPane().setBackground(Color.GRAY);
 		setResizable(false);

@@ -12,7 +12,7 @@ public class TriangleNode {
 
 	public TriangleNode(int[][] setP, String setColor) {
 		this.setP = setP;
-		int screenX = (int) (NodeDataSet.SCREEN_X_SCALE * 100), screenY = (int) (NodeDataSet.SCREEN_Y_SCALE * 100);
+		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 100), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 100);
 		int[] triPos = {getRandInt(200, screenX - 200), getRandInt(200, screenY - 200)};
 		this.oldP = this.nowP = new int[][]{
 			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},//在画布范围内随机取x点
@@ -22,7 +22,7 @@ public class TriangleNode {
 	}
 
 	public TriangleNode() {
-		int screenX = (int) (NodeDataSet.SCREEN_X_SCALE * 50), screenY = (int) (NodeDataSet.SCREEN_Y_SCALE * 50);
+		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 50), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 50);
 		this.oldP = this.setP = this.nowP = new int[][]{{screenX, screenX, screenX}, {screenY, screenY, screenY}};
 		this.setColor = this.nowColor = Color.WHITE;
 	}
@@ -43,7 +43,7 @@ public class TriangleNode {
 
 	public void kill(int totalFrame, int waitFrame) {
 		this.oldP = this.nowP;
-		int screenX = (int) (NodeDataSet.SCREEN_X_SCALE * 50), screenY = (int) (NodeDataSet.SCREEN_Y_SCALE * 50);
+		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 50), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 50);
 		this.setP = new int[][]{{screenX, screenX, screenX}, {screenY, screenY, screenY}};
 
 		this.waitFrame = waitFrame;
@@ -108,4 +108,3 @@ public class TriangleNode {
 		usedFrame++;
 	}
 }
-
