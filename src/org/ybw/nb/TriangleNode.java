@@ -75,29 +75,18 @@ public class TriangleNode {
 		return new double[]{dx, dy};
 	}
 
-	public double easeInOutQuad(double currentTime, double startValue, double changeValue, double duration) {
+	public double getDistPercent(double currentTime, double duration) {
 		currentTime /= duration / 2;
 		if (currentTime < 1) {
-			return changeValue / 2 * currentTime * currentTime + startValue;
+			return 0.5 * currentTime * currentTime;
 		}
 		currentTime--;
-		return -changeValue / 2 * (currentTime * (currentTime - 2) - 1) + startValue;
-	}
-
-	public double getDistPercent(double timePercent) {
-		double twoPI = 1 * Math.PI, twoPIT = twoPI * timePercent;
-		double res = ((twoPIT) - Math.sin(twoPIT)) / (1 * Math.PI);
-		if (res > 1) {
-			return 1;
-		}
-		return res;
-
+		return -0.5 * (currentTime * (currentTime - 2) - 1);
 	}
 
 	public void movePoint(int dotIndex) {
 		double[] vector = getVector(dotIndex);
-		double distPercent = easeInOutQuad(usedFrame, 0, 1, totalFrame); // 百度的缓动函数（CSS用的这个）
-		// double distPercent = getDistPercent((double) usedFrame / totalFrame); //（limit from 0——1）
+		double distPercent = getDistPercent(usedFrame, totalFrame); // 百度的缓动函数（CSS用的这个）
 		// nowP [0] x 点集合 nowP[1] y 点集合
 		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[0] * distPercent); // disPercent趋于1 水平距离趋于setP
 		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[1] * distPercent); // disPercent趋于1 垂直距离趋于setP

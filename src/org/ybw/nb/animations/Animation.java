@@ -1,15 +1,13 @@
 package org.ybw.nb.animations;
 
-import java.util.HashMap;
-
 public class Animation {
-	FrameIndex timeline;
+	TimelineMap timelineMap = new TimelineMap();
 
-	public FrameIndex getTimeline() {
-		return timeline;
+	public TimelineMap getTimelineMap() {
+		return timelineMap;
 	}
 
-	public void setTimeline(FrameIndex timeline) {
-		this.timeline = timeline;
+	public void setTimelineMap(TimelineMap timelineMap) {
+		this.timelineMap = timelineMap;
 	}
 }

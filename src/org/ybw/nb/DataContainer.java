@@ -1,9 +1,10 @@
 package org.ybw.nb;
 
-import org.ybw.nb.animations.AnimationObject;
+import com.google.gson.Gson;
+import org.ybw.nb.animations.*;
 
 import javax.swing.*;
-import java.io.IOException;
+import java.util.HashMap;
 
 public class DataContainer {
 	static final double SCREEN_X_SCALE = 8.4, SCREEN_Y_SCALE = 6;
@@ -11,7 +12,7 @@ public class DataContainer {
 	static int[][][][] NODE_COORDINATE_DATA;
 	static String[][] NODE_COLOR_SET;
 	static String[] BG_COLOR_SET;
-	static AnimationObject ANIMATIONS;
+	static Animation[] ANIMATIONS;
 
 	static public void init() {
 		try {
@@ -37,8 +38,45 @@ public class DataContainer {
 			// 初始化NODE_COLOR_SET
 			NODE_COLOR_SET = Resource.getJson("#resource_pack/colors/model_colors.json", String[][].class);
 			// 初始化ANIMATIONS
-			ANIMATIONS = Resource.getJson("#resource_pack/models/animations.json", AnimationObject.class);
-		} catch (IOException e) {
+			FileAnimationSetsRoot fileAnimationSetsRoot = Resource.getJson("#resource_pack/models/animation_sets.json", FileAnimationSetsRoot.class);
+			FileAnimationsRoot fileAnimationsRoot = Resource.getJson("#resource_pack/models/animations.json", FileAnimationsRoot.class);
+			FileAnimation[] fileAnimations = fileAnimationsRoot.getAnimations();
+			HashMap<String, FileAnimationSet> fileAnimationSets = fileAnimationSetsRoot.getAnimationSets();
+			ANIMATIONS = new Animation[fileAnimations.length];
+			for (int i = 0; i < ANIMATIONS.length; i++) {
+				ANIMATIONS[i] = new Animation();
+				TimelineMap timelineMap = ANIMATIONS[i].getTimelineMap();
+				FileTimelineMap rawTimeLine = fileAnimations[i].getTimeline();
+				for (int startFrame : rawTimeLine.keySet()) {
+					for (String aniSetName : rawTimeLine.get(startFrame)) {
+						FileAnimationSet fileAnimationSet = fileAnimationSets.get(aniSetName);
+						if (fileAnimationSet == null) {
+							throw new Exception("动画组 " + aniSetName + " 未定义。");
+						}
+						TimelineMap aniSetTimelineMap = fileAnimationSet.getTimelineMap();
+						for (int deltaFrame : aniSetTimelineMap.keySet()) {
+							BonesMap aniSetBonesMap = aniSetTimelineMap.get(deltaFrame);
+							BonesMap bonesMap = timelineMap.getOrDefault(startFrame + deltaFrame, new BonesMap());
+							for (int boneId : aniSetBonesMap.keySet()) {
+								Transformer aniSetTransformer = aniSetBonesMap.get(boneId);
+								if (fileAnimationSet.isLoop()) {
+									aniSetTransformer.setRepeatFrame(fileAnimationSet.getTotalFrame());
+								}
+								if (bonesMap.containsKey(boneId)) {
+									throw new Exception(
+										"动物 " + i + " 中骨头 " + boneId + " 在第 " + (startFrame + deltaFrame) + " 帧发生冲突。\n" +
+											"已存在：" + new Gson().toJson(bonesMap.get(boneId)) + "\n" +
+											"将添加：" + new Gson().toJson(aniSetTransformer)
+									);
+								}
+								bonesMap.put(boneId, aniSetTransformer);
+							}
+							timelineMap.put(startFrame + deltaFrame, bonesMap);
+						}
+					}
+				}
+			}
+		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, "资源初始化失败，请检查资源包文件。(" + e + ")", "错误", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 			System.exit(1);
