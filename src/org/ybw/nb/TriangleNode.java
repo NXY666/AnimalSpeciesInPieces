@@ -114,6 +114,7 @@ public class TriangleNode {
 			}
 			usedFrame++;
 		}
+		graphics2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
 		graphics2D.setColor(nowColor);
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
 	}
