@@ -27,7 +27,7 @@ public class MainCanvas extends Component {
 
 		new ChangeService().start();
 		new Thread(() -> {
-			for (int i = 2; i < DataContainer.NODE_COORDINATE_DATA.length; ) {
+			for (int i = 9; i < DataContainer.NODE_COORDINATE_DATA.length; ) {
 				nowAnimalIndex = i;
 				nowAnimalFrame = 0;
 				setBg = Color.decode(DataContainer.BG_COLOR_SET[i]);

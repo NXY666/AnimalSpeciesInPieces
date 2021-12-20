@@ -19,6 +19,22 @@
 		},
 		{
 			"timeline": {
+				"300": ["owl:tail_move","owl:leg_move"]
+			}
+		},
+		{
+			"timeline": {
+				"300": ["turtle:head_move","turtle:wing_move","turtle:tail_move"]
+			}
+		},
+		{
+			"timeline": {
+				"0": []
+			}
+		},
+		{
+			"timeline": {
+
 			}
 		},
 		{
@@ -27,18 +43,7 @@
 		},
 		{
 			"timeline": {
-			}
-		},
-		{
-			"timeline": {
-			}
-		},
-		{
-			"timeline": {
-			}
-		},
-		{
-			"timeline": {
+				"300": ["armadillo:head_move"]
 			}
 		},
 		{
