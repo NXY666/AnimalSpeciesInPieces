@@ -86,6 +86,7 @@
 		},
 		{
 			"timeline": {
+        "0": ["camel:hand_move","camel:mouth_move"]
 			}
 		},
 		{
