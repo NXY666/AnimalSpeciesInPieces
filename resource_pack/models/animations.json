@@ -42,7 +42,7 @@
 		},
 		{
 			"timeline": {
-				"300": ["seahorse:move_mouse", "seahorse:wink_tail"]
+				"300": ["seahorse:mouth_move", "seahorse:tail_wink"]
 			}
 		},
 		{
@@ -82,11 +82,12 @@
 		},
 		{
 			"timeline": {
+				"500": ["parrotfish:mouth_move"]
 			}
 		},
 		{
 			"timeline": {
-        "0": ["camel:hand_move","camel:mouth_move"]
+				"0": ["camel:hand_move", "camel:mouth_move"]
 			}
 		},
 		{

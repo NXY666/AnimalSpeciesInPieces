@@ -27,18 +27,18 @@ public class MainCanvas extends Component {
 
 		new ChangeService().start();
 		new Thread(() -> {
-			for (int i = 17; i < DataContainer.NODE_COORDINATE_DATA.length; ) {
+			for (int i = 16; i < DataContainer.NODE_COORDINATE_DATA.length; ) {
 				nowAnimalIndex = i;
 				nowAnimalFrame = 0;
 				setBg = Color.decode(DataContainer.BG_COLOR_SET[i]);
 				for (int j = 0; j < 33; j++) {
 					try {
-						triangleNode[j].setLocation(DataContainer.NODE_COORDINATE_DATA[i][j], DataContainer.NODE_COLOR_SET[i][j], 50 + j * 8, j * 2);
+						triangleNode[j].setLocation(DataContainer.NODE_COORDINATE_DATA[i][j], DataContainer.NODE_COLOR_SET[i][j], 25 + j * 4, j);
 					} catch (ArrayIndexOutOfBoundsException e) {
 						triangleNode[j].kill(140, 30);
 					}
 				}
-				while (nowAnimalFrame < 1500) {
+				while (nowAnimalFrame < 150000) {
 					Thread.onSpinWait();
 				}
 				if (++i == DataContainer.NODE_COORDINATE_DATA.length) {
@@ -95,10 +95,10 @@ public class MainCanvas extends Component {
 
 		// 三角形
 		for (int i = 0; i < 3; i++) {
-			triangleNode[i + 30].render((Graphics2D) graphics,nowAnimalFrame);
+			triangleNode[i + 30].render((Graphics2D) graphics, nowAnimalFrame);
 		}
 		for (int i = 0; i < 30; i++) {
-			triangleNode[i].render((Graphics2D) graphics,nowAnimalFrame);
+			triangleNode[i].render((Graphics2D) graphics, nowAnimalFrame);
 		}
 
 		synchronized (this) {
@@ -114,7 +114,7 @@ public class MainCanvas extends Component {
 				while (true) {
 					repaint();
 					//noinspection BusyWait
-					sleep(5);
+					sleep(1);
 				}
 			} catch (InterruptedException e) {
 				e.printStackTrace();
