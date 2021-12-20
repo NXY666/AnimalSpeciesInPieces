@@ -92,18 +92,22 @@
 		},
 		{
 			"timeline": {
+				"300": ["butterfly:body_move"]
 			}
 		},
 		{
 			"timeline": {
+				"0": []
 			}
 		},
 		{
 			"timeline": {
+				"0": []
 			}
 		},
 		{
 			"timeline": {
+				"300": ["tapir:head_move"]
 			}
 		},
 		{

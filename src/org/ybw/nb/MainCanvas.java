@@ -38,7 +38,7 @@ public class MainCanvas extends Component {
 						triangleNode[j].kill(140, 30);
 					}
 				}
-				while (nowAnimalFrame < 150000) {
+				while (nowAnimalFrame < 1500) {
 					Thread.onSpinWait();
 				}
 				if (++i == DataContainer.NODE_COORDINATE_DATA.length) {
