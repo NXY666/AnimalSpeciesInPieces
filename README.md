@@ -1,2 +1,2 @@
 # JavaLikeCss
-唉，就是玩儿。
+Java就是喜欢Css！
