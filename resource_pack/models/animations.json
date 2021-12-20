@@ -91,6 +91,7 @@
 		},
 		{
 			"timeline": {
+				"300": ["butterfly:body_move"]
 			}
 		},
 		{
