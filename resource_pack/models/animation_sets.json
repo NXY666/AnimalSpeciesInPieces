@@ -1981,11 +1981,11 @@
 				"0": {
 					"28": {
 						"transFrame": 240,
-						"moveTo": [[82,86.45,87.413],[47.9,43.5,45.7]]
+						"moveTo": [[82, 86.45, 87.413], [47.9, 43.5, 45.7]]
 					},
 					"29": {
 						"transFrame": 240,
-						"moveTo": [[82,86.3,85.413],[48,51.571,53.286]]
+						"moveTo": [[82, 86.3, 85.413], [48, 51.571, 53.286]]
 					}
 				},
 				"240": {
@@ -2000,6 +2000,68 @@
 				}
 			},
 			"totalFrame": 600
+		},
+		"parrotfish:gills_twitch": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"18": {
+						"transFrame": 30,
+						"moveTo": [[53.15,56.8,68.5],[38.35,33.4,48.3]]
+					},
+					"19": {
+						"transFrame": 30,
+						"moveTo": [[51.84,53.212,68.5],[44.6,38.286,48.2]]
+					},
+					"20": {
+						"transFrame": 30,
+						"moveTo": [[51.812,68.4,55.112],[44.3,48,53.429]]
+					}
+				},
+				"30": {
+					"18": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"19": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				},
+				"60": {
+					"18": {
+						"transFrame": 30,
+						"moveTo": [[53.15,56.8,68.5],[38.35,33.4,48.3]]
+					},
+					"19": {
+						"transFrame": 30,
+						"moveTo": [[51.84,53.212,68.5],[44.6,38.286,48.2]]
+					},
+					"20": {
+						"transFrame": 30,
+						"moveTo": [[51.812,68.4,55.112],[44.3,48,53.429]]
+					}
+				},
+				"90": {
+					"18": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"19": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 270
 		},
 		"camel:hand_move": {
 			"loop": false,
@@ -2158,434 +2220,434 @@
 				}
 			},
 			"totalFrame": 1200
-    },
-    "butterfly:body_move": {
-      "loop": true,
-      "timeline": {
-        "200": {
-          "0": {
-            "transFrame": 50,
-            "moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
-          },
-          "1": {
-            "transFrame": 50,
-            "moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
-          },
-          "2": {
-            "transFrame": 50,
-            "moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
-          },
-          "3": {
-            "transFrame": 50,
-            "moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
-          },
-          "4": {
-            "transFrame": 50,
-            "moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
-          },
-          "5": {
-            "transFrame": 50,
-            "moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
-          },
-          "6": {
-            "transFrame": 50,
-            "moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
-          },
-          "7": {
-            "transFrame": 50,
-            "moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
-          },
-          "8": {
-            "transFrame": 50,
-            "moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
-          },
-          "9": {
-            "transFrame": 50,
-            "moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
-          },
-          "20": {
-            "transFrame": 50,
-            "moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
-          },
-          "21": {
-            "transFrame": 50,
-            "moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
-          },
-          "22": {
-            "transFrame": 50,
-            "moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
-          },
-          "23": {
-            "transFrame": 50,
-            "moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
-          },
-          "24": {
-            "transFrame": 50,
-            "moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
-          },
-          "25": {
-            "transFrame": 50,
-            "moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
-          },
-          "26": {
-            "transFrame": 50,
-            "moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
-          },
-          "27": {
-            "transFrame": 50,
-            "moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
-          },
-          "28": {
-            "transFrame": 50,
-            "moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
-          },
-          "29": {
-            "transFrame": 50,
-            "moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
-          }
-        },
-        "250": {
-          "0": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "1": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "2": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "3": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "4": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "5": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "6": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "7": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "8": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "9": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "20": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "21": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "22": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "23": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "24": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "25": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "26": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "27": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "28": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "29": {
-            "transFrame": 50,
-            "moveTo": null
-          }
-        },
-        "300": {
-          "0": {
-            "transFrame": 50,
-            "moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
-          },
-          "1": {
-            "transFrame": 50,
-            "moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
-          },
-          "2": {
-            "transFrame": 50,
-            "moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
-          },
-          "3": {
-            "transFrame": 50,
-            "moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
-          },
-          "4": {
-            "transFrame": 50,
-            "moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
-          },
-          "5": {
-            "transFrame": 50,
-            "moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
-          },
-          "6": {
-            "transFrame": 50,
-            "moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
-          },
-          "7": {
-            "transFrame": 50,
-            "moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
-          },
-          "8": {
-            "transFrame": 50,
-            "moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
-          },
-          "9": {
-            "transFrame": 50,
-            "moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
-          },
-          "20": {
-            "transFrame": 50,
-            "moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
-          },
-          "21": {
-            "transFrame": 50,
-            "moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
-          },
-          "22": {
-            "transFrame": 50,
-            "moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
-          },
-          "23": {
-            "transFrame": 50,
-            "moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
-          },
-          "24": {
-            "transFrame": 50,
-            "moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
-          },
-          "25": {
-            "transFrame": 50,
-            "moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
-          },
-          "26": {
-            "transFrame": 50,
-            "moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
-          },
-          "27": {
-            "transFrame": 50,
-            "moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
-          },
-          "28": {
-            "transFrame": 50,
-            "moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
-          },
-          "29": {
-            "transFrame": 50,
-            "moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
-          }
-        },
-        "350": {
-          "0": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "1": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "2": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "3": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "4": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "5": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "6": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "7": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "8": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "9": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "20": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "21": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "22": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "23": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "24": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "25": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "26": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "27": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "28": {
-            "transFrame": 50,
-            "moveTo": null
-          },
-          "29": {
-            "transFrame": 50,
-            "moveTo": null
-          }
-        }
-      },
-      "totalFrame": 600
-    },
-    "tapir:head_move": {
-      "loop": true,
-      "timeline": {
-        "200": {
-          "0": {
-            "transFrame": 30,
-            "moveTo": [[11.6 ,14.9  , 13.9 ],[ 81.286,   79,     74.429]]
-          },
-          "1": {
-            "transFrame": 30,
-            "moveTo": [[9.9  ,11.7  , 13.95],[ 72.3,     81.2,   74.571]]
-          },
-          "2": {
-            "transFrame": 30,
-            "moveTo": [[9.8  ,13.8  , 18   ],[ 72.3,     74.571, 65.7  ]]
-          },
-          "3": {
-            "transFrame": 30,
-            "moveTo": [[9.9  ,17.9  , 11.7 ],[ 72.4,     65.857, 56.286]]
-          },
-          "8": {
-            "transFrame": 30,
-            "moveTo":[[15   ,18    , 17.4 ],[ 41.857,   40,     47.429]]
-          }
-        },
-        "230": {
-          "0": {
-            "transFrame": 30,
-            "moveTo": null
-          },
-          "1": {
-            "transFrame": 30,
-            "moveTo":null
-          },
-          "2": {
-            "transFrame": 30,
-            "moveTo": null
-          },
-          "3": {
-            "transFrame": 30,
-            "moveTo": null
-          },
-          "8": {
-            "transFrame": 30,
-            "moveTo":null
-          }
-        },
-        "260": {
-          "0": {
-            "transFrame": 30,
-            "moveTo": [[11.6 ,14.9  , 13.9 ],[ 81.286,   79,     74.429]]
-          },
-          "1": {
-            "transFrame": 30,
-            "moveTo": [[9.9  ,11.7  , 13.95],[ 72.3,     81.2,   74.571]]
-          },
-          "2": {
-            "transFrame": 30,
-            "moveTo": [[9.8  ,13.8  , 18   ],[ 72.3,     74.571, 65.7  ]]
-          },
-          "3": {
-            "transFrame": 30,
-            "moveTo": [[9.9  ,17.9  , 11.7 ],[ 72.4,     65.857, 56.286]]
-          },
-          "8": {
-            "transFrame": 30,
-            "moveTo":[[15   ,18    , 17.4 ],[ 41.857,   40,     47.429]]
-          }
-        },
-        "290": {
-          "0": {
-            "transFrame": 30,
-            "moveTo": null
-          },
-          "1": {
-            "transFrame": 30,
-            "moveTo":null
-          },
-          "2": {
-            "transFrame": 30,
-            "moveTo": null
-          },
-          "3": {
-            "transFrame": 30,
-            "moveTo": null
-          },
-          "8": {
-            "transFrame": 30,
-            "moveTo":null
-          }
-        }
-      },
-      "totalFrame": 600
+		},
+		"butterfly:body_move": {
+			"loop": true,
+			"timeline": {
+				"200": {
+					"0": {
+						"transFrame": 50,
+						"moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
+					},
+					"1": {
+						"transFrame": 50,
+						"moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
+					},
+					"2": {
+						"transFrame": 50,
+						"moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
+					},
+					"3": {
+						"transFrame": 50,
+						"moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
+					},
+					"4": {
+						"transFrame": 50,
+						"moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
+					},
+					"5": {
+						"transFrame": 50,
+						"moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
+					},
+					"6": {
+						"transFrame": 50,
+						"moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
+					},
+					"7": {
+						"transFrame": 50,
+						"moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
+					},
+					"8": {
+						"transFrame": 50,
+						"moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
+					},
+					"9": {
+						"transFrame": 50,
+						"moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
+					},
+					"20": {
+						"transFrame": 50,
+						"moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
+					},
+					"21": {
+						"transFrame": 50,
+						"moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
+					},
+					"22": {
+						"transFrame": 50,
+						"moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
+					},
+					"23": {
+						"transFrame": 50,
+						"moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
+					},
+					"24": {
+						"transFrame": 50,
+						"moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
+					},
+					"25": {
+						"transFrame": 50,
+						"moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
+					},
+					"26": {
+						"transFrame": 50,
+						"moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
+					},
+					"27": {
+						"transFrame": 50,
+						"moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
+					},
+					"28": {
+						"transFrame": 50,
+						"moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
+					},
+					"29": {
+						"transFrame": 50,
+						"moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
+					}
+				},
+				"250": {
+					"0": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"4": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"7": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"9": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"21": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"26": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 50,
+						"moveTo": null
+					}
+				},
+				"300": {
+					"0": {
+						"transFrame": 50,
+						"moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
+					},
+					"1": {
+						"transFrame": 50,
+						"moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
+					},
+					"2": {
+						"transFrame": 50,
+						"moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
+					},
+					"3": {
+						"transFrame": 50,
+						"moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
+					},
+					"4": {
+						"transFrame": 50,
+						"moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
+					},
+					"5": {
+						"transFrame": 50,
+						"moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
+					},
+					"6": {
+						"transFrame": 50,
+						"moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
+					},
+					"7": {
+						"transFrame": 50,
+						"moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
+					},
+					"8": {
+						"transFrame": 50,
+						"moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
+					},
+					"9": {
+						"transFrame": 50,
+						"moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
+					},
+					"20": {
+						"transFrame": 50,
+						"moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
+					},
+					"21": {
+						"transFrame": 50,
+						"moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
+					},
+					"22": {
+						"transFrame": 50,
+						"moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
+					},
+					"23": {
+						"transFrame": 50,
+						"moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
+					},
+					"24": {
+						"transFrame": 50,
+						"moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
+					},
+					"25": {
+						"transFrame": 50,
+						"moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
+					},
+					"26": {
+						"transFrame": 50,
+						"moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
+					},
+					"27": {
+						"transFrame": 50,
+						"moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
+					},
+					"28": {
+						"transFrame": 50,
+						"moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
+					},
+					"29": {
+						"transFrame": 50,
+						"moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
+					}
+				},
+				"350": {
+					"0": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"4": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"7": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"9": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"21": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"26": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 50,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 600
+		},
+		"tapir:head_move": {
+			"loop": true,
+			"timeline": {
+				"200": {
+					"0": {
+						"transFrame": 30,
+						"moveTo": [[11.6, 14.9, 13.9], [81.286, 79, 74.429]]
+					},
+					"1": {
+						"transFrame": 30,
+						"moveTo": [[9.9, 11.7, 13.95], [72.3, 81.2, 74.571]]
+					},
+					"2": {
+						"transFrame": 30,
+						"moveTo": [[9.8, 13.8, 18], [72.3, 74.571, 65.7]]
+					},
+					"3": {
+						"transFrame": 30,
+						"moveTo": [[9.9, 17.9, 11.7], [72.4, 65.857, 56.286]]
+					},
+					"8": {
+						"transFrame": 30,
+						"moveTo": [[15, 18, 17.4], [41.857, 40, 47.429]]
+					}
+				},
+				"230": {
+					"0": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				},
+				"260": {
+					"0": {
+						"transFrame": 30,
+						"moveTo": [[11.6, 14.9, 13.9], [81.286, 79, 74.429]]
+					},
+					"1": {
+						"transFrame": 30,
+						"moveTo": [[9.9, 11.7, 13.95], [72.3, 81.2, 74.571]]
+					},
+					"2": {
+						"transFrame": 30,
+						"moveTo": [[9.8, 13.8, 18], [72.3, 74.571, 65.7]]
+					},
+					"3": {
+						"transFrame": 30,
+						"moveTo": [[9.9, 17.9, 11.7], [72.4, 65.857, 56.286]]
+					},
+					"8": {
+						"transFrame": 30,
+						"moveTo": [[15, 18, 17.4], [41.857, 40, 47.429]]
+					}
+				},
+				"290": {
+					"0": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 600
 		}
 	}
 }

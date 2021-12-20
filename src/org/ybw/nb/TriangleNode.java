@@ -89,12 +89,7 @@ public class TriangleNode {
 	public void movePoint(int dotIndex, int tempFrame) {
 		double[] vector = getVector(dotIndex);
 		double distPercent;
-		// if (tempFrame < 300) {
-		distPercent = getDistPercent(usedFrame, totalFrame);
-		// } // 百度的缓动函数（CSS用的这个）
-		// else {
-		// 	distPercent = (double) usedFrame / (double) totalFrame * 0.5;
-		// }
+		distPercent = getDistPercent(usedFrame, totalFrame); // 百度的缓动函数（CSS用的这个）
 		// nowP [0] x 点集合 nowP[1] y 点集合
 
 		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[0] * distPercent); // disPercent趋于1 水平距离趋于setP

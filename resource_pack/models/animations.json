@@ -82,7 +82,7 @@
 		},
 		{
 			"timeline": {
-				"500": ["parrotfish:mouth_move"]
+				"500": ["parrotfish:mouth_move", "parrotfish:gills_twitch"]
 			}
 		},
 		{
