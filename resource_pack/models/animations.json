@@ -112,34 +112,42 @@
 		},
 		{
 			"timeline": {
+				"0": []
 			}
 		},
 		{
 			"timeline": {
+				"0": []
 			}
 		},
 		{
 			"timeline": {
+				"300": ["rhino:leg_move","rhino:head_move"]
 			}
 		},
 		{
 			"timeline": {
+				"300": ["peccary:hand_move"]
 			}
 		},
 		{
 			"timeline": {
+				"0": []
 			}
 		},
 		{
 			"timeline": {
+				"300":["loris:wink_hand"]
 			}
 		},
 		{
 			"timeline": {
+				"0": []
 			}
 		},
 		{
 			"timeline": {
+				"0": []
 			}
 		}
 	]
