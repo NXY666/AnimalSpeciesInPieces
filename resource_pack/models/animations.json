@@ -1,7 +1,7 @@
 {
 	"animations": [
 		{
-			"timeline": {
+			"timeline": {"300": ["crow:head_move","crow:tail_move"]
 			}
 		},
 		{
@@ -9,7 +9,7 @@
 			}
 		},
 		{
-			"timeline": {
+			"timeline": {"300": ["tamarin:head_move","tamashi:tail_move"]
 			}
 		},
 		{
