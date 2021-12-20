@@ -48,26 +48,32 @@
 		},
 		{
 			"timeline": {
+				"300": ["sloth:hand_move"]
 			}
 		},
 		{
 			"timeline": {
+				"300": ["kakapo:wing_move","kakapo:head_move"]
 			}
 		},
 		{
 			"timeline": {
+				"300": ["echidna:leg_move","echidna:head_move"]
 			}
 		},
 		{
 			"timeline": {
+				"300": ["penguin:body_move"]
 			}
 		},
 		{
 			"timeline": {
+				"300": ["damselfly:wing_move"]
 			}
 		},
 		{
 			"timeline": {
+				"300": ["bear:head_move"]
 			}
 		},
 		{
