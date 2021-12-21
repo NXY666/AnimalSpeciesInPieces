@@ -520,7 +520,7 @@
 						"moveTo": null
 					}
 				},
-				"60": {
+				"90": {
 					"9": {
 						"transFrame": 30,
 						"moveTo": [[31.15, 34.4, 37.35], [35.571, 35.9, 38.2]]
@@ -534,7 +534,7 @@
 						"moveTo": [[32.65, 33.55, 33.15], [35.286, 36.1, 36]]
 					}
 				},
-				"90": {
+				"120": {
 					"9": {
 						"transFrame": 30,
 						"moveTo": null
@@ -549,37 +549,37 @@
 					}
 				}
 			},
-			"totalFrame": 300
+			"totalFrame": 330
 		},
 		"frog:mouth_open": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"4": {
-						"transFrame": 150,
-						"moveTo": null
-					}
-				},
-				"150": {
-					"4": {
-						"transFrame": 150,
+						"transFrame": 180,
 						"moveTo": [[25.95, 36.25, 27.85], [36.857, 47.714, 47.714]]
 					}
 				},
-				"300": {
+				"180": {
 					"4": {
-						"transFrame": 130,
+						"transFrame": 180,
 						"moveTo": null
 					}
 				},
-				"430": {
+				"420": {
 					"4": {
-						"transFrame": 160,
+						"transFrame": 180,
 						"moveTo": [[25.95, 36.25, 27.85], [36.857, 47.714, 49.714]]
+					}
+				},
+				"600": {
+					"4": {
+						"transFrame": 180,
+						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 590
+			"totalFrame": 900
 		},
 		"owl:tail_move": {
 			"loop": true,
@@ -742,30 +742,30 @@
 		"owl:leg_move": {
 			"loop": true,
 			"timeline": {
-				"200": {
+				"30": {
 					"28": {
-						"transFrame": 175,
+						"transFrame": 60,
 						"moveTo": [[43.1, 39.7, 45.2], [56.929, 61.071, 58.786]]
 					}
 				},
-				"300": {
+				"60": {
 					"29": {
-						"transFrame": 100,
+						"transFrame": 60,
 						"moveTo": [[45.2, 43.6, 47.4], [58.786, 65.214, 60.786]]
 					}
 				},
-				"500": {
+				"240": {
 					"28": {
-						"transFrame": 200,
+						"transFrame": 60,
 						"moveTo": null
 					},
 					"29": {
-						"transFrame": 200,
+						"transFrame": 60,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 700
+			"totalFrame": 660
 		},
 		"turtle:head_move": {
 			"loop": true,

@@ -27,7 +27,7 @@ public class MainCanvas extends Component {
 
 		new ChangeService().start();
 		new Thread(() -> {
-			for (int i = 0; i < DataContainer.NODE_COORDINATE_DATA.length; ) {
+			for (int i = 4; i < DataContainer.NODE_COORDINATE_DATA.length; ) {
 				nowAnimalIndex = i;
 				nowAnimalFrame = 0;
 				setBg = Color.decode(DataContainer.BG_COLOR_SET[i]);
@@ -38,7 +38,7 @@ public class MainCanvas extends Component {
 						triangleNode[j].kill(140, 30);
 					}
 				}
-				while (nowAnimalFrame < 1500) {
+				while (nowAnimalFrame < 15000) {
 					Thread.onSpinWait();
 				}
 				if (++i == DataContainer.NODE_COORDINATE_DATA.length) {
@@ -95,10 +95,10 @@ public class MainCanvas extends Component {
 
 		// 三角形
 		for (int i = 0; i < 3; i++) {
-			triangleNode[i + 30].render((Graphics2D) graphics, nowAnimalFrame);
+			triangleNode[i + 30].render((Graphics2D) graphics);
 		}
 		for (int i = 0; i < 30; i++) {
-			triangleNode[i].render((Graphics2D) graphics, nowAnimalFrame);
+			triangleNode[i].render((Graphics2D) graphics);
 		}
 
 		synchronized (this) {

@@ -6,27 +6,27 @@ public class TriangleNode {
 	//      过去   现在   未来
 	int[][] oldP, nowP, setP;
 
-	Color setColor, nowColor;
+	Color oldColor, setColor, nowColor;
 
 	//移动参数
 	int totalFrame = getRandInt(50, 100), usedFrame = 0, waitFrame = getRandInt(0, 50);
 
 	public TriangleNode(int[][] setP, String setColor) {
-		this.setP = setP;
 		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 100), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 100);
 		int screenSX = (int) (screenX * 0.1), screenSY = (int) (screenY * 0.1);
 		int[] triPos = {getRandInt(screenSX, screenX - screenSX), getRandInt(screenSY, screenY - screenSY)};
+		this.setP = setP;
 		this.oldP = this.nowP = new int[][]{
 			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},//在画布范围内随机取x点
 			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}//在画布范围内随机取y点
 		};
-		this.setColor = this.nowColor = Color.decode(setColor);
+		this.oldColor = this.nowColor = this.setColor = Color.decode(setColor);
 	}
 
 	public TriangleNode() {
 		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 50), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 50);
 		this.oldP = this.setP = this.nowP = new int[][]{{screenX, screenX, screenX}, {screenY, screenY, screenY}};
-		this.setColor = this.nowColor = Color.WHITE;
+		this.oldColor = this.setColor = this.nowColor = Color.WHITE;
 	}
 
 	private int getRandInt(int min, int max) {
@@ -43,11 +43,12 @@ public class TriangleNode {
 	 */
 	public void setLocation(int[][] setP, String setColorStr, int totalFrame, int waitFrame) {
 		this.oldP = new int[2][3];
-		int i = 0;
-		for (int[] row : this.nowP) {
-			this.oldP[i++] = row.clone();
+		int[][] p = this.nowP;
+		for (int i = 0, pLength = p.length; i < pLength; i++) {
+			this.oldP[i] = p[i].clone();
 		}
 		this.setP = setP;
+		this.oldColor = this.setColor;
 		if (setColorStr != null) {
 			this.setColor = Color.decode(setColorStr);
 		}
@@ -58,7 +59,11 @@ public class TriangleNode {
 	}
 
 	public void kill(int totalFrame, int waitFrame) {
-		this.oldP = this.nowP;
+		this.oldP = new int[2][3];
+		int[][] p = this.nowP;
+		for (int i = 0, pLength = p.length; i < pLength; i++) {
+			this.oldP[i] = p[i].clone();
+		}
 		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 50), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 50);
 		this.setP = new int[][]{{screenX, screenX, screenX}, {screenY, screenY, screenY}};
 
@@ -86,35 +91,27 @@ public class TriangleNode {
 		return -0.5 * (currentTime * (currentTime - 2) - 1);
 	}
 
-	public void movePoint(int dotIndex, int tempFrame) {
-		double[] vector = getVector(dotIndex);
+	public void fadePoint(int dotIndex) {
 		double distPercent;
 		distPercent = getDistPercent(usedFrame, totalFrame); // 百度的缓动函数（CSS用的这个）
 		// nowP [0] x 点集合 nowP[1] y 点集合
 
+		double[] vector = getVector(dotIndex);
 		nowP[0][dotIndex] = (int) (oldP[0][dotIndex] + vector[0] * distPercent); // disPercent趋于1 水平距离趋于setP
 		nowP[1][dotIndex] = (int) (oldP[1][dotIndex] + vector[1] * distPercent); // disPercent趋于1 垂直距离趋于setP
 
-		if (setColor.getRed() != nowColor.getRed()) {
-			int dis = setColor.getRed() - nowColor.getRed() > 0 ? 1 : -1;
-			nowColor = new Color(nowColor.getRed() + dis, nowColor.getGreen(), nowColor.getBlue());
-		}
-		if (setColor.getBlue() != nowColor.getBlue()) {
-			int dis = setColor.getBlue() - nowColor.getBlue() > 0 ? 1 : -1;
-			nowColor = new Color(nowColor.getRed(), nowColor.getGreen(), nowColor.getBlue() + dis);
-		}
-		if (setColor.getGreen() != nowColor.getGreen()) {
-			int dis = setColor.getGreen() - nowColor.getGreen() > 0 ? 1 : -1;
-			nowColor = new Color(nowColor.getRed(), nowColor.getGreen() + dis, nowColor.getBlue());
-		}
+		int disRed = setColor.getRed() - oldColor.getRed();
+		int disGreen = setColor.getGreen() - oldColor.getGreen();
+		int disBlue = setColor.getBlue() - oldColor.getBlue();
+		nowColor = new Color((int) (oldColor.getRed() + disRed * distPercent), (int) (oldColor.getGreen() + disGreen * distPercent), (int) (oldColor.getBlue() + disBlue * distPercent));
 	}
 
-	public void render(Graphics2D graphics2D, int tempFrame) {
+	public void render(Graphics2D graphics2D) {
 		if (waitFrame > 0) {
 			waitFrame--;
 		} else if (usedFrame <= totalFrame) {
 			for (int i = 0; i < 3; i++) {
-				movePoint(i, tempFrame);
+				fadePoint(i);
 			}
 			usedFrame++;
 		}
