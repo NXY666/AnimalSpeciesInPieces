@@ -35,7 +35,7 @@ public class MainCanvas extends Component {
 					try {
 						triangleNode[j].setLocation(DataContainer.NODE_COORDINATE_DATA[i][j], DataContainer.NODE_COLOR_SET[i][j], 25 + j * 4, j);
 					} catch (ArrayIndexOutOfBoundsException e) {
-						triangleNode[j].kill(140, 30);
+						triangleNode[j].kill(25 + j * 4, j);
 					}
 				}
 				while (nowAnimalFrame < 1500) {
@@ -75,16 +75,26 @@ public class MainCanvas extends Component {
 		for (int blockId : blockIndex) {
 			Transformer transformer = moveBlocks.get(blockId);
 			double[][] rawMoveToList = transformer.getMoveTo();
+			int[][] moveToPos;
 			if (rawMoveToList != null) {
-				int[][] moveToPos = new int[2][3];
+				moveToPos = new int[2][3];
 				for (int nodeIndex = 0; nodeIndex < 3; nodeIndex++) {
 					moveToPos[0][nodeIndex] = (int) (rawMoveToList[0][nodeIndex] * DataContainer.SCREEN_X_SCALE);
 					moveToPos[1][nodeIndex] = (int) (rawMoveToList[1][nodeIndex] * DataContainer.SCREEN_Y_SCALE);
 				}
-				triangleNode[blockId].setLocation(moveToPos, transformer.getEditColor(), transformer.getTransFrame(), transformer.getWaitFrame());
 			} else {
-				triangleNode[blockId].setLocation(DataContainer.NODE_COORDINATE_DATA[nowAnimalIndex][blockId], transformer.getEditColor(), transformer.getTransFrame(), transformer.getWaitFrame());
+				moveToPos = DataContainer.NODE_COORDINATE_DATA[nowAnimalIndex][blockId];
 			}
+
+			String rawEditColor = transformer.getEditColor(), editColor;
+			if (rawEditColor != null) {
+				editColor = rawEditColor;
+			} else {
+				editColor = DataContainer.NODE_COLOR_SET[nowAnimalIndex][blockId];
+			}
+
+			triangleNode[blockId].setLocation(moveToPos, editColor, transformer.getTransFrame(), transformer.getWaitFrame());
+
 			if (transformer.getRepeatFrame() != -1) {
 				BonesMap newBonesMap = timelineMap.getOrDefault(nowAnimalFrame + transformer.getRepeatFrame(), new BonesMap());
 

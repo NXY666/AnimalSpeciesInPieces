@@ -1211,153 +1211,123 @@
 				"400": {
 					"0": {
 						"waitFrame": 0,
-						"transFrame": 100,
-						"editColor": "#F4C264"
+						"transFrame": 100
 					},
 					"1": {
 						"waitFrame": 2,
-						"transFrame": 100,
-						"editColor": "#53A245"
+						"transFrame": 100
 					},
 					"2": {
 						"waitFrame": 4,
-						"transFrame": 100,
-						"editColor": "#83CA65"
+						"transFrame": 100
 					},
 					"3": {
 						"waitFrame": 6,
-						"transFrame": 100,
-						"editColor": "#70BA58"
+						"transFrame": 100
 					},
 					"4": {
 						"waitFrame": 8,
-						"transFrame": 100,
-						"editColor": "#3CAE58"
+						"transFrame": 100
 					},
 					"5": {
 						"waitFrame": 10,
-						"transFrame": 100,
-						"editColor": "#A5CFB4"
+						"transFrame": 100
 					},
 					"6": {
 						"waitFrame": 12,
-						"transFrame": 100,
-						"editColor": "#C0D5DA"
+						"transFrame": 100
 					},
 					"7": {
 						"waitFrame": 14,
-						"transFrame": 100,
-						"editColor": "#439D56"
+						"transFrame": 100
 					},
 					"8": {
 						"waitFrame": 16,
-						"transFrame": 100,
-						"editColor": "#76B548"
+						"transFrame": 100
 					},
 					"9": {
 						"waitFrame": 18,
-						"transFrame": 100,
-						"editColor": "#1D2E1E"
+						"transFrame": 100
 					},
 					"10": {
 						"waitFrame": 20,
-						"transFrame": 100,
-						"editColor": "#E7EEF0"
+						"transFrame": 100
 					},
 					"11": {
 						"waitFrame": 22,
-						"transFrame": 100,
-						"editColor": "#5FBC60"
+						"transFrame": 100
 					},
 					"12": {
 						"waitFrame": 24,
-						"transFrame": 100,
-						"editColor": "#3CAE58"
+						"transFrame": 100
 					},
 					"13": {
 						"waitFrame": 26,
-						"transFrame": 100,
-						"editColor": "#42A54A"
+						"transFrame": 100
 					},
 					"14": {
 						"waitFrame": 28,
-						"transFrame": 100,
-						"editColor": "#378E32"
+						"transFrame": 100
 					},
 					"15": {
 						"waitFrame": 30,
-						"transFrame": 100,
-						"editColor": "#5EC857"
+						"transFrame": 100
 					},
 					"16": {
 						"waitFrame": 32,
-						"transFrame": 100,
-						"editColor": "#63DB7B"
+						"transFrame": 100
 					},
 					"17": {
 						"waitFrame": 34,
-						"transFrame": 100,
-						"editColor": "#5EC857"
+						"transFrame": 100
 					},
 					"18": {
 						"waitFrame": 36,
-						"transFrame": 100,
-						"editColor": "#C0D5DA"
+						"transFrame": 100
 					},
 					"19": {
 						"waitFrame": 38,
-						"transFrame": 100,
-						"editColor": "#1D2E1E"
+						"transFrame": 100
 					},
 					"20": {
 						"waitFrame": 40,
-						"transFrame": 100,
-						"editColor": "#8AD36D"
+						"transFrame": 100
 					},
 					"21": {
 						"waitFrame": 42,
-						"transFrame": 100,
-						"editColor": "#51C356"
+						"transFrame": 100
 					},
 					"22": {
 						"waitFrame": 44,
-						"transFrame": 100,
-						"editColor": "#36A740"
+						"transFrame": 100
 					},
 					"23": {
 						"waitFrame": 46,
-						"transFrame": 100,
-						"editColor": "#C0D0D1"
+						"transFrame": 100
 					},
 					"24": {
 						"waitFrame": 48,
-						"transFrame": 100,
-						"editColor": "#44AF3C"
+						"transFrame": 100
 					},
 					"25": {
 						"waitFrame": 50,
-						"transFrame": 100,
-						"editColor": "#1D2E1E"
+						"transFrame": 100
 					},
 					"26": {
 						"waitFrame": 52,
-						"transFrame": 100,
-						"editColor": "#51C356"
+						"transFrame": 100
 					},
 					"27": {
 						"waitFrame": 54,
-						"transFrame": 100,
-						"editColor": "#38973B"
+						"transFrame": 100
 					},
 					"28": {
 						"waitFrame": 56,
-						"transFrame": 100,
-						"editColor": "#39A334"
+						"transFrame": 100
 					},
 					"29": {
 						"waitFrame": 58,
-						"transFrame": 100,
-						"editColor": "#51C356"
+						"transFrame": 100
 					}
 				}
 			},
@@ -1517,38 +1487,47 @@
 					},
 					"9": {
 						"transFrame": 50,
+						"editColor": "#436A2C",
 						"moveTo": [[21.513, 39.813, 23.413], [33.125, 51.8, 43.125]]
 					},
 					"15": {
 						"transFrame": 50,
+						"editColor": "#6AA84E",
 						"moveTo": [[34.041, 58.841, 56.741], [25.2, 3.871, 12.299]]
 					},
 					"11": {
 						"transFrame": 50,
+						"editColor": "#32401E",
 						"moveTo": [[46.413, 56.712, 66.712], [41.696, 12.2, 23]]
 					},
 					"16": {
 						"transFrame": 50,
+						"editColor": "#283214",
 						"moveTo": [[33.712, 56.612, 46.513], [25.411, 12.411, 41.696]]
 					},
 					"12": {
 						"transFrame": 50,
+						"editColor": "#32401E",
 						"moveTo": [[33.953, 46.453, 21.353], [25.21, 41.781, 33.353]]
 					},
 					"13": {
 						"transFrame": 50,
+						"editColor": "#39512C",
 						"moveTo": [[21.253, 46.353, 39.753], [33.353, 41.781, 51.781]]
 					},
 					"25": {
 						"transFrame": 50,
+						"editColor": "#445F2F",
 						"moveTo": [[46.453, 62.153, 39.753], [40.781, 48.6, 51.781]]
 					},
 					"26": {
 						"transFrame": 50,
+						"editColor": "#39512C",
 						"moveTo": [[46.453, 66.653, 62.23], [41.638, 23.067, 49.21]]
 					},
 					"27": {
 						"transFrame": 50,
+						"editColor": "#519F4B",
 						"moveTo": [[56.741, 58.741, 66.741], [12.228, 3.656, 23.085]]
 					},
 					"23": {
