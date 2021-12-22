@@ -38,8 +38,6 @@ public class FrameContainer extends JFrame {
 		// 启动窗口
 		this.setVisible(true);
 
-
-
 		// 背景颜色（透明）
 		this.setBackground(new Color(0, 0, 0, 0));
 	}

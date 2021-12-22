@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.util.HashMap;
 
 public class DataContainer {
-	static final double SCREEN_X_SCALE = 12.6/1.3, SCREEN_Y_SCALE = 9/1.3;
+	static final double SCREEN_X_SCALE = 12.6 / 1.3, SCREEN_Y_SCALE = 9 / 1.3;
 	//第X个图 第X个结点 XorY 第X个XorY
 	static int[][][][] NODE_COORDINATE_DATA;
 	static String[][] NODE_COLOR_SET;

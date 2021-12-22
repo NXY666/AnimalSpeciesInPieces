@@ -54,7 +54,7 @@ public class TriangleNode {
 		}
 
 		this.waitFrame = waitFrame;
-		this.totalFrame = totalFrame ;
+		this.totalFrame = totalFrame;
 		this.usedFrame = 0;
 	}
 
