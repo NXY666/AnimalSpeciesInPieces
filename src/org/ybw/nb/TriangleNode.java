@@ -66,6 +66,7 @@ public class TriangleNode {
 		}
 		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 50), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 50);
 		this.setP = new int[][]{{screenX, screenX, screenX}, {screenY, screenY, screenY}};
+		this.oldColor = this.nowColor;
 
 		this.waitFrame = waitFrame;
 		this.totalFrame = totalFrame;
