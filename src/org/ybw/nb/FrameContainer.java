@@ -29,6 +29,9 @@ public class FrameContainer extends JFrame {
 		Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
 		this.setLocation((d.width - getWidth()) / 2, (d.height - getHeight()) / 2);
 
+		// 背景颜色（透明）
+		this.setBackground(new Color(0, 0, 0, 0));
+
 		// 退出方式
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
@@ -37,8 +40,5 @@ public class FrameContainer extends JFrame {
 
 		// 启动窗口
 		this.setVisible(true);
-
-		// 背景颜色（透明）
-		this.setBackground(new Color(0, 0, 0, 0));
 	}
 }
