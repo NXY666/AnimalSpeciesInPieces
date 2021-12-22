@@ -3,16 +3,22 @@ package org.ybw.nb;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionAdapter;
 import java.io.IOException;
 import java.net.URL;
 
 public class FrameContainer extends JFrame {
+	int mouseAtX, mouseAtY;
+
 	public FrameContainer() {
 		// 标题
 		this.setTitle("JavaLikeCss[BY: NXY && YBW]");
 
 		// 无边框
 		this.setUndecorated(true);
+		this.setAlwaysOnTop(true);
 
 		// 图标
 		try {
@@ -37,6 +43,18 @@ public class FrameContainer extends JFrame {
 
 		// 放置画板
 		this.add(new MainCanvas(this));
+
+		this.addMouseListener(new MouseAdapter() {
+			public void mousePressed(MouseEvent e) {
+				mouseAtX = e.getPoint().x;
+				mouseAtY = e.getPoint().y;
+			}
+		});
+		this.addMouseMotionListener(new MouseMotionAdapter() {
+			public void mouseDragged(MouseEvent e) {
+				setLocation((e.getXOnScreen() - mouseAtX), (e.getYOnScreen() - mouseAtY));//设置拖拽后，窗口的位置
+			}
+		});
 
 		// 启动窗口
 		this.setVisible(true);

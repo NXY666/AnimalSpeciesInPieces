@@ -6,8 +6,7 @@ import org.ybw.nb.animations.Transformer;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
+import java.awt.event.*;
 import java.util.Set;
 
 public class MainCanvas extends Component {
