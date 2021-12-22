@@ -14,9 +14,11 @@ public class MainCanvas extends Component {
 	JFrame frame;
 	TriangleNode[] triangleNode;
 
-	int nowAnimalIndex = 0;
-	volatile int nowAnimalFrame = 0;
+	int activeAnimalIndex = 0;
+	volatile int activeAnimalFrame = 0;
 	Color nowBg, setBg;
+	int nowBgAlpha = 0;
+	boolean showBg = false;
 
 	public MainCanvas(JFrame frame) {
 		this.frame = frame;
@@ -39,35 +41,43 @@ public class MainCanvas extends Component {
 				switch (e.getKeyCode()) {
 					case KeyEvent.VK_LEFT -> toPreAnimal();
 					case KeyEvent.VK_RIGHT -> toNextAnimal();
+					case KeyEvent.VK_SPACE -> showBg = !showBg;
 					case KeyEvent.VK_ESCAPE -> System.exit(0);
 				}
 			}
 		});
 	}
 
-
 	@Override
 	public void paint(Graphics graphics) {
 		// 背景
+		int disRed = 0, disGreen = 0, disBlue = 0;
 		if (setBg.getRed() != nowBg.getRed()) {
-			int dis = setBg.getRed() - nowBg.getRed() > 0 ? 1 : -1;
-			nowBg = new Color(nowBg.getRed() + dis, nowBg.getGreen(), nowBg.getBlue());
-		}
-		if (setBg.getBlue() != nowBg.getBlue()) {
-			int dis = setBg.getBlue() - nowBg.getBlue() > 0 ? 1 : -1;
-			nowBg = new Color(nowBg.getRed(), nowBg.getGreen(), nowBg.getBlue() + dis);
+			disRed = setBg.getRed() - nowBg.getRed() > 0 ? 1 : -1;
 		}
 		if (setBg.getGreen() != nowBg.getGreen()) {
-			int dis = setBg.getGreen() - nowBg.getGreen() > 0 ? 1 : -1;
-			nowBg = new Color(nowBg.getRed(), nowBg.getGreen() + dis, nowBg.getBlue());
+			disGreen = setBg.getGreen() - nowBg.getGreen() > 0 ? 1 : -1;
 		}
-		graphics.setColor(nowBg);
+		if (setBg.getBlue() != nowBg.getBlue()) {
+			disBlue = setBg.getBlue() - nowBg.getBlue() > 0 ? 1 : -1;
+		}
+		if (showBg) {
+			if (nowBgAlpha < 255) {
+				nowBgAlpha += 5;
+			}
+		} else {
+			if (nowBgAlpha > 0) {
+				nowBgAlpha -= 5;
+			}
+		}
+		nowBg = new Color(nowBg.getRed() + disRed, nowBg.getGreen() + disGreen, nowBg.getBlue() + disBlue, nowBgAlpha);
 		int screenX = (int) (DataContainer.SCREEN_X_SCALE * 100), screenY = (int) (DataContainer.SCREEN_Y_SCALE * 100);
+		graphics.setColor(nowBg);
 		graphics.fillRect(0, 0, screenX, screenY + 40);
 
 		// 动画
-		TimelineMap timelineMap = DataContainer.ANIMATIONS[nowAnimalIndex].getTimelineMap();
-		BonesMap moveBlocks = timelineMap.getOrDefault(nowAnimalFrame, new BonesMap());
+		TimelineMap timelineMap = DataContainer.ANIMATIONS[activeAnimalIndex].getTimelineMap();
+		BonesMap moveBlocks = timelineMap.getOrDefault(activeAnimalFrame, new BonesMap());
 		Set<Integer> blockIndex = moveBlocks.keySet();
 		for (int blockId : blockIndex) {
 			Transformer transformer = moveBlocks.get(blockId);
@@ -80,23 +90,23 @@ public class MainCanvas extends Component {
 					moveToPos[1][nodeIndex] = (int) (rawMoveToList[1][nodeIndex] * DataContainer.SCREEN_Y_SCALE);
 				}
 			} else {
-				moveToPos = DataContainer.NODE_COORDINATE_DATA[nowAnimalIndex][blockId];
+				moveToPos = DataContainer.NODE_COORDINATE_DATA[activeAnimalIndex][blockId];
 			}
 
 			String rawEditColor = transformer.getEditColor(), editColor;
 			if (rawEditColor != null) {
 				editColor = rawEditColor;
 			} else {
-				editColor = DataContainer.NODE_COLOR_SET[nowAnimalIndex][blockId];
+				editColor = DataContainer.NODE_COLOR_SET[activeAnimalIndex][blockId];
 			}
 
 			triangleNode[blockId].setLocation(moveToPos, editColor, transformer.getTransFrame(), transformer.getWaitFrame());
 
 			if (transformer.getRepeatFrame() != -1) {
-				BonesMap newBonesMap = timelineMap.getOrDefault(nowAnimalFrame + transformer.getRepeatFrame(), new BonesMap());
+				BonesMap newBonesMap = timelineMap.getOrDefault(activeAnimalFrame + transformer.getRepeatFrame(), new BonesMap());
 
 				newBonesMap.put(blockId, transformer);
-				timelineMap.put(nowAnimalFrame + transformer.getRepeatFrame(), newBonesMap);
+				timelineMap.put(activeAnimalFrame + transformer.getRepeatFrame(), newBonesMap);
 			}
 		}
 
@@ -109,16 +119,16 @@ public class MainCanvas extends Component {
 		}
 
 		synchronized (this) {
-			nowAnimalFrame++;
+			activeAnimalFrame++;
 		}
 	}
 
 	void refreshAnimal() {
-		nowAnimalFrame = 0;
-		setBg = Color.decode(DataContainer.BG_COLOR_SET[nowAnimalIndex]);
+		activeAnimalFrame = 0;
+		setBg = Color.decode(DataContainer.BG_COLOR_SET[activeAnimalIndex]);
 		for (int j = 0; j < 33; j++) {
 			try {
-				triangleNode[j].setLocation(DataContainer.NODE_COORDINATE_DATA[nowAnimalIndex][j], DataContainer.NODE_COLOR_SET[nowAnimalIndex][j], 25 + j * 6, j);
+				triangleNode[j].setLocation(DataContainer.NODE_COORDINATE_DATA[activeAnimalIndex][j], DataContainer.NODE_COLOR_SET[activeAnimalIndex][j], 25 + j * 6, j);
 			} catch (ArrayIndexOutOfBoundsException e) {
 				triangleNode[j].kill(25 + j * 6, j);
 			}
@@ -126,15 +136,15 @@ public class MainCanvas extends Component {
 	}
 
 	void toPreAnimal() {
-		if (--nowAnimalIndex < 0) {
-			nowAnimalIndex = DataContainer.NODE_COORDINATE_DATA.length - 1;
+		if (--activeAnimalIndex < 0) {
+			activeAnimalIndex = DataContainer.NODE_COORDINATE_DATA.length - 1;
 		}
 		refreshAnimal();
 	}
 
 	void toNextAnimal() {
-		if (++nowAnimalIndex >= DataContainer.NODE_COORDINATE_DATA.length) {
-			nowAnimalIndex = 0;
+		if (++activeAnimalIndex >= DataContainer.NODE_COORDINATE_DATA.length) {
+			activeAnimalIndex = 0;
 		}
 		refreshAnimal();
 	}
@@ -142,15 +152,9 @@ public class MainCanvas extends Component {
 	class RepaintService extends Thread {
 		@Override
 		public void run() {
-			try {
-				//noinspection InfiniteLoopStatement
-				while (true) {
-					repaint();
-					//noinspection BusyWait
-					sleep(1);
-				}
-			} catch (InterruptedException e) {
-				e.printStackTrace();
+			//noinspection InfiniteLoopStatement
+			while (true) {
+				repaint();
 			}
 		}
 	}
@@ -158,9 +162,9 @@ public class MainCanvas extends Component {
 	class ChangeService extends Thread {
 		@Override
 		public void run() {
-			for (nowAnimalIndex = -1; nowAnimalIndex < DataContainer.NODE_COORDINATE_DATA.length; ) {
+			for (activeAnimalIndex = -1; activeAnimalIndex < DataContainer.NODE_COORDINATE_DATA.length; ) {
 				toNextAnimal();
-				while (nowAnimalFrame < 1500) {
+				while (activeAnimalFrame < 1500) {
 					Thread.onSpinWait();
 				}
 			}
