@@ -18,7 +18,7 @@ public class MainCanvas extends Component {
 	volatile int activeAnimalFrame = 0;
 	Color nowBg, setBg;
 	int nowBgAlpha = 0;
-	boolean showBg = false;
+	boolean showBg = true;
 
 	public MainCanvas(JFrame frame) {
 		this.frame = frame;

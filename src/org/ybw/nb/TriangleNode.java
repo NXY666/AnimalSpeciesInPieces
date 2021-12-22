@@ -54,9 +54,10 @@ public class TriangleNode {
 		}
 
 		this.waitFrame = waitFrame;
-		this.totalFrame = totalFrame;
+		this.totalFrame = totalFrame ;
 		this.usedFrame = 0;
 	}
+
 
 	public void kill(int totalFrame, int waitFrame) {
 		this.oldP = new int[2][3];
@@ -81,6 +82,7 @@ public class TriangleNode {
 	public double[] getVector(int dotIndex) {
 		double dx = setP[0][dotIndex] - oldP[0][dotIndex], dy = setP[1][dotIndex] - oldP[1][dotIndex];
 		return new double[]{dx, dy};
+
 	}
 
 	public double getDistPercent(double currentTime, double duration) {

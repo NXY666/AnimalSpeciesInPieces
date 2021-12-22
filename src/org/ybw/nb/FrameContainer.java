@@ -21,9 +21,6 @@ public class FrameContainer extends JFrame {
 			e.printStackTrace();
 		}
 
-		// 背景颜色（透明）
-		this.setBackground(new Color(0, 0, 0, 0));
-
 		// 窗口大小
 		this.setResizable(false);
 		this.setSize((int) (DataContainer.SCREEN_X_SCALE * 100), (int) (DataContainer.SCREEN_Y_SCALE * 100) + 40);
@@ -40,5 +37,10 @@ public class FrameContainer extends JFrame {
 
 		// 启动窗口
 		this.setVisible(true);
+
+
+
+		// 背景颜色（透明）
+		this.setBackground(new Color(0, 0, 0, 0));
 	}
 }
