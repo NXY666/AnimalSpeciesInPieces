@@ -9,4 +9,4 @@
 * 使用“←”和“→”手动切换动物！
 * 使用“空格”切换背景透明度！
 * 使用鼠标拖动小动物（轻点）！
-* 修改DataContainer中的SCREEN_X_SCALE和SCREEN_Y_SCALE修改窗口大小（注意比例）！
+* 编辑DataContainer中的SCREEN_X_SCALE和SCREEN_Y_SCALE修改窗口大小（注意比例）！
