@@ -2,97 +2,32 @@
 	"animations": [
 		{
 			"timeline": {
-				"150": ["crow:head_move", "crow:tail_move"]
+				"250": ["crow:head_move", "crow:tail_move"]
 			}
 		},
 		{
 			"timeline": {
-				"150": ["vaquita:hand_move", "vaquita:tail_wink"]
+				"250": ["vaquita:hand_move", "vaquita:tail_wink"]
 			}
 		},
 		{
 			"timeline": {
-				"150": ["tamarin:head_move", "tamarin:tail_move"]
+				"250": ["tamarin:head_move", "tamarin:tail_move"]
 			}
 		},
 		{
 			"timeline": {
-				"150": ["frog:eyes_wink", "frog:mouth_open"]
+				"250": ["frog:eyes_wink", "frog:mouth_open"]
 			}
 		},
 		{
 			"timeline": {
-				"150": ["owl:tail_move", "owl:leg_move"]
+				"250": ["owl:tail_move", "owl:leg_move"]
 			}
 		},
 		{
 			"timeline": {
-				"150": ["turtle:head_move", "turtle:wing_move", "turtle:tail_move"]
-			}
-		},
-		{
-			"timeline": {
-				"0": []
-			}
-		},
-		{
-			"timeline": {
-				"150": ["iguana:change_color"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["seahorse:mouth_move", "seahorse:tail_wink"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["armadillo:head_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["sloth:hand_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["kakapo:wing_move", "kakapo:head_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["echidna:leg_move", "echidna:head_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["penguin:body_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["damselfly:wing_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["bear:head_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["parrotfish:mouth_move", "parrotfish:gills_twitch"]
-			}
-		},
-		{
-			"timeline": {
-				"0": ["camel:hand_move", "camel:mouth_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["butterfly:body_move"]
+				"250": ["turtle:head_move", "turtle:wing_move", "turtle:tail_move"]
 			}
 		},
 		{
@@ -102,12 +37,63 @@
 		},
 		{
 			"timeline": {
-				"0": []
+				"250": ["iguana:change_color"]
 			}
 		},
 		{
 			"timeline": {
-				"150": ["tapir:head_move"]
+				"250": ["seahorse:mouth_move", "seahorse:tail_wink"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["armadillo:head_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["sloth:hand_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["kakapo:wing_move", "kakapo:head_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["echidna:leg_move", "echidna:head_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["penguin:body_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["damselfly:wing_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["bear:head_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["parrotfish:mouth_move", "parrotfish:gills_twitch"]
+			}
+		},
+		{
+			"timeline": {
+				"0": ["camel:hand_move"],
+				"300": ["camel:mouth_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["butterfly:body_move"]
 			}
 		},
 		{
@@ -122,12 +108,7 @@
 		},
 		{
 			"timeline": {
-				"150": ["rhino:leg_move", "rhino:head_move"]
-			}
-		},
-		{
-			"timeline": {
-				"150": ["peccary:hand_move"]
+				"250": ["tapir:head_move"]
 			}
 		},
 		{
@@ -137,7 +118,27 @@
 		},
 		{
 			"timeline": {
-				"150": ["loris:wink_hand"]
+				"0": []
+			}
+		},
+		{
+			"timeline": {
+				"250": ["rhino:leg_move", "rhino:head_move"]
+			}
+		},
+		{
+			"timeline": {
+				"250": ["peccary:hand_move"]
+			}
+		},
+		{
+			"timeline": {
+				"0": []
+			}
+		},
+		{
+			"timeline": {
+				"250": ["loris:wink_hand"]
 			}
 		},
 		{
