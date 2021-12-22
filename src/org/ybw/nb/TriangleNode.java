@@ -48,7 +48,7 @@ public class TriangleNode {
 			this.oldP[i] = p[i].clone();
 		}
 		this.setP = setP;
-		this.oldColor = this.setColor;
+		this.oldColor = this.nowColor;
 		if (setColorStr != null) {
 			this.setColor = Color.decode(setColorStr);
 		}

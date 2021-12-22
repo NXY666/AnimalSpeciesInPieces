@@ -4,17 +4,22 @@ import org.ybw.nb.animations.BonesMap;
 import org.ybw.nb.animations.TimelineMap;
 import org.ybw.nb.animations.Transformer;
 
+import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.util.Set;
 
 public class MainCanvas extends Component {
+	JFrame frame;
 	TriangleNode[] triangleNode;
 
 	int nowAnimalIndex = 0;
 	volatile int nowAnimalFrame = 0;
 	Color nowBg, setBg;
 
-	public MainCanvas() {
+	public MainCanvas(JFrame frame) {
+		this.frame = frame;
 		setBg = nowBg = Color.decode(DataContainer.BG_COLOR_SET[0]);
 		triangleNode = new TriangleNode[33];
 		for (int i = 0; i < 33; i++) {
@@ -25,27 +30,19 @@ public class MainCanvas extends Component {
 			}
 		}
 
+		new RepaintService().start();
 		new ChangeService().start();
-		new Thread(() -> {
-			for (int i = 0; i < DataContainer.NODE_COORDINATE_DATA.length; ) {
-				nowAnimalIndex = i;
-				nowAnimalFrame = 0;
-				setBg = Color.decode(DataContainer.BG_COLOR_SET[i]);
-				for (int j = 0; j < 33; j++) {
-					try {
-						triangleNode[j].setLocation(DataContainer.NODE_COORDINATE_DATA[i][j], DataContainer.NODE_COLOR_SET[i][j], 25 + j * 4, j);
-					} catch (ArrayIndexOutOfBoundsException e) {
-						triangleNode[j].kill(25 + j * 4, j);
-					}
-				}
-				while (nowAnimalFrame < 1500) {
-					Thread.onSpinWait();
-				}
-				if (++i == DataContainer.NODE_COORDINATE_DATA.length) {
-					i = 0;
+
+		frame.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				switch (e.getKeyCode()) {
+					case KeyEvent.VK_LEFT -> toPreAnimal();
+					case KeyEvent.VK_RIGHT -> toNextAnimal();
+					case KeyEvent.VK_ESCAPE -> System.exit(0);
 				}
 			}
-		}).start();
+		});
 	}
 
 
@@ -116,7 +113,33 @@ public class MainCanvas extends Component {
 		}
 	}
 
-	class ChangeService extends Thread {
+	void refreshAnimal() {
+		nowAnimalFrame = 0;
+		setBg = Color.decode(DataContainer.BG_COLOR_SET[nowAnimalIndex]);
+		for (int j = 0; j < 33; j++) {
+			try {
+				triangleNode[j].setLocation(DataContainer.NODE_COORDINATE_DATA[nowAnimalIndex][j], DataContainer.NODE_COLOR_SET[nowAnimalIndex][j], 25 + j * 6, j);
+			} catch (ArrayIndexOutOfBoundsException e) {
+				triangleNode[j].kill(25 + j * 6, j);
+			}
+		}
+	}
+
+	void toPreAnimal() {
+		if (--nowAnimalIndex < 0) {
+			nowAnimalIndex = DataContainer.NODE_COORDINATE_DATA.length;
+		}
+		refreshAnimal();
+	}
+
+	void toNextAnimal() {
+		if (++nowAnimalIndex == DataContainer.NODE_COORDINATE_DATA.length) {
+			nowAnimalIndex = 0;
+		}
+		refreshAnimal();
+	}
+
+	class RepaintService extends Thread {
 		@Override
 		public void run() {
 			try {
@@ -128,6 +151,18 @@ public class MainCanvas extends Component {
 				}
 			} catch (InterruptedException e) {
 				e.printStackTrace();
+			}
+		}
+	}
+
+	class ChangeService extends Thread {
+		@Override
+		public void run() {
+			for (nowAnimalIndex = -1; nowAnimalIndex < DataContainer.NODE_COORDINATE_DATA.length; ) {
+				toNextAnimal();
+				while (nowAnimalFrame < 1500) {
+					Thread.onSpinWait();
+				}
 			}
 		}
 	}

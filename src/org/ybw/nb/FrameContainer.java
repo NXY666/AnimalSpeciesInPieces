@@ -5,24 +5,18 @@ import java.awt.*;
 
 public class FrameContainer extends JFrame {
 	public FrameContainer() {
-		setTitle("CssPic");
+		setTitle("JavaLikeCss(BY: NXY && YBW)");
 		setSize((int) (DataContainer.SCREEN_X_SCALE * 100), (int) (DataContainer.SCREEN_Y_SCALE * 100) + 40);
 
 		getContentPane().setBackground(Color.GRAY);
-		setResizable(false);
+		this.setResizable(false);
 		Toolkit tool = Toolkit.getDefaultToolkit();
 		Dimension d = tool.getScreenSize();
-		setLocation((d.width - getWidth()) / 2, (d.height - getHeight()) / 2);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		add(new MainCanvas());
+		this.setUndecorated(true);
+		this.setLocation((d.width - getWidth()) / 2, (d.height - getHeight()) / 2);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.add(new MainCanvas(this));
 
-		setVisible(true);
-	}
-
-	public void setPanel(JPanel panel) {
-		Container c = getContentPane();
-		c.removeAll();
-		c.add(panel);
-		c.validate();
+		this.setVisible(true);
 	}
 }
