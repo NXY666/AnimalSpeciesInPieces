@@ -127,13 +127,13 @@ public class MainCanvas extends Component {
 
 	void toPreAnimal() {
 		if (--nowAnimalIndex < 0) {
-			nowAnimalIndex = DataContainer.NODE_COORDINATE_DATA.length;
+			nowAnimalIndex = DataContainer.NODE_COORDINATE_DATA.length - 1;
 		}
 		refreshAnimal();
 	}
 
 	void toNextAnimal() {
-		if (++nowAnimalIndex == DataContainer.NODE_COORDINATE_DATA.length) {
+		if (++nowAnimalIndex >= DataContainer.NODE_COORDINATE_DATA.length) {
 			nowAnimalIndex = 0;
 		}
 		refreshAnimal();
