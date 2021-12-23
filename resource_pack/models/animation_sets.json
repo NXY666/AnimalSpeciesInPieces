@@ -5,533 +5,2792 @@
 			"timeline": {
 				"0": {
 					"10": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[44.7, 65, 65], [33.5, 26.7, 36.1]]
 					},
 					"11": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[62, 45, 54.5], [45, 61.5, 66]]
 					},
 					"12": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[54, 56.5, 56], [76, 87, 78]]
 					},
 					"13": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[52, 54.2, 54.35], [64.7, 78, 65.86]]
 					},
 					"14": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[57.9, 54.2, 54.33], [62, 78, 65.7]]
 					},
 					"15": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[58.4, 54.2, 55], [87, 78, 74]]
 					},
 					"16": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[49.5, 62.5, 64], [47.3, 42.2, 44.1]]
 					},
 					"17": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[65.2, 63.5, 54.2], [35.4, 55.8, 66.1]]
 					},
 					"18": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[64.5, 77, 65.05], [27, 19, 36.7]]
 					},
 					"19": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[82.6, 76.95, 65], [26.5, 19, 36.6]]
 					},
 					"20": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[82.57, 63.44, 65], [26.5, 56, 36.4]]
 					},
 					"21": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[82.5, 63.42, 83.9], [26.4, 56, 28.74]]
 					},
 					"22": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[82.5, 92.8, 83.9], [26.5, 27, 28.8]]
 					},
 					"23": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[81, 92.8, 90.3], [26.5, 27.05, 24.35]]
 					},
 					"24": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[82.5, 84.2, 90.5], [26.5, 22, 24.4]]
 					},
 					"25": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[82.5, 84.3, 76.9], [26.5, 22, 19]]
 					},
 					"26": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[80.25, 78.5, 82.6], [23, 27.5, 26.5]]
 					},
 					"27": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[80.25, 79.35, 80.8], [22.9, 25, 23.8]]
 					},
 					"28": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[61.7, 64.4, 65.1], [44.7, 44, 36.2]]
 					},
 					"29": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": [[82.5, 80.3, 78.6], [26.5, 28.7, 27.5]]
 					}
 				},
-				"120": {
+				"76": {
 					"10": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"11": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"12": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"13": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"14": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"15": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"16": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"17": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"18": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"19": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"20": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"21": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"22": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"23": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"24": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"25": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"26": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"27": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"28": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"29": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 560
+			"totalFrame": 202
 		},
 		"crow:tail_move": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"0": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": [[20, 25, 11.5], [48, 52.4, 50]]
 					},
 					"1": {
-						"transFrame": 50,
+						"transFrame": 9,
 						"moveTo": [[14.7, 35.2, 25], [42.5, 50.2, 52.5]]
 					},
 					"2": {
-						"transFrame": 50,
+						"transFrame": 9,
 						"moveTo": [[22.9, 35.2, 25], [40, 50.2, 48.9]]
 					}
 				},
-				"30": {
+				"9": {
 					"0": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": null
 					},
 					"1": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": null
 					},
 					"2": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": null
 					}
 				},
-				"60": {
+				"18": {
 					"0": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": [[20, 25, 11.5], [48, 52.4, 50]]
 					},
 					"1": {
-						"transFrame": 50,
+						"transFrame": 9,
 						"moveTo": [[14.7, 35.2, 25], [42.5, 50.2, 52.5]]
 					},
 					"2": {
-						"transFrame": 50,
+						"transFrame": 9,
 						"moveTo": [[22.9, 35.2, 25], [40, 50.2, 48.9]]
 					}
 				},
-				"90": {
+				"36": {
 					"0": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": null
 					},
 					"1": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": null
 					},
 					"2": {
-						"transFrame": 30,
+						"transFrame": 9,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 200
+			"totalFrame": 159
 		},
 		"vaquita:hand_move": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"15": {
-						"transFrame": 120,
+						"transFrame": 27,
 						"editColor": "#0d1417",
 						"moveTo": [[25.99, 32.64, 32.91], [61.716, 61.368, 73.146]]
 					},
 					"17": {
-						"transFrame": 120,
+						"transFrame": 27,
 						"editColor": "#334543",
 						"moveTo": [[27.107, 39.318, 38.467], [55.964, 59.352, 66.772]]
 					},
 					"18": {
-						"transFrame": 120,
+						"transFrame": 27,
 						"editColor": "#21282f",
 						"moveTo": [[27.107, 38.467, 42.128], [55.964, 66.772, 75.085]]
 					}
 				},
-				"240": {
+				"60": {
 					"15": {
-						"transFrame": 120,
+						"transFrame": 27,
 						"moveTo": [[25.99, 32.64, 37.91], [61.716, 61.368, 68.146]]
 					},
 					"17": {
-						"transFrame": 120,
+						"transFrame": 27,
 						"moveTo": [[27.107, 39.318, 42.467], [55.964, 59.352, 65.772]]
 					},
 					"18": {
-						"transFrame": 120,
+						"transFrame": 27,
 						"moveTo": [[27.107, 42.467, 47.128], [55.964, 65.772, 71.085]]
 					}
 				},
-				"360": {
+				"120": {
 					"15": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"17": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					},
 					"18": {
-						"transFrame": 120,
+						"transFrame": 38,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 480
+			"totalFrame": 240
 		},
 		"vaquita:tail_wink": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"28": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": [[78.275, 86.099, 96.64], [41.979, 34.183, 34.788]]
 					},
 					"29": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": [[78.275, 96.64, 88.644], [41.979, 34.788, 39.784]]
 					}
 				},
-				"5": {
+				"3": {
 					"28": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"29": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": null
 					}
 				},
-				"125": {
+				"30": {
 					"28": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": [[78.275, 86.099, 96.64], [41.979, 34.183, 34.788]]
 					},
 					"29": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": [[78.275, 96.64, 88.644], [41.979, 34.788, 39.784]]
 					}
 				},
-				"130": {
+				"33": {
 					"28": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"29": {
-						"transFrame": 120,
+						"transFrame": 12,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 360
+			"totalFrame": 165
+		},
+		"vaquita:bubble_shine1": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"30": {
+						"transFrame": 30,
+						"editColor": "#FFFFFF",
+						"moveTo": [[15, 15.5, 17], [18.5, 22, 20]]
+					}
+				},
+				"30": {
+					"30": {
+						"transFrame": 30,
+						"editColor": "#00FFFFFF",
+						"moveTo": [[15, 15.5, 17], [18.5, 22, 20]]
+					}
+				}
+			},
+			"totalFrame": 60
+		},
+		"vaquita:bubble_shine2": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"31": {
+						"transFrame": 30,
+						"editColor": "#FFFFFF",
+						"moveTo": [[11.67, 12.3, 12.7], [9.5, 8.4, 9.7]]
+					}
+				},
+				"30": {
+					"31": {
+						"transFrame": 30,
+						"editColor": "#00FFFFFF",
+						"moveTo": [[11.67, 12.3, 12.7], [9.5, 8.4, 9.7]]
+					}
+				}
+			},
+			"totalFrame": 60
+		},
+		"vaquita:bubble_shine3": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"32": {
+						"transFrame": 30,
+						"editColor": "#FFFFFF",
+						"moveTo": [[7.75, 9.4, 9.1], [35.5, 37, 34.5]]
+					}
+				},
+				"30": {
+					"32": {
+						"transFrame": 30,
+						"editColor": "#00FFFFFF",
+						"moveTo": [[7.75, 9.4, 9.1], [35.5, 37, 34.5]]
+					}
+				}
+			},
+			"totalFrame": 60
 		},
 		"tamarin:head_move": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"0": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[22.45, 23.15, 28.05], [33.071, 20.214, 29.929]]
 					},
 					"1": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[22.35, 30.3, 31.05], [33.071, 24.786, 43.67]]
 					},
 					"2": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[23.15, 26.75, 30.85], [20.214, 28.929, 21.214]]
 					},
 					"3": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[23.05, 34.65, 29.75], [20.214, 14.786, 22.214]]
 					},
 					"4": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[29, 43.15, 30.85], [26, 29.357, 40.5]]
 					},
 					"5": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[29.75, 34.7, 32.95], [21.071, 14.8, 27.4]]
 					},
 					"6": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[26.25, 28.95, 26.75], [24.5, 21.1, 30.786]]
 					},
 					"7": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[26.75, 28.75, 29.15], [30.643, 21.214, 29.214]]
 					},
 					"8": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[26.75, 29, 30.8], [30.7, 27.1, 31.929]]
 					},
 					"9": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[28.75, 33, 29.05], [21.071, 26.3, 27.214]]
 					},
 					"10": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[29, 33.05, 30.7], [27.214, 26.357, 32.071]]
 					},
 					"11": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[28.75, 32.3, 33.05], [21.214, 20.786, 26.357]]
 					},
 					"12": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[32.95, 34.65, 42.25], [27.214, 14.929, 29.357]]
 					},
 					"14": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[22.45, 31.95, 32.05], [33.071, 39.357, 52.214]]
 					},
 					"15": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": [[34.65, 47.25, 41.8], [15.071, 23.357, 29.1]]
 					}
 				},
-				"180": {
+				"60": {
 					"0": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"1": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"2": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"3": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"4": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"5": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"6": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"7": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"8": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"9": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"10": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"11": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"12": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"14": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"15": {
-						"transFrame": 60,
+						"transFrame": 12,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 330
+			"totalFrame": 240
 		},
 		"tamarin:tail_move": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"29": {
-						"transFrame": 30,
+						"transFrame": 6,
+						"moveTo": [[64.45, 75.85, 64.55], [80, 78.643, 84.643]]
+					}
+				},
+				"6": {
+					"29": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				},
+				"24": {
+					"29": {
+						"transFrame": 6,
 						"moveTo": [[64.45, 75.85, 64.55], [80, 78.643, 84.643]]
 					}
 				},
 				"30": {
 					"29": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"29": {
-						"transFrame": 30,
-						"moveTo": [[64.45, 75.85, 64.55], [80, 78.643, 84.643]]
-					}
-				},
-				"90": {
-					"29": {
-						"transFrame": 30,
+						"transFrame": 6,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 350
+			"totalFrame": 180
 		},
 		"frog:eyes_wink": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"9": {
-						"transFrame": 30,
+						"transFrame": 6,
 						"moveTo": [[31.15, 34.4, 37.35], [35.571, 35.9, 38.2]]
 					},
 					"10": {
-						"transFrame": 30,
+						"transFrame": 6,
 						"moveTo": [[31.15, 37.45, 34.1], [35.429, 38.143, 37.714]]
 					},
 					"11": {
-						"transFrame": 30,
+						"transFrame": 6,
 						"moveTo": [[32.65, 33.55, 33.15], [35.286, 36.1, 36]]
+					}
+				},
+				"6": {
+					"9": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"10": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"11": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				},
+				"18": {
+					"9": {
+						"transFrame": 6,
+						"moveTo": [[31.15, 34.4, 37.35], [35.571, 35.9, 38.2]]
+					},
+					"10": {
+						"transFrame": 6,
+						"moveTo": [[31.15, 37.45, 34.1], [35.429, 38.143, 37.714]]
+					},
+					"11": {
+						"transFrame": 6,
+						"moveTo": [[32.65, 33.55, 33.15], [35.286, 36.1, 36]]
+					}
+				},
+				"24": {
+					"9": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"10": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"11": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 186
+		},
+		"frog:mouth_open": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"4": {
+						"transFrame": 36,
+						"editColor": "#B89A00",
+						"moveTo": [[25.95, 36.25, 27.85], [36.857, 47.714, 47.714]]
+					}
+				},
+				"36": {
+					"4": {
+						"transFrame": 36,
+						"moveTo": null
+					}
+				},
+				"108": {
+					"4": {
+						"transFrame": 36,
+						"editColor": "#B89A00",
+						"moveTo": [[25.95, 36.25, 27.85], [36.857, 47.714, 49.714]]
+					}
+				},
+				"144": {
+					"4": {
+						"transFrame": 36,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 216
+		},
+		"owl:tail_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"26": {
+						"transFrame": 6,
+						"moveTo": [[48.05, 67.4, 63.3], [42.1, 71.214, 47.643]]
+					},
+					"24": {
+						"transFrame": 6,
+						"moveTo": [[55, 64, 61.9], [20.929, 42.214, 30.214]]
+					},
+					"23": {
+						"transFrame": 6,
+						"moveTo": [[55, 55.9, 64.2], [20.929, 35.071, 42.5]]
+					},
+					"22": {
+						"transFrame": 6,
+						"moveTo": [[48.1, 57.8, 64.9], [42.2, 32.071, 48.3]]
+					},
+					"21": {
+						"transFrame": 6,
+						"moveTo": [[48, 55.03, 56], [20.643, 20.929, 35.7]]
+					},
+					"20": {
+						"transFrame": 6,
+						"moveTo": [[48.076, 48.076, 56], [20.643, 42.3, 35.1]]
+					},
+					"25": {
+						"transFrame": 6,
+						"moveTo": [[55.3, 62.7, 61.4], [34.8, 43.929, 40.1]]
+					},
+					"17": {
+						"transFrame": 6,
+						"moveTo": [[44.976, 35.876, 56.176], [31.357, 50.786, 53.643]]
+					},
+					"27": {
+						"transFrame": 6,
+						"moveTo": [[58.3, 61.5, 63.8], [57.5, 75.071, 65.357]]
+					}
+				},
+				"6": {
+					"26": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"21": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"17": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 18,
+						"moveTo": null
+					}
+				},
+				"24": {
+					"26": {
+						"transFrame": 6,
+						"moveTo": [[48.05, 67.4, 63.3], [42.1, 71.214, 47.643]]
+					},
+					"24": {
+						"transFrame": 6,
+						"moveTo": [[55, 64, 61.9], [20.929, 42.214, 30.214]]
+					},
+					"23": {
+						"transFrame": 6,
+						"moveTo": [[55, 55.9, 64.2], [20.929, 35.071, 42.5]]
+					},
+					"22": {
+						"transFrame": 6,
+						"moveTo": [[48.1, 57.8, 64.9], [42.2, 32.071, 48.3]]
+					},
+					"21": {
+						"transFrame": 6,
+						"moveTo": [[48, 55.03, 56], [20.643, 20.929, 35.7]]
+					},
+					"20": {
+						"transFrame": 6,
+						"moveTo": [[48.076, 48.076, 56], [20.643, 42.3, 35.1]]
+					},
+					"25": {
+						"transFrame": 6,
+						"moveTo": [[55.3, 62.7, 61.4], [34.8, 43.929, 40.1]]
+					},
+					"17": {
+						"transFrame": 6,
+						"moveTo": [[44.976, 35.876, 56.176], [31.357, 50.786, 53.643]]
+					},
+					"27": {
+						"transFrame": 6,
+						"moveTo": [[58.3, 61.5, 63.8], [57.5, 75.071, 65.357]]
 					}
 				},
 				"30": {
+					"26": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"21": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"17": {
+						"transFrame": 18,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 18,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"owl:leg_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"28": {
+						"transFrame": 12,
+						"moveTo": [[43.1, 39.7, 45.2], [56.929, 61.071, 58.786]]
+					}
+				},
+				"12": {
+					"29": {
+						"transFrame": 12,
+						"moveTo": [[45.2, 43.6, 47.4], [58.786, 65.214, 60.786]]
+					}
+				},
+				"48": {
+					"28": {
+						"transFrame": 24,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 24,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 234
+		},
+		"turtle:head_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"27": {
+						"transFrame": 50,
+						"moveTo": [[75.35, 82.35, 81.75], [53.857, 49.857, 53.429]]
+					},
+					"28": {
+						"transFrame": 50,
+						"moveTo": [[81.65, 82.25, 83], [53.286, 49.857, 54.3]]
+					}
+				},
+				"60": {
+					"27": {
+						"transFrame": 50,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 50,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"turtle:wing_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"21": {
+						"transFrame": 48,
+						"moveTo": [[55.05, 60.25, 68.05], [51.571, 41.429, 42.714]]
+					},
+					"22": {
+						"transFrame": 48,
+						"moveTo": [[60.25, 67.85, 68.05], [41.571, 21.714, 42.714]]
+					},
+					"23": {
+						"transFrame": 48,
+						"moveTo": [[60.25, 62.45, 67.95], [41.571, 19.429, 21.857]]
+					},
+					"24": {
+						"transFrame": 48,
+						"moveTo": [[62.55, 62.95, 67.95], [19.714, 11, 22]]
+					}
+				},
+				"72": {
+					"21": {
+						"transFrame": 24,
+						"moveTo": [[55.05, 56.25, 65.05], [51.571, 41.429, 41.714]]
+					},
+					"22": {
+						"transFrame": 24,
+						"moveTo": [[56.25, 62.85, 65.05], [41.571, 21.714, 41.714]]
+					},
+					"23": {
+						"transFrame": 24,
+						"moveTo": [[56.25, 55.45, 62.95], [41.571, 23.429, 21.857]]
+					},
+					"24": {
+						"transFrame": 24,
+						"moveTo": [[55.55, 53.95, 62.95], [23.714, 15, 22]]
+					}
+				},
+				"120": {
+					"21": {
+						"transFrame": 48,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 48,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 48,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 48,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"turtle:tail_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"1": {
+						"transFrame": 6,
+						"moveTo": [[26.35, 32.45, 21.95], [55.857, 58.714, 69.571]]
+					},
+					"2": {
+						"transFrame": 6,
+						"moveTo": [[22.65, 26.45, 21.95], [61, 56.286, 69.429]]
+					},
+					"3": {
+						"transFrame": 6,
+						"moveTo": [[10.65, 19.05, 30.85], [56.714, 52.143, 51.857]]
+					},
+					"4": {
+						"transFrame": 6,
+						"moveTo": [[10.55, 30.85, 25.45], [56.571, 51.857, 58.143]]
+					}
+				},
+				"12": {
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"4": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				},
+				"24": {
+					"1": {
+						"transFrame": 6,
+						"moveTo": [[26.35, 32.45, 21.95], [55.857, 58.714, 69.571]]
+					},
+					"2": {
+						"transFrame": 6,
+						"moveTo": [[22.65, 26.45, 21.95], [61, 56.286, 69.429]]
+					},
+					"3": {
+						"transFrame": 6,
+						"moveTo": [[10.65, 19.05, 30.85], [56.714, 52.143, 51.857]]
+					},
+					"4": {
+						"transFrame": 6,
+						"moveTo": [[10.55, 30.85, 25.45], [56.571, 51.857, 58.143]]
+					}
+				},
+				"36": {
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"4": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"turtle:bubble_shine1": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"30": {
+						"transFrame": 30,
+						"editColor": "#FFFFFF",
+						"moveTo": [[85, 85.5, 87], [18.5, 22, 20]]
+					}
+				},
+				"30": {
+					"30": {
+						"transFrame": 30,
+						"editColor": "#00FFFFFF",
+						"moveTo": [[85, 85.5, 87], [18.5, 22, 20]]
+					}
+				}
+			},
+			"totalFrame": 60
+		},
+		"turtle:bubble_shine2": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"31": {
+						"transFrame": 30,
+						"editColor": "#FFFFFF",
+						"moveTo": [[81.67, 82.3, 82.7], [9.5, 8.4, 9.7]]
+					}
+				},
+				"30": {
+					"31": {
+						"transFrame": 30,
+						"editColor": "#00FFFFFF",
+						"moveTo": [[81.67, 82.3, 82.7], [9.5, 8.4, 9.7]]
+					}
+				}
+			},
+			"totalFrame": 60
+		},
+		"turtle:bubble_shine3": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"32": {
+						"transFrame": 30,
+						"editColor": "#FFFFFF",
+						"moveTo": [[77.75, 79.4, 79.1], [35.5, 37, 34.5]]
+					}
+				},
+				"30": {
+					"32": {
+						"transFrame": 30,
+						"editColor": "#00FFFFFF",
+						"moveTo": [[77.75, 79.4, 79.1], [35.5, 37, 34.5]]
+					}
+				}
+			},
+			"totalFrame": 60
+		},
+		"iguana:change_color": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"waitFrame": 1,
+						"transFrame": 48,
+						"editColor": "#8A8E5B"
+					},
+					"1": {
+						"waitFrame": 2,
+						"transFrame": 48,
+						"editColor": "#1D321B"
+					},
+					"2": {
+						"waitFrame": 3,
+						"transFrame": 48,
+						"editColor": "#396C28"
+					},
+					"3": {
+						"waitFrame": 4,
+						"transFrame": 48,
+						"editColor": "#255222"
+					},
+					"4": {
+						"waitFrame": 5,
+						"transFrame": 48,
+						"editColor": "#1B4120"
+					},
+					"5": {
+						"waitFrame": 6,
+						"transFrame": 48,
+						"editColor": "#54725E"
+					},
+					"7": {
+						"waitFrame": 7,
+						"transFrame": 48,
+						"editColor": "#223322"
+					},
+					"8": {
+						"waitFrame": 8,
+						"transFrame": 48,
+						"editColor": "#244D20"
+					},
+					"9": {
+						"waitFrame": 9,
+						"transFrame": 48,
+						"editColor": "#1D2E1E"
+					},
+					"11": {
+						"waitFrame": 10,
+						"transFrame": 48,
+						"editColor": "#2F5641"
+					},
+					"12": {
+						"waitFrame": 11,
+						"transFrame": 48,
+						"editColor": "#1B4120"
+					},
+					"13": {
+						"waitFrame": 12,
+						"transFrame": 48,
+						"editColor": "#1B361C"
+					},
+					"14": {
+						"waitFrame": 13,
+						"transFrame": 48,
+						"editColor": "#223322"
+					},
+					"15": {
+						"waitFrame": 14,
+						"transFrame": 48,
+						"editColor": "#335F25"
+					},
+					"16": {
+						"waitFrame": 15,
+						"transFrame": 48,
+						"editColor": "#476C3D"
+					},
+					"17": {
+						"waitFrame": 16,
+						"transFrame": 48,
+						"editColor": "#345524"
+					},
+					"19": {
+						"waitFrame": 17,
+						"transFrame": 48,
+						"editColor": "#1D2E1E"
+					},
+					"20": {
+						"waitFrame": 18,
+						"transFrame": 48,
+						"editColor": "#43642E"
+					},
+					"21": {
+						"waitFrame": 19,
+						"transFrame": 48,
+						"editColor": "#225122"
+					},
+					"22": {
+						"waitFrame": 20,
+						"transFrame": 48,
+						"editColor": "#253A1B"
+					},
+					"24": {
+						"waitFrame": 21,
+						"transFrame": 48,
+						"editColor": "#2C411C"
+					},
+					"25": {
+						"waitFrame": 22,
+						"transFrame": 48,
+						"editColor": "#1D2E1E"
+					},
+					"26": {
+						"waitFrame": 23,
+						"transFrame": 48,
+						"editColor": "#355423"
+					},
+					"27": {
+						"waitFrame": 24,
+						"transFrame": 48,
+						"editColor": "#182318"
+					},
+					"28": {
+						"waitFrame": 25,
+						"transFrame": 48,
+						"editColor": "#1A3319"
+					},
+					"29": {
+						"waitFrame": 26,
+						"transFrame": 48,
+						"editColor": "#236124"
+					}
+				},
+				"60": {
+					"0": {
+						"waitFrame": 1,
+						"transFrame": 48,
+						"editColor": "#6D7263"
+					},
+					"1": {
+						"waitFrame": 2,
+						"transFrame": 48,
+						"editColor": "#28262B"
+					},
+					"2": {
+						"waitFrame": 3,
+						"transFrame": 48,
+						"editColor": "#464247"
+					},
+					"3": {
+						"waitFrame": 4,
+						"transFrame": 48,
+						"editColor": "#3B3A3E"
+					},
+					"4": {
+						"waitFrame": 5,
+						"transFrame": 48,
+						"editColor": "#332F2F"
+					},
+					"5": {
+						"waitFrame": 6,
+						"transFrame": 48,
+						"editColor": "#717176"
+					},
+					"6": {
+						"waitFrame": 7,
+						"transFrame": 48,
+						"editColor": "#96969A"
+					},
+					"7": {
+						"waitFrame": 8,
+						"transFrame": 48,
+						"editColor": "#323232"
+					},
+					"8": {
+						"waitFrame": 9,
+						"transFrame": 48,
+						"editColor": "#3B3A38"
+					},
+					"9": {
+						"waitFrame": 10,
+						"transFrame": 48,
+						"editColor": "#1C1B1B"
+					},
+					"11": {
+						"waitFrame": 11,
+						"transFrame": 48,
+						"editColor": "#4C4B4A"
+					},
+					"12": {
+						"waitFrame": 12,
+						"transFrame": 48,
+						"editColor": "#3B3A3B"
+					},
+					"13": {
+						"waitFrame": 13,
+						"transFrame": 48,
+						"editColor": "#232427"
+					},
+					"14": {
+						"waitFrame": 14,
+						"transFrame": 48,
+						"editColor": "#232427"
+					},
+					"15": {
+						"waitFrame": 15,
+						"transFrame": 48,
+						"editColor": "#484344"
+					},
+					"16": {
+						"waitFrame": 16,
+						"transFrame": 48,
+						"editColor": "#545554"
+					},
+					"17": {
+						"waitFrame": 17,
+						"transFrame": 48,
+						"editColor": "#3B3A3B"
+					},
+					"18": {
+						"waitFrame": 18,
+						"transFrame": 48,
+						"editColor": "#96969A"
+					},
+					"19": {
+						"waitFrame": 19,
+						"transFrame": 48,
+						"editColor": "#1C1B1B"
+					},
+					"20": {
+						"waitFrame": 20,
+						"transFrame": 48,
+						"editColor": "#464744"
+					},
+					"21": {
+						"waitFrame": 21,
+						"transFrame": 48,
+						"editColor": "#363431"
+					},
+					"22": {
+						"waitFrame": 22,
+						"transFrame": 48,
+						"editColor": "#2A2829"
+					},
+					"24": {
+						"waitFrame": 23,
+						"transFrame": 48,
+						"editColor": "#363637"
+					},
+					"25": {
+						"waitFrame": 24,
+						"transFrame": 48,
+						"editColor": "#1C1B1B"
+					},
+					"26": {
+						"waitFrame": 25,
+						"transFrame": 48,
+						"editColor": "#2E2C2F"
+					},
+					"27": {
+						"waitFrame": 26,
+						"transFrame": 48,
+						"editColor": "#3B3A3B"
+					},
+					"28": {
+						"waitFrame": 27,
+						"transFrame": 48,
+						"editColor": "#323232"
+					},
+					"29": {
+						"waitFrame": 28,
+						"transFrame": 48,
+						"editColor": "#595656"
+					}
+				},
+				"120": {
+					"0": {
+						"waitFrame": 1,
+						"transFrame": 100
+					},
+					"1": {
+						"waitFrame": 2,
+						"transFrame": 100
+					},
+					"2": {
+						"waitFrame": 3,
+						"transFrame": 100
+					},
+					"3": {
+						"waitFrame": 4,
+						"transFrame": 100
+					},
+					"4": {
+						"waitFrame": 5,
+						"transFrame": 100
+					},
+					"5": {
+						"waitFrame": 6,
+						"transFrame": 100
+					},
+					"6": {
+						"waitFrame": 7,
+						"transFrame": 100
+					},
+					"7": {
+						"waitFrame": 8,
+						"transFrame": 100
+					},
+					"8": {
+						"waitFrame": 9,
+						"transFrame": 100
+					},
+					"9": {
+						"waitFrame": 10,
+						"transFrame": 100
+					},
+					"10": {
+						"waitFrame": 11,
+						"transFrame": 100
+					},
+					"11": {
+						"waitFrame": 12,
+						"transFrame": 100
+					},
+					"12": {
+						"waitFrame": 13,
+						"transFrame": 100
+					},
+					"13": {
+						"waitFrame": 14,
+						"transFrame": 100
+					},
+					"14": {
+						"waitFrame": 15,
+						"transFrame": 100
+					},
+					"15": {
+						"waitFrame": 16,
+						"transFrame": 100
+					},
+					"16": {
+						"waitFrame": 17,
+						"transFrame": 100
+					},
+					"17": {
+						"waitFrame": 18,
+						"transFrame": 100
+					},
+					"18": {
+						"waitFrame": 19,
+						"transFrame": 100
+					},
+					"19": {
+						"waitFrame": 20,
+						"transFrame": 100
+					},
+					"20": {
+						"waitFrame": 21,
+						"transFrame": 100
+					},
+					"21": {
+						"waitFrame": 22,
+						"transFrame": 100
+					},
+					"22": {
+						"waitFrame": 23,
+						"transFrame": 100
+					},
+					"23": {
+						"waitFrame": 24,
+						"transFrame": 100
+					},
+					"24": {
+						"waitFrame": 25,
+						"transFrame": 100
+					},
+					"25": {
+						"waitFrame": 26,
+						"transFrame": 100
+					},
+					"26": {
+						"waitFrame": 27,
+						"transFrame": 100
+					},
+					"27": {
+						"waitFrame": 28,
+						"transFrame": 100
+					},
+					"28": {
+						"waitFrame": 29,
+						"transFrame": 100
+					},
+					"29": {
+						"waitFrame": 30,
+						"transFrame": 100
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"seahorse:mouth_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"transFrame": 72,
+						"moveTo": [[23.96, 22.9, 25.5], [44.643, 50.643, 49]]
+					}
+				},
+				"72": {
+					"0": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"seahorse:tail_wink": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"29": {
+						"transFrame": 72,
+						"moveTo": [[72, 75.5, 73.5], [64.214, 66.8, 67.45]]
+					}
+				},
+				"72": {
+					"29": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"armadillo:head_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"transFrame": 30,
+						"moveTo": [[19.4, 18, 22.75], [78.8, 74.2, 68.1]]
+					},
+					"1": {
+						"transFrame": 30,
+						"moveTo": [[17.95, 20.95, 24.55], [74.5, 57.357, 57.786]]
+					},
+					"2": {
+						"transFrame": 30,
+						"moveTo": [[17.75, 24.35, 22.75], [74.8, 57.5, 68.214]]
+					},
+					"3": {
+						"transFrame": 30,
+						"moveTo": [[22.65, 24.25, 28.05], [68.071, 57.643, 72.786]]
+					},
+					"4": {
+						"transFrame": 30,
+						"moveTo": [[19.36, 22.7, 28.2], [78.8, 68.1, 72.8]]
+					},
+					"5": {
+						"transFrame": 30,
+						"moveTo": [[20.2, 25.95, 21.65], [77.8, 74, 78.7]]
+					}
+				},
+				"60": {
+					"0": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"4": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"armadillo:horn_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"7": {
+						"transFrame": 6,
+						"moveTo": [[21.75, 25.45, 25.75], [58.214, 49.071, 62.071]]
+					}
+				},
+				"6": {
+					"7": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				},
+				"18": {
+					"7": {
+						"transFrame": 6,
+						"moveTo": [[21.75, 25.45, 25.75], [58.214, 49.071, 62.071]]
+					}
+				},
+				"24": {
+					"7": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"sloth:hand_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"28": {
+						"transFrame": 48,
+						"moveTo": [[63.15, 80.35, 71.55], [54, 68.143, 70.286]]
+					},
+					"29": {
+						"transFrame": 48,
+						"moveTo": [[71.35, 81.75, 80.35], [70.2, 77.286, 68]]
+					}
+				},
+				"90": {
+					"28": {
+						"transFrame": 150,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 150,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"kakapo:wing_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"8": {
+						"transFrame": 30,
+						"moveTo": [[10.612, 33.813, 22.213], [33.268, 25.268, 33.268]]
+					},
+					"9": {
+						"transFrame": 30,
+						"editColor": "#436A2C",
+						"moveTo": [[21.513, 39.813, 23.413], [33.125, 51.8, 43.125]]
+					},
+					"15": {
+						"transFrame": 30,
+						"editColor": "#6AA84E",
+						"moveTo": [[34.041, 58.841, 56.741], [25.2, 3.871, 12.299]]
+					},
+					"11": {
+						"transFrame": 30,
+						"editColor": "#32401E",
+						"moveTo": [[46.413, 56.712, 66.712], [41.696, 12.2, 23]]
+					},
+					"16": {
+						"transFrame": 30,
+						"editColor": "#283214",
+						"moveTo": [[33.712, 56.612, 46.513], [25.411, 12.411, 41.696]]
+					},
+					"12": {
+						"transFrame": 30,
+						"editColor": "#32401E",
+						"moveTo": [[33.953, 46.453, 21.353], [25.21, 41.781, 33.353]]
+					},
+					"13": {
+						"transFrame": 30,
+						"editColor": "#39512C",
+						"moveTo": [[21.253, 46.353, 39.753], [33.353, 41.781, 51.781]]
+					},
+					"25": {
+						"transFrame": 30,
+						"editColor": "#445F2F",
+						"moveTo": [[46.453, 62.153, 39.753], [40.781, 48.6, 51.781]]
+					},
+					"26": {
+						"transFrame": 30,
+						"editColor": "#39512C",
+						"moveTo": [[46.453, 66.653, 62.23], [41.638, 23.067, 49.21]]
+					},
+					"27": {
+						"transFrame": 30,
+						"editColor": "#519F4B",
+						"moveTo": [[56.741, 58.741, 66.741], [12.228, 3.656, 23.085]]
+					},
+					"23": {
+						"transFrame": 30,
+						"moveTo": [[58.653, 69.053, 63.2], [32.281, 44.138, 54.4]]
+					},
+					"24": {
+						"transFrame": 30,
+						"moveTo": [[42.45, 62.195, 63.25], [66.337, 48.766, 54.337]]
+					}
+				},
+				"60": {
+					"8": {
+						"transFrame": 30,
+						"moveTo": null
+					},
 					"9": {
 						"transFrame": 30,
 						"moveTo": null
 					},
-					"10": {
+					"15": {
 						"transFrame": 30,
 						"moveTo": null
 					},
 					"11": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"16": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"12": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"13": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"26": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"kakapo:head_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"3": {
+						"transFrame": 6,
+						"editColor": "#D2C895"
+					},
+					"4": {
+						"transFrame": 6,
+						"moveTo": [[9.353, 12.853, 10.253], [45.567, 54.281, 51.138]]
+					},
+					"5": {
+						"transFrame": 6,
+						"moveTo": [[9.353, 12.753, 12.553], [45.424, 44.996, 54.71]]
+					},
+					"6": {
+						"transFrame": 6,
+						"moveTo": [[12.753, 12.753, 20.853], [50.424, 44.996, 56.138]]
+					}
+				},
+				"6": {
+					"3": {
+						"transFrame": 6,
+						"editColor": null
+					},
+					"4": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				},
+				"18": {
+					"3": {
+						"transFrame": 6,
+						"editColor": "#D2C895"
+					},
+					"4": {
+						"transFrame": 6,
+						"moveTo": [[9.353, 12.853, 10.253], [45.567, 54.281, 51.138]]
+					},
+					"5": {
+						"transFrame": 6,
+						"moveTo": [[9.353, 12.753, 12.553], [45.424, 44.996, 54.71]]
+					},
+					"6": {
+						"transFrame": 6,
+						"moveTo": [[12.753, 12.753, 20.853], [50.424, 44.996, 56.138]]
+					}
+				},
+				"24": {
+					"3": {
+						"transFrame": 6,
+						"editColor": null
+					},
+					"4": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 6,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"kakapo:tail_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"29": {
+						"transFrame": 6,
+						"moveTo": [[63.153, 70.753, 89.153], [54.138, 51.424, 66.996]]
+					}
+				},
+				"3": {
+					"29": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				},
+				"9": {
+					"29": {
+						"transFrame": 6,
+						"moveTo": [[63.153, 70.753, 89.153], [54.138, 51.424, 66.996]]
+					}
+				},
+				"12": {
+					"29": {
+						"transFrame": 6,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"echidna:leg_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"13": {
+						"transFrame": 30,
+						"moveTo": [[34, 36, 39.4], [79.286, 72, 81.143]]
+					},
+					"14": {
+						"transFrame": 30,
+						"moveTo": [[32.1, 45.2, 34], [64.286, 69.286, 79.429]]
+					}
+				},
+				"60": {
+					"13": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"14": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"echidna:head_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": [[13.4, 22.2, 23.9], [75.429, 61.143, 63.429]]
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": [[13.4, 21.5, 14.7], [75.286, 66.143, 76.429]]
+					},
+					"5": {
+						"transFrame": 12,
+						"moveTo": [[23.6, 26.9, 19.9], [63.429, 63.714, 68.286]]
+					},
+					"6": {
+						"transFrame": 12,
+						"moveTo": [[24.8, 26, 27.2], [60.571, 59.429, 58.571]]
+					}
+				},
+				"6": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				},
+				"12": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": [[13.4, 22.2, 23.9], [75.429, 61.143, 63.429]]
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": [[13.4, 21.5, 14.7], [75.286, 66.143, 76.429]]
+					},
+					"5": {
+						"transFrame": 12,
+						"moveTo": [[23.6, 26.9, 19.9], [63.429, 63.714, 68.286]]
+					},
+					"6": {
+						"transFrame": 12,
+						"moveTo": [[24.8, 26, 27.2], [60.571, 59.429, 58.571]]
+					}
+				},
+				"18": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"penguin:body_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"7": {
+						"transFrame": 60,
+						"moveTo": [[46.95, 58.95, 56.75], [80.714, 77.143, 82.571]]
+					},
+					"26": {
+						"transFrame": 60,
+						"moveTo": [[60.55, 63.05, 65.45], [62.714, 53.571, 69.429]]
+					}
+				},
+				"60": {
+					"7": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"26": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 60,
+						"moveTo": [[40.75, 51.35, 49.05], [84.571, 85, 82.857]]
+					},
+					"2": {
+						"transFrame": 60,
+						"moveTo": [[38.15, 31.65, 52.75], [57.857, 78.571, 51]]
+					},
+					"3": {
+						"transFrame": 60,
+						"moveTo": [[44.65, 35.85, 52.85], [39.571, 59.429, 50.857]]
+					}
+				},
+				"120": {
+					"6": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 60,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"damselfly:wing_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"26": {
+						"transFrame": 9,
+						"moveTo": [[31.6, 69.5, 41.5], [39, 53.714, 30.857]]
+					},
+					"27": {
+						"transFrame": 9,
+						"moveTo": [[53.4, 69.5, 45.4], [40.714, 53.857, 42.286]]
+					},
+					"28": {
+						"transFrame": 9,
+						"moveTo": [[42.7, 45.5, 55.5], [45, 30, 41.429]]
+					},
+					"29": {
+						"transFrame": 9,
+						"moveTo": [[42.7, 34, 45.6], [45, 31.857, 30.143]]
+					}
+				},
+				"9": {
+					"26": {
+						"transFrame": 9,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 9,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 9,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 9,
+						"moveTo": null
+					}
+				},
+				"18": {
+					"26": {
+						"transFrame": 9,
+						"moveTo": [[31.6, 69.5, 41.5], [39, 53.714, 30.857]]
+					},
+					"27": {
+						"transFrame": 9,
+						"moveTo": [[53.4, 69.5, 45.4], [40.714, 53.857, 42.286]]
+					},
+					"28": {
+						"transFrame": 9,
+						"moveTo": [[42.7, 45.5, 55.5], [45, 30, 41.429]]
+					},
+					"29": {
+						"transFrame": 9,
+						"moveTo": [[42.7, 34, 45.6], [45, 31.857, 30.143]]
+					}
+				},
+				"27": {
+					"26": {
+						"transFrame": 9,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 9,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 9,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 9,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"bear:head_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"transFrame": 60,
+						"moveTo": [[28.35, 31.45, 31.7], [14.214, 10.2, 18.5]]
+					},
+					"29": {
+						"transFrame": 60,
+						"moveTo": [[28.25, 29.05, 29.3], [14.4, 13.3, 15.786]]
+					},
+					"30": {
+						"transFrame": 60,
+						"moveTo": [[30.25, 32.05, 30.8], [21.214, 18.071, 15.786]]
+					},
+					"31": {
+						"transFrame": 60,
+						"moveTo": [[30.25, 31.7, 31.7], [21.214, 18.7, 32.786]]
+					},
+					"32": {
+						"transFrame": 60,
+						"moveTo": [[31.3, 33.7, 31.6], [30.214, 34.7, 32.786]]
+					}
+				},
+				"60": {
+					"0": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"30": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"31": {
+						"transFrame": 60,
+						"moveTo": null
+					},
+					"32": {
+						"transFrame": 60,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"parrotfish:mouth_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"28": {
+						"transFrame": 72,
+						"moveTo": [[82, 86.45, 87.413], [47.9, 43.5, 45.7]]
+					},
+					"29": {
+						"transFrame": 72,
+						"moveTo": [[82, 86.3, 85.413], [48, 51.571, 53.286]]
+					}
+				},
+				"72": {
+					"28": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"parrotfish:gills_twitch": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"18": {
+						"transFrame": 12,
+						"moveTo": [[53.15, 56.8, 68.5], [38.35, 33.4, 48.3]]
+					},
+					"19": {
+						"transFrame": 12,
+						"moveTo": [[51.84, 53.212, 68.5], [44.6, 38.286, 48.2]]
+					},
+					"20": {
+						"transFrame": 12,
+						"moveTo": [[51.812, 68.4, 55.112], [44.3, 48, 53.429]]
+					}
+				},
+				"12": {
+					"18": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"19": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				},
+				"24": {
+					"18": {
+						"transFrame": 12,
+						"moveTo": [[53.15, 56.8, 68.5], [38.35, 33.4, 48.3]]
+					},
+					"19": {
+						"transFrame": 12,
+						"moveTo": [[51.84, 53.212, 68.5], [44.6, 38.286, 48.2]]
+					},
+					"20": {
+						"transFrame": 12,
+						"moveTo": [[51.812, 68.4, 55.112], [44.3, 48, 53.429]]
+					}
+				},
+				"36": {
+					"18": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"19": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"camel:body_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"18": {
+						"transFrame": 30,
+						"moveTo": [[61.85, 72.75, 60.65], [32.857, 43.571, 56.4]]
+					},
+					"19": {
+						"transFrame": 30,
+						"moveTo": [[61.85, 68.95, 73.15], [32.9, 27, 30.143]]
+					},
+					"20": {
+						"transFrame": 30,
+						"moveTo": [[61.85, 72.95, 72.45], [32.857, 30, 44.143]]
+					},
+					"21": {
+						"transFrame": 30,
+						"moveTo": [[61.35, 72.55, 64.8], [55.429, 43.714, 64]]
+					},
+					"22": {
+						"transFrame": 30,
+						"moveTo": [[63.75, 72.5, 72.25], [66.429, 43.714, 58.429]]
+					},
+					"23": {
+						"transFrame": 30,
+						"moveTo": [[72.85, 78.65, 71.85], [29, 49.143, 62.143]]
+					},
+					"24": {
+						"transFrame": 30,
+						"moveTo": [[72.85, 78.85, 79.25], [30.143, 34.8, 54.714]]
+					},
+					"25": {
+						"transFrame": 30,
+						"moveTo": [[68.85, 71.65, 79.15], [26.571, 19.571, 25.857]]
+					},
+					"26": {
+						"transFrame": 30,
+						"moveTo": [[73.05, 73.55, 79.15], [26.286, 18.571, 26]]
+					},
+					"27": {
+						"transFrame": 30,
+						"moveTo": [[68.75, 82.25, 73.95], [26.714, 25.286, 31.286]]
+					},
+					"28": {
+						"transFrame": 30,
+						"moveTo": [[73.85, 82.25, 84.95], [31.143, 25.286, 30.286]]
+					},
+					"29": {
+						"transFrame": 30,
+						"moveTo": [[73.85, 84.15, 78.85], [31.143, 30.286, 34.857]]
+					},
+					"30": {
+						"transFrame": 30,
+						"moveTo": [[84, 83, 81], [32.5, 33.5, 22]]
+					}
+				},
+				"60": {
+					"18": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"19": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"21": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"26": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"30": {
 						"transFrame": 30,
 						"moveTo": null
 					}
 				},
-				"90": {
+				"120": {
+					"24": {
+						"transFrame": 30,
+						"moveTo": [[70.85, 75.85, 77.25], [29.143, 33.143, 51.714]]
+					},
+					"29": {
+						"transFrame": 30,
+						"moveTo": [[70.85, 80.15, 75.85], [29.143, 31.286, 33.857]]
+					},
+					"30": {
+						"transFrame": 30,
+						"moveTo": [[79, 78, 76], [33.5, 34.5, 24]]
+					}
+				},
+				"180": {
+					"24": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 30,
+						"moveTo": null
+					},
+					"30": {
+						"transFrame": 30,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 240
+		},
+		"butterfly:body_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"transFrame": 7,
+						"moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
+					},
+					"1": {
+						"transFrame": 7,
+						"moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
+					},
+					"2": {
+						"transFrame": 7,
+						"moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
+					},
+					"3": {
+						"transFrame": 7,
+						"moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
+					},
+					"4": {
+						"transFrame": 7,
+						"moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
+					},
+					"5": {
+						"transFrame": 7,
+						"moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
+					},
+					"6": {
+						"transFrame": 7,
+						"moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
+					},
+					"7": {
+						"transFrame": 7,
+						"moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
+					},
+					"8": {
+						"transFrame": 7,
+						"moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
+					},
+					"9": {
+						"transFrame": 7,
+						"moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
+					},
+					"20": {
+						"transFrame": 7,
+						"moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
+					},
+					"21": {
+						"transFrame": 7,
+						"moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
+					},
+					"22": {
+						"transFrame": 7,
+						"moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
+					},
+					"23": {
+						"transFrame": 7,
+						"moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
+					},
+					"24": {
+						"transFrame": 7,
+						"moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
+					},
+					"25": {
+						"transFrame": 7,
+						"moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
+					},
+					"26": {
+						"transFrame": 7,
+						"moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
+					},
+					"27": {
+						"transFrame": 7,
+						"moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
+					},
+					"28": {
+						"transFrame": 7,
+						"moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
+					},
+					"29": {
+						"transFrame": 7,
+						"moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
+					}
+				},
+				"7": {
+					"0": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"4": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"7": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"9": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"21": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"26": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 7,
+						"moveTo": null
+					}
+				},
+				"14": {
+					"0": {
+						"transFrame": 7,
+						"moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
+					},
+					"1": {
+						"transFrame": 7,
+						"moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
+					},
+					"2": {
+						"transFrame": 7,
+						"moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
+					},
+					"3": {
+						"transFrame": 7,
+						"moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
+					},
+					"4": {
+						"transFrame": 7,
+						"moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
+					},
+					"5": {
+						"transFrame": 7,
+						"moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
+					},
+					"6": {
+						"transFrame": 7,
+						"moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
+					},
+					"7": {
+						"transFrame": 7,
+						"moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
+					},
+					"8": {
+						"transFrame": 7,
+						"moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
+					},
+					"9": {
+						"transFrame": 7,
+						"moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
+					},
+					"20": {
+						"transFrame": 7,
+						"moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
+					},
+					"21": {
+						"transFrame": 7,
+						"moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
+					},
+					"22": {
+						"transFrame": 7,
+						"moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
+					},
+					"23": {
+						"transFrame": 7,
+						"moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
+					},
+					"24": {
+						"transFrame": 7,
+						"moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
+					},
+					"25": {
+						"transFrame": 7,
+						"moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
+					},
+					"26": {
+						"transFrame": 7,
+						"moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
+					},
+					"27": {
+						"transFrame": 7,
+						"moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
+					},
+					"28": {
+						"transFrame": 7,
+						"moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
+					},
+					"29": {
+						"transFrame": 7,
+						"moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
+					}
+				},
+				"21": {
+					"0": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"4": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"5": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"6": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"7": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"9": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"20": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"21": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"22": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"23": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"24": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"25": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"26": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"27": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"28": {
+						"transFrame": 7,
+						"moveTo": null
+					},
+					"29": {
+						"transFrame": 7,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"tapir:head_shake": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": [[11.6, 14.9, 13.9], [81.286, 79, 74.429]]
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": [[9.9, 11.7, 13.95], [72.3, 81.2, 74.571]]
+					},
+					"2": {
+						"transFrame": 12,
+						"moveTo": [[9.8, 13.8, 18], [72.3, 74.571, 65.7]]
+					},
+					"3": {
+						"transFrame": 12,
+						"moveTo": [[9.9, 17.9, 11.7], [72.4, 65.857, 56.286]]
+					},
+					"8": {
+						"transFrame": 12,
+						"moveTo": [[15, 18, 17.4], [41.857, 40, 47.429]]
+					}
+				},
+				"12": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				},
+				"24": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": [[11.6, 14.9, 13.9], [81.286, 79, 74.429]]
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": [[9.9, 11.7, 13.95], [72.3, 81.2, 74.571]]
+					},
+					"2": {
+						"transFrame": 12,
+						"moveTo": [[9.8, 13.8, 18], [72.3, 74.571, 65.7]]
+					},
+					"3": {
+						"transFrame": 12,
+						"moveTo": [[9.9, 17.9, 11.7], [72.4, 65.857, 56.286]]
+					},
+					"8": {
+						"transFrame": 12,
+						"moveTo": [[15, 18, 17.4], [41.857, 40, 47.429]]
+					}
+				},
+				"36": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"2": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"3": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"8": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"rhino:leg_move": {
+			"loop": true,
+			"timeline": {
+				"0": {
 					"9": {
 						"transFrame": 30,
-						"moveTo": [[31.15, 34.4, 37.35], [35.571, 35.9, 38.2]]
+						"moveTo": [[28.6, 37.2, 30.4], [62.5, 60.071, 82.786]]
 					},
 					"10": {
 						"transFrame": 30,
-						"moveTo": [[31.15, 37.45, 34.1], [35.429, 38.143, 37.714]]
-					},
-					"11": {
+						"moveTo": [[30.3, 34.7, 36.7], [82.786, 68.071, 82.8]]
+					}
+				},
+				"60": {
+					"9": {
 						"transFrame": 30,
-						"moveTo": [[32.65, 33.55, 33.15], [35.286, 36.1, 36]]
+						"moveTo": [[28.6, 37.2, 34.4], [62.5, 60.071, 80.786]]
+					},
+					"10": {
+						"transFrame": 30,
+						"moveTo": [[34.3, 35.9, 39.7], [80.786, 69.071, 74.8]]
 					}
 				},
 				"120": {
@@ -542,2349 +2801,232 @@
 					"10": {
 						"transFrame": 30,
 						"moveTo": null
-					},
-					"11": {
-						"transFrame": 30,
-						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 330
+			"totalFrame": 240
 		},
-		"frog:mouth_open": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"4": {
-						"transFrame": 180,
-						"moveTo": [[25.95, 36.25, 27.85], [36.857, 47.714, 47.714]]
-					}
-				},
-				"180": {
-					"4": {
-						"transFrame": 180,
-						"moveTo": null
-					}
-				},
-				"420": {
-					"4": {
-						"transFrame": 180,
-						"moveTo": [[25.95, 36.25, 27.85], [36.857, 47.714, 49.714]]
-					}
-				},
-				"600": {
-					"4": {
-						"transFrame": 180,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 900
-		},
-		"owl:tail_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": [[48.05, 67.4, 63.3], [42.1, 71.214, 47.643]]
-					},
-					"24": {
-						"transFrame": 30,
-						"moveTo": [[55, 64, 61.9], [20.929, 42.214, 30.214]]
-					},
-					"23": {
-						"transFrame": 30,
-						"moveTo": [[55, 55.9, 64.2], [20.929, 35.071, 42.5]]
-					},
-					"22": {
-						"transFrame": 30,
-						"moveTo": [[48.1, 57.8, 64.9], [42.2, 32.071, 48.3]]
-					},
-					"21": {
-						"transFrame": 30,
-						"moveTo": [[48, 55.03, 56], [20.643, 20.929, 35.7]]
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": [[48.076, 48.076, 56], [20.643, 42.3, 35.1]]
-					},
-					"25": {
-						"transFrame": 30,
-						"moveTo": [[55.3, 62.7, 61.4], [34.8, 43.929, 40.1]]
-					},
-					"17": {
-						"transFrame": 30,
-						"moveTo": [[44.976, 35.876, 56.176], [31.357, 50.786, 53.643]]
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": [[58.3, 61.5, 63.8], [57.5, 75.071, 65.357]]
-					}
-				},
-				"30": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"24": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"23": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"22": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"21": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"25": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"17": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": [[48.05, 67.4, 63.3], [42.1, 71.214, 47.643]]
-					},
-					"24": {
-						"transFrame": 30,
-						"moveTo": [[55, 64, 61.9], [20.929, 42.214, 30.214]]
-					},
-					"23": {
-						"transFrame": 30,
-						"moveTo": [[55, 55.9, 64.2], [20.929, 35.071, 42.5]]
-					},
-					"22": {
-						"transFrame": 30,
-						"moveTo": [[48.1, 57.8, 64.9], [42.2, 32.071, 48.3]]
-					},
-					"21": {
-						"transFrame": 30,
-						"moveTo": [[48, 55.03, 56], [20.643, 20.929, 35.7]]
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": [[48.076, 48.076, 56], [20.643, 42.3, 35.1]]
-					},
-					"25": {
-						"transFrame": 30,
-						"moveTo": [[55.3, 62.7, 61.4], [34.8, 43.929, 40.1]]
-					},
-					"17": {
-						"transFrame": 30,
-						"moveTo": [[44.976, 35.876, 56.176], [31.357, 50.786, 53.643]]
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": [[58.3, 61.5, 63.8], [57.5, 75.071, 65.357]]
-					}
-				},
-				"90": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"24": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"23": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"22": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"21": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"25": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"17": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 550
-		},
-		"owl:leg_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"28": {
-						"transFrame": 60,
-						"moveTo": [[43.1, 39.7, 45.2], [56.929, 61.071, 58.786]]
-					}
-				},
-				"30": {
-					"29": {
-						"transFrame": 60,
-						"moveTo": [[45.2, 43.6, 47.4], [58.786, 65.214, 60.786]]
-					}
-				},
-				"210": {
-					"28": {
-						"transFrame": 60,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 60,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 630
-		},
-		"turtle:head_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"28": {
-						"transFrame": 200,
-						"moveTo": [[81.65, 82.25, 83], [53.286, 49.857, 54.3]]
-					},
-					"27": {
-						"transFrame": 200,
-						"moveTo": [[75.35, 82.35, 81.75], [53.857, 49.857, 53.429]]
-					}
-				},
-				"200": {
-					"28": {
-						"transFrame": 200,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 200,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 400
-		},
-		"turtle:wing_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"23": {
-						"transFrame": 200,
-						"moveTo": [[60.25, 62.45, 67.95], [41.571, 19.429, 21.857]]
-					},
-					"22": {
-						"transFrame": 200,
-						"moveTo": [[60.25, 67.85, 68.05], [41.571, 21.714, 42.714]]
-					},
-					"21": {
-						"transFrame": 200,
-						"moveTo": [[55.05, 60.25, 68.05], [51.571, 41.429, 42.714]]
-					},
-					"24": {
-						"transFrame": 200,
-						"moveTo": [[62.55, 62.95, 67.95], [19.714, 11, 22]]
-					}
-				},
-				"200": {
-					"23": {
-						"transFrame": 200,
-						"moveTo": [[56.25, 55.45, 62.95], [41.571, 23.429, 21.857]]
-					},
-					"22": {
-						"transFrame": 200,
-						"moveTo": [[56.25, 62.85, 65.05], [41.571, 21.714, 41.714]]
-					},
-					"21": {
-						"transFrame": 200,
-						"moveTo": [[55.05, 56.25, 65.05], [51.571, 41.429, 41.714]]
-					},
-					"24": {
-						"transFrame": 200,
-						"moveTo": [[55.55, 53.95, 62.95], [23.714, 15, 22]]
-					}
-				},
-				"400": {
-					"23": {
-						"transFrame": 200,
-						"moveTo": null
-					},
-					"22": {
-						"transFrame": 200,
-						"moveTo": null
-					},
-					"21": {
-						"transFrame": 200,
-						"moveTo": null
-					},
-					"24": {
-						"transFrame": 200,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 600
-		},
-		"turtle:tail_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[26.35, 32.45, 21.95], [55.857, 58.714, 69.571]]
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": [[22.65, 26.45, 21.95], [61, 56.286, 69.429]]
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": [[10.65, 19.05, 30.85], [56.714, 52.143, 51.857]]
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": [[10.55, 30.85, 25.45], [56.571, 51.857, 58.143]]
-					}
-				},
-				"30": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[26.35, 32.45, 21.95], [55.857, 58.714, 69.571]]
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": [[22.65, 26.45, 21.95], [61, 56.286, 69.429]]
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": [[10.65, 19.05, 30.85], [56.714, 52.143, 51.857]]
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": [[10.55, 30.85, 25.45], [56.571, 51.857, 58.143]]
-					}
-				},
-				"90": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 400
-		},
-		"iguana:change_color": {
+		"rhino:head_move": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"0": {
-						"waitFrame": 0,
-						"transFrame": 100,
-						"editColor": "#8A8E5B"
+						"transFrame": 12,
+						"moveTo": [[15.1, 18, 21], [70.071, 56.929, 74.5]]
 					},
 					"1": {
-						"waitFrame": 2,
-						"transFrame": 100,
-						"editColor": "#1D321B"
+						"transFrame": 12,
+						"moveTo": [[17.5, 36.4, 21], [56.929, 52.071, 74.5]]
+					},
+					"30": {
+						"transFrame": 12,
+						"moveTo": [[24, 23, 13], [72.5, 73.5, 65]]
+					},
+					"31": {
+						"transFrame": 12,
+						"moveTo": [[23, 14, 15], [75.5, 64.5, 63]]
+					}
+				},
+				"12": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"30": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"31": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				},
+				"24": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": [[15.1, 18, 21], [70.071, 56.929, 74.5]]
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": [[17.5, 36.4, 21], [56.929, 52.071, 74.5]]
+					},
+					"30": {
+						"transFrame": 12,
+						"moveTo": [[24, 23, 13], [72.5, 73.5, 65]]
+					},
+					"31": {
+						"transFrame": 12,
+						"moveTo": [[23, 14, 15], [75.5, 64.5, 63]]
+					}
+				},
+				"36": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"30": {
+						"transFrame": 12,
+						"moveTo": null
+					},
+					"31": {
+						"transFrame": 12,
+						"moveTo": null
+					}
+				}
+			},
+			"totalFrame": 180
+		},
+		"peccary:head_shake": {
+			"loop": true,
+			"timeline": {
+				"0": {
+					"0": {
+						"transFrame": 12,
+						"moveTo": [[15.95, 14.95, 22.25], [78.214, 79.929, 79.929]]
+					},
+					"1": {
+						"transFrame": 12,
+						"moveTo": [[17.85, 22.05, 16.05], [58.786, 58.5, 78.214]]
 					},
 					"2": {
-						"waitFrame": 4,
-						"transFrame": 100,
-						"editColor": "#396C28"
+						"transFrame": 12,
+						"moveTo": [[15.95, 21.95, 22], [78.214, 58.214, 79.929]]
 					},
 					"3": {
-						"waitFrame": 6,
-						"transFrame": 100,
-						"editColor": "#255222"
+						"transFrame": 12,
+						"moveTo": [[21.95, 26.85, 22], [58.643, 58.357, 79.929]]
 					},
 					"4": {
-						"waitFrame": 8,
-						"transFrame": 100,
-						"editColor": "#1B4120"
-					},
-					"5": {
-						"waitFrame": 10,
-						"transFrame": 100,
-						"editColor": "#54725E"
-					},
-					"7": {
-						"waitFrame": 12,
-						"transFrame": 100,
-						"editColor": "#223322"
+						"transFrame": 12,
+						"moveTo": [[21.95, 26.85, 22.15], [58.5, 58.357, 59]]
 					},
 					"8": {
-						"waitFrame": 14,
-						"transFrame": 100,
-						"editColor": "#244D20"
-					},
-					"9": {
-						"waitFrame": 16,
-						"transFrame": 100,
-						"editColor": "#1D2E1E"
-					},
-					"11": {
-						"waitFrame": 18,
-						"transFrame": 100,
-						"editColor": "#2F5641"
-					},
-					"12": {
-						"waitFrame": 20,
-						"transFrame": 100,
-						"editColor": "#1B4120"
-					},
-					"13": {
-						"waitFrame": 22,
-						"transFrame": 100,
-						"editColor": "#1B361C"
-					},
-					"14": {
-						"waitFrame": 24,
-						"transFrame": 100,
-						"editColor": "#223322"
-					},
-					"15": {
-						"waitFrame": 26,
-						"transFrame": 100,
-						"editColor": "#335F25"
-					},
-					"16": {
-						"waitFrame": 28,
-						"transFrame": 100,
-						"editColor": "#476C3D"
-					},
-					"17": {
-						"waitFrame": 30,
-						"transFrame": 100,
-						"editColor": "#345524"
-					},
-					"19": {
-						"waitFrame": 32,
-						"transFrame": 100,
-						"editColor": "#1D2E1E"
-					},
-					"20": {
-						"waitFrame": 34,
-						"transFrame": 100,
-						"editColor": "#43642E"
-					},
-					"21": {
-						"waitFrame": 36,
-						"transFrame": 100,
-						"editColor": "#225122"
-					},
-					"22": {
-						"waitFrame": 38,
-						"transFrame": 100,
-						"editColor": "#253A1B"
-					},
-					"24": {
-						"waitFrame": 40,
-						"transFrame": 100,
-						"editColor": "#2C411C"
-					},
-					"25": {
-						"waitFrame": 42,
-						"transFrame": 100,
-						"editColor": "#1D2E1E"
-					},
-					"26": {
-						"waitFrame": 44,
-						"transFrame": 100,
-						"editColor": "#355423"
-					},
-					"27": {
-						"waitFrame": 46,
-						"transFrame": 100,
-						"editColor": "#182318"
-					},
-					"28": {
-						"waitFrame": 48,
-						"transFrame": 100,
-						"editColor": "#1A3319"
-					},
-					"29": {
-						"waitFrame": 50,
-						"transFrame": 100,
-						"editColor": "#236124"
+						"transFrame": 12,
+						"moveTo": [[26.75, 29.8, 22.55], [58.5, 79.8, 77.071]]
 					}
 				},
-				"200": {
+				"12": {
 					"0": {
-						"waitFrame": 0,
-						"transFrame": 100,
-						"editColor": "#6D7263"
+						"transFrame": 12,
+						"moveTo": null
 					},
 					"1": {
-						"waitFrame": 2,
-						"transFrame": 100,
-						"editColor": "#28262B"
+						"transFrame": 12,
+						"moveTo": null
 					},
 					"2": {
-						"waitFrame": 4,
-						"transFrame": 100,
-						"editColor": "#464247"
+						"transFrame": 12,
+						"moveTo": null
 					},
 					"3": {
-						"waitFrame": 6,
-						"transFrame": 100,
-						"editColor": "#3B3A3E"
+						"transFrame": 12,
+						"moveTo": null
 					},
 					"4": {
-						"waitFrame": 8,
-						"transFrame": 100,
-						"editColor": "#332F2F"
-					},
-					"5": {
-						"waitFrame": 10,
-						"transFrame": 100,
-						"editColor": "#717176"
-					},
-					"6": {
-						"waitFrame": 12,
-						"transFrame": 100,
-						"editColor": "#96969A"
-					},
-					"7": {
-						"waitFrame": 14,
-						"transFrame": 100,
-						"editColor": "#323232"
+						"transFrame": 12,
+						"moveTo": null
 					},
 					"8": {
-						"waitFrame": 16,
-						"transFrame": 100,
-						"editColor": "#3B3A38"
-					},
-					"9": {
-						"waitFrame": 18,
-						"transFrame": 100,
-						"editColor": "#1C1B1B"
-					},
-					"11": {
-						"waitFrame": 20,
-						"transFrame": 100,
-						"editColor": "#4C4B4A"
-					},
-					"12": {
-						"waitFrame": 22,
-						"transFrame": 100,
-						"editColor": "#3B3A3B"
-					},
-					"13": {
-						"waitFrame": 24,
-						"transFrame": 100,
-						"editColor": "#232427"
-					},
-					"14": {
-						"waitFrame": 26,
-						"transFrame": 100,
-						"editColor": "#232427"
-					},
-					"15": {
-						"waitFrame": 28,
-						"transFrame": 100,
-						"editColor": "#484344"
-					},
-					"16": {
-						"waitFrame": 30,
-						"transFrame": 100,
-						"editColor": "#545554"
-					},
-					"17": {
-						"waitFrame": 32,
-						"transFrame": 100,
-						"editColor": "#3B3A3B"
-					},
-					"18": {
-						"waitFrame": 34,
-						"transFrame": 100,
-						"editColor": "#96969A"
-					},
-					"19": {
-						"waitFrame": 36,
-						"transFrame": 100,
-						"editColor": "#1C1B1B"
-					},
-					"20": {
-						"waitFrame": 38,
-						"transFrame": 100,
-						"editColor": "#464744"
-					},
-					"21": {
-						"waitFrame": 40,
-						"transFrame": 100,
-						"editColor": "#363431"
-					},
-					"22": {
-						"waitFrame": 42,
-						"transFrame": 100,
-						"editColor": "#2A2829"
-					},
-					"24": {
-						"waitFrame": 44,
-						"transFrame": 100,
-						"editColor": "#363637"
-					},
-					"25": {
-						"waitFrame": 46,
-						"transFrame": 100,
-						"editColor": "#1C1B1B"
-					},
-					"26": {
-						"waitFrame": 48,
-						"transFrame": 100,
-						"editColor": "#2E2C2F"
-					},
-					"27": {
-						"waitFrame": 50,
-						"transFrame": 100,
-						"editColor": "#3B3A3B"
-					},
-					"28": {
-						"waitFrame": 52,
-						"transFrame": 100,
-						"editColor": "#323232"
-					},
-					"29": {
-						"waitFrame": 54,
-						"transFrame": 100,
-						"editColor": "#595656"
+						"transFrame": 12,
+						"moveTo": null
 					}
 				},
-				"400": {
+				"24": {
 					"0": {
-						"waitFrame": 0,
-						"transFrame": 100
+						"transFrame": 12,
+						"moveTo": [[15.95, 14.95, 22.25], [78.214, 79.929, 79.929]]
 					},
 					"1": {
-						"waitFrame": 2,
-						"transFrame": 100
+						"transFrame": 12,
+						"moveTo": [[17.85, 22.05, 16.05], [58.786, 58.5, 78.214]]
 					},
 					"2": {
-						"waitFrame": 4,
-						"transFrame": 100
+						"transFrame": 12,
+						"moveTo": [[15.95, 21.95, 22], [78.214, 58.214, 79.929]]
 					},
 					"3": {
-						"waitFrame": 6,
-						"transFrame": 100
+						"transFrame": 12,
+						"moveTo": [[21.95, 26.85, 22], [58.643, 58.357, 79.929]]
 					},
 					"4": {
-						"waitFrame": 8,
-						"transFrame": 100
-					},
-					"5": {
-						"waitFrame": 10,
-						"transFrame": 100
-					},
-					"6": {
-						"waitFrame": 12,
-						"transFrame": 100
-					},
-					"7": {
-						"waitFrame": 14,
-						"transFrame": 100
+						"transFrame": 12,
+						"moveTo": [[21.95, 26.85, 22.15], [58.5, 58.357, 59]]
 					},
 					"8": {
-						"waitFrame": 16,
-						"transFrame": 100
-					},
-					"9": {
-						"waitFrame": 18,
-						"transFrame": 100
-					},
-					"10": {
-						"waitFrame": 20,
-						"transFrame": 100
-					},
-					"11": {
-						"waitFrame": 22,
-						"transFrame": 100
-					},
-					"12": {
-						"waitFrame": 24,
-						"transFrame": 100
-					},
-					"13": {
-						"waitFrame": 26,
-						"transFrame": 100
-					},
-					"14": {
-						"waitFrame": 28,
-						"transFrame": 100
-					},
-					"15": {
-						"waitFrame": 30,
-						"transFrame": 100
-					},
-					"16": {
-						"waitFrame": 32,
-						"transFrame": 100
-					},
-					"17": {
-						"waitFrame": 34,
-						"transFrame": 100
-					},
-					"18": {
-						"waitFrame": 36,
-						"transFrame": 100
-					},
-					"19": {
-						"waitFrame": 38,
-						"transFrame": 100
-					},
-					"20": {
-						"waitFrame": 40,
-						"transFrame": 100
-					},
-					"21": {
-						"waitFrame": 42,
-						"transFrame": 100
-					},
-					"22": {
-						"waitFrame": 44,
-						"transFrame": 100
-					},
-					"23": {
-						"waitFrame": 46,
-						"transFrame": 100
-					},
-					"24": {
-						"waitFrame": 48,
-						"transFrame": 100
-					},
-					"25": {
-						"waitFrame": 50,
-						"transFrame": 100
-					},
-					"26": {
-						"waitFrame": 52,
-						"transFrame": 100
-					},
-					"27": {
-						"waitFrame": 54,
-						"transFrame": 100
-					},
-					"28": {
-						"waitFrame": 56,
-						"transFrame": 100
-					},
-					"29": {
-						"waitFrame": 58,
-						"transFrame": 100
-					}
-				}
-			},
-			"totalFrame": 600
-		},
-		"seahorse:mouth_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"0": {
-						"transFrame": 120,
-						"moveTo": [[23.96, 22.9, 25.5], [44.643, 50.643, 49]]
+						"transFrame": 12,
+						"moveTo": [[26.75, 29.8, 22.55], [58.5, 79.8, 77.071]]
 					}
 				},
-				"240": {
+				"36": {
 					"0": {
-						"transFrame": 240,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 480
-		},
-		"seahorse:tail_wink": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"29": {
-						"transFrame": 240,
-						"moveTo": [[72, 75.5, 73.5], [64.214, 66.8, 67.45]]
-					}
-				},
-				"240": {
-					"29": {
-						"transFrame": 120,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 480
-		},
-		"armadillo:head_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"0": {
-						"transFrame": 160,
-						"moveTo": [[19.4, 18, 22.75], [78.8, 74.2, 68.1]]
-					},
-					"1": {
-						"transFrame": 160,
-						"moveTo": [[17.95, 20.95, 24.55], [74.5, 57.357, 57.786]]
-					},
-					"2": {
-						"transFrame": 160,
-						"moveTo": [[17.75, 24.35, 22.75], [74.8, 57.5, 68.214]]
-					},
-					"3": {
-						"transFrame": 160,
-						"moveTo": [[22.65, 24.25, 28.05], [68.071, 57.643, 72.786]]
-					},
-					"4": {
-						"transFrame": 160,
-						"moveTo": [[19.36, 22.7, 28.2], [78.8, 68.1, 72.8]]
-					},
-					"5": {
-						"transFrame": 160,
-						"moveTo": [[20.2, 25.95, 21.65], [77.8, 74, 78.7]]
-					}
-				},
-				"130": {
-					"0": {
-						"transFrame": 260,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"1": {
-						"transFrame": 260,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"2": {
-						"transFrame": 260,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"3": {
-						"transFrame": 260,
+						"transFrame": 12,
 						"moveTo": null
 					},
 					"4": {
-						"transFrame": 260,
+						"transFrame": 12,
 						"moveTo": null
 					},
-					"5": {
-						"transFrame": 260,
-						"moveTo": null
-					}
-				},
-				"390": {
-					"7": {
-						"transFrame": 20,
-						"moveTo": [[21.75, 25.45, 25.75], [58.214, 49.071, 62.071]]
-					}
-				},
-				"410": {
-					"7": {
-						"transFrame": 20,
-						"moveTo": null
-					}
-				},
-				"430": {
-					"7": {
-						"transFrame": 20,
-						"moveTo": [[21.75, 25.45, 25.75], [58.214, 49.071, 62.071]]
-					}
-				},
-				"450": {
-					"7": {
-						"transFrame": 20,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 600
-		},
-		"sloth:hand_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"28": {
-						"transFrame": 500,
-						"moveTo": [[63.15, 80.35, 71.55], [54, 68.143, 70.286]]
-					},
-					"29": {
-						"transFrame": 500,
-						"moveTo": [[71.35, 81.75, 80.35], [70.2, 77.286, 68]]
-					}
-				},
-				"500": {
-					"28": {
-						"transFrame": 500,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 500,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 1000
-		},
-		"kakapo:wing_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
 					"8": {
-						"transFrame": 50,
-						"moveTo": [[10.612, 33.813, 22.213], [33.268, 25.268, 33.268]]
-					},
-					"9": {
-						"transFrame": 50,
-						"editColor": "#436A2C",
-						"moveTo": [[21.513, 39.813, 23.413], [33.125, 51.8, 43.125]]
-					},
-					"15": {
-						"transFrame": 50,
-						"editColor": "#6AA84E",
-						"moveTo": [[34.041, 58.841, 56.741], [25.2, 3.871, 12.299]]
-					},
-					"11": {
-						"transFrame": 50,
-						"editColor": "#32401E",
-						"moveTo": [[46.413, 56.712, 66.712], [41.696, 12.2, 23]]
-					},
-					"16": {
-						"transFrame": 50,
-						"editColor": "#283214",
-						"moveTo": [[33.712, 56.612, 46.513], [25.411, 12.411, 41.696]]
-					},
-					"12": {
-						"transFrame": 50,
-						"editColor": "#32401E",
-						"moveTo": [[33.953, 46.453, 21.353], [25.21, 41.781, 33.353]]
-					},
-					"13": {
-						"transFrame": 50,
-						"editColor": "#39512C",
-						"moveTo": [[21.253, 46.353, 39.753], [33.353, 41.781, 51.781]]
-					},
-					"25": {
-						"transFrame": 50,
-						"editColor": "#445F2F",
-						"moveTo": [[46.453, 62.153, 39.753], [40.781, 48.6, 51.781]]
-					},
-					"26": {
-						"transFrame": 50,
-						"editColor": "#39512C",
-						"moveTo": [[46.453, 66.653, 62.23], [41.638, 23.067, 49.21]]
-					},
-					"27": {
-						"transFrame": 50,
-						"editColor": "#519F4B",
-						"moveTo": [[56.741, 58.741, 66.741], [12.228, 3.656, 23.085]]
-					},
-					"23": {
-						"transFrame": 50,
-						"moveTo": [[58.653, 69.053, 63.2], [32.281, 44.138, 54.4]]
-					},
-					"24": {
-						"transFrame": 50,
-						"moveTo": [[42.45, 62.195, 63.25], [66.337, 48.766, 54.337]]
-					}
-				},
-				"200": {
-					"8": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"9": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"15": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"11": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"16": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"12": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"13": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"25": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"26": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"23": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"24": {
-						"transFrame": 50,
+						"transFrame": 12,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 550
-		},
-		"kakapo:head_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"4": {
-						"transFrame": 30,
-						"moveTo": [[9.353, 12.853, 10.253], [45.567, 54.281, 51.138]]
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": [[9.353, 12.753, 12.553], [45.424, 44.996, 54.71]]
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": [[12.753, 12.753, 20.853], [50.424, 44.996, 56.138]]
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": [[63.153, 70.753, 89.153], [54.138, 51.424, 66.996]]
-					}
-				},
-				"30": {
-					"4": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"4": {
-						"transFrame": 30,
-						"moveTo": [[9.353, 12.853, 10.253], [45.567, 54.281, 51.138]]
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": [[9.353, 12.753, 12.553], [45.424, 44.996, 54.71]]
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": [[12.753, 12.753, 20.853], [50.424, 44.996, 56.138]]
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": [[63.153, 70.753, 89.153], [54.138, 51.424, 66.996]]
-					}
-				},
-				"90": {
-					"4": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 250
-		},
-		"echidna:leg_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"13": {
-						"transFrame": 200,
-						"moveTo": [[34, 36, 39.4], [79.286, 72, 81.143]]
-					},
-					"14": {
-						"transFrame": 200,
-						"moveTo": [[32.1, 45.2, 34], [64.286, 69.286, 79.429]]
-					}
-				},
-				"400": {
-					"13": {
-						"transFrame": 200,
-						"moveTo": null
-					},
-					"14": {
-						"transFrame": 200,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 800
-		},
-		"echidna:head_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[13.4, 22.2, 23.9], [75.429, 61.143, 63.429]]
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[13.4, 21.5, 14.7], [75.286, 66.143, 76.429]]
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": [[23.6, 26.9, 19.9], [63.429, 63.714, 68.286]]
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": [[24.8, 26, 27.2], [60.571, 59.429, 58.571]]
-					}
-				},
-				"30": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[13.4, 22.2, 23.9], [75.429, 61.143, 63.429]]
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[13.4, 21.5, 14.7], [75.286, 66.143, 76.429]]
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": [[23.6, 26.9, 19.9], [63.429, 63.714, 68.286]]
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": [[24.8, 26, 27.2], [60.571, 59.429, 58.571]]
-					}
-				},
-				"90": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"5": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"6": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 250
-		},
-		"penguin:body_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"7": {
-						"transFrame": 180,
-						"moveTo": [[46.95, 58.95, 56.75], [80.714, 77.143, 82.571]]
-					},
-					"26": {
-						"transFrame": 180,
-						"moveTo": [[60.55, 63.05, 65.45], [62.714, 53.571, 69.429]]
-					}
-				},
-				"180": {
-					"7": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"26": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"6": {
-						"transFrame": 180,
-						"moveTo": [[40.75, 51.35, 49.05], [84.571, 85, 82.857]]
-					},
-					"2": {
-						"transFrame": 180,
-						"moveTo": [[38.15, 31.65, 52.75], [57.857, 78.571, 51]]
-					},
-					"3": {
-						"transFrame": 180,
-						"moveTo": [[44.65, 35.85, 52.85], [39.571, 59.429, 50.857]]
-					}
-				},
-				"360": {
-					"6": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 180,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 500
+			"totalFrame": 180
 		},
 		"loris:wink_hand": {
 			"loop": true,
 			"timeline": {
 				"0": {
 					"27": {
-						"transFrame": 240,
+						"transFrame": 72,
 						"moveTo": [[60.15, 67.55, 66.55], [38.929, 32.357, 51.929]]
 					},
 					"28": {
-						"transFrame": 240,
+						"transFrame": 72,
 						"moveTo": [[60.25, 66.65, 64.65], [38.929, 48.786, 55.071]]
 					},
 					"29": {
-						"transFrame": 240,
+						"transFrame": 72,
 						"moveTo": [[64.65, 66.65, 75.25], [54.643, 48.643, 59.5]]
 					}
 				},
-				"240": {
+				"72": {
 					"27": {
-						"transFrame": 240,
+						"transFrame": 72,
 						"moveTo": null
 					},
 					"28": {
-						"transFrame": 240,
+						"transFrame": 72,
 						"moveTo": null
 					},
 					"29": {
-						"transFrame": 240,
+						"transFrame": 72,
 						"moveTo": null
 					}
 				}
 			},
-			"totalFrame": 480
-		},
-		"damselfly:wing_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": [[31.6, 69.5, 41.5], [39, 53.714, 30.857]]
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": [[53.4, 69.5, 45.4], [40.714, 53.857, 42.286]]
-					},
-					"28": {
-						"transFrame": 30,
-						"moveTo": [[42.7, 45.5, 55.5], [45, 30, 41.429]]
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": [[42.7, 34, 45.6], [45, 31.857, 30.143]]
-					}
-				},
-				"30": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"28": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": [[31.6, 69.5, 41.5], [39, 53.714, 30.857]]
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": [[53.4, 69.5, 45.4], [40.714, 53.857, 42.286]]
-					},
-					"28": {
-						"transFrame": 30,
-						"moveTo": [[42.7, 45.5, 55.5], [45, 30, 41.429]]
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": [[42.7, 34, 45.6], [45, 31.857, 30.143]]
-					}
-				},
-				"90": {
-					"26": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"28": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 300
-		},
-		"bear:head_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"0": {
-						"transFrame": 180,
-						"moveTo": [[28.35, 31.45, 31.7], [14.214, 10.2, 18.5]]
-					},
-					"29": {
-						"transFrame": 180,
-						"moveTo": [[28.25, 29.05, 29.3], [14.4, 13.3, 15.786]]
-					},
-					"30": {
-						"transFrame": 180,
-						"moveTo": [[30.25, 32.05, 30.8], [21.214, 18.071, 15.786]]
-					},
-					"31": {
-						"transFrame": 180,
-						"moveTo": [[30.25, 31.7, 31.7], [21.214, 18.7, 32.786]]
-					},
-					"32": {
-						"transFrame": 180,
-						"moveTo": [[31.3, 33.7, 31.6], [30.214, 34.7, 32.786]]
-					}
-				},
-				"220": {
-					"0": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"30": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"31": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"32": {
-						"transFrame": 180,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 400
-		},
-		"parrotfish:mouth_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"28": {
-						"transFrame": 240,
-						"moveTo": [[82, 86.45, 87.413], [47.9, 43.5, 45.7]]
-					},
-					"29": {
-						"transFrame": 240,
-						"moveTo": [[82, 86.3, 85.413], [48, 51.571, 53.286]]
-					}
-				},
-				"240": {
-					"28": {
-						"transFrame": 120,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 120,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 600
-		},
-		"parrotfish:gills_twitch": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"18": {
-						"transFrame": 30,
-						"moveTo": [[53.15, 56.8, 68.5], [38.35, 33.4, 48.3]]
-					},
-					"19": {
-						"transFrame": 30,
-						"moveTo": [[51.84, 53.212, 68.5], [44.6, 38.286, 48.2]]
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": [[51.812, 68.4, 55.112], [44.3, 48, 53.429]]
-					}
-				},
-				"30": {
-					"18": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"19": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"18": {
-						"transFrame": 30,
-						"moveTo": [[53.15, 56.8, 68.5], [38.35, 33.4, 48.3]]
-					},
-					"19": {
-						"transFrame": 30,
-						"moveTo": [[51.84, 53.212, 68.5], [44.6, 38.286, 48.2]]
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": [[51.812, 68.4, 55.112], [44.3, 48, 53.429]]
-					}
-				},
-				"90": {
-					"18": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"19": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"20": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 270
-		},
-		"camel:hand_move": {
-			"loop": false,
-			"timeline": {
-				"0": {
-					"30": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"31": {
-						"transFrame": 160,
-						"moveTo": null
-					}
-				},
-				"500": {
-					"18": {
-						"transFrame": 160,
-						"moveTo": [[61.85, 72.75, 60.65], [32.857, 43.571, 56.4]]
-					},
-					"19": {
-						"transFrame": 160,
-						"moveTo": [[61.85, 68.95, 73.15], [32.9, 27, 30.143]]
-					},
-					"20": {
-						"transFrame": 160,
-						"moveTo": [[61.85, 72.95, 72.45], [32.857, 30, 44.143]]
-					},
-					"21": {
-						"transFrame": 160,
-						"moveTo": [[61.35, 72.55, 64.8], [55.429, 43.714, 64]]
-					},
-					"22": {
-						"transFrame": 160,
-						"moveTo": [[63.75, 72.5, 72.25], [66.429, 43.714, 58.429]]
-					},
-					"23": {
-						"transFrame": 160,
-						"moveTo": [[72.85, 78.65, 71.85], [29, 49.143, 62.143]]
-					},
-					"24": {
-						"transFrame": 160,
-						"moveTo": [[72.85, 78.85, 79.25], [30.143, 34.8, 54.714]]
-					},
-					"25": {
-						"transFrame": 160,
-						"moveTo": [[68.85, 71.65, 79.15], [26.571, 19.571, 25.857]]
-					},
-					"26": {
-						"transFrame": 160,
-						"moveTo": [[73.05, 73.55, 79.15], [26.286, 18.571, 26]]
-					},
-					"27": {
-						"transFrame": 160,
-						"moveTo": [[68.75, 82.25, 73.95], [26.714, 25.286, 31.286]]
-					},
-					"28": {
-						"transFrame": 160,
-						"moveTo": [[73.85, 82.25, 84.95], [31.143, 25.286, 30.286]]
-					},
-					"29": {
-						"transFrame": 160,
-						"moveTo": [[73.85, 84.15, 78.85], [31.143, 30.286, 34.857]]
-					},
-					"30": {
-						"transFrame": 160,
-						"moveTo": [[84, 83, 81], [32.5, 33.5, 22]]
-					}
-				},
-				"720": {
-					"18": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"19": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"20": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"21": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"22": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"23": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"24": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"25": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"26": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"28": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 160,
-						"moveTo": null
-					},
-					"30": {
-						"transFrame": 160,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 900
-		},
-		"camel:mouth_move": {
-			"loop": true,
-			"timeline": {
-				"600": {
-					"24": {
-						"transFrame": 180,
-						"moveTo": [[70.85, 75.85, 77.25], [29.143, 33.143, 51.714]]
-					},
-					"29": {
-						"transFrame": 180,
-						"moveTo": [[70.85, 80.15, 75.85], [29.143, 31.286, 33.857]]
-					},
-					"30": {
-						"transFrame": 180,
-						"moveTo": [[79, 78, 76], [33.5, 34.5, 24]]
-					}
-				},
-				"780": {
-					"24": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 180,
-						"moveTo": null
-					},
-					"30": {
-						"transFrame": 180,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 900
-		},
-		"butterfly:body_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"0": {
-						"transFrame": 50,
-						"moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
-					},
-					"1": {
-						"transFrame": 50,
-						"moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
-					},
-					"2": {
-						"transFrame": 50,
-						"moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
-					},
-					"3": {
-						"transFrame": 50,
-						"moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
-					},
-					"4": {
-						"transFrame": 50,
-						"moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
-					},
-					"5": {
-						"transFrame": 50,
-						"moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
-					},
-					"6": {
-						"transFrame": 50,
-						"moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
-					},
-					"7": {
-						"transFrame": 50,
-						"moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
-					},
-					"8": {
-						"transFrame": 50,
-						"moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
-					},
-					"9": {
-						"transFrame": 50,
-						"moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
-					},
-					"20": {
-						"transFrame": 50,
-						"moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
-					},
-					"21": {
-						"transFrame": 50,
-						"moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
-					},
-					"22": {
-						"transFrame": 50,
-						"moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
-					},
-					"23": {
-						"transFrame": 50,
-						"moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
-					},
-					"24": {
-						"transFrame": 50,
-						"moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
-					},
-					"25": {
-						"transFrame": 50,
-						"moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
-					},
-					"26": {
-						"transFrame": 50,
-						"moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
-					},
-					"27": {
-						"transFrame": 50,
-						"moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
-					},
-					"28": {
-						"transFrame": 50,
-						"moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
-					},
-					"29": {
-						"transFrame": 50,
-						"moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
-					}
-				},
-				"50": {
-					"0": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"4": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"5": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"6": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"7": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"8": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"9": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"20": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"21": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"22": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"23": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"24": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"25": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"26": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"28": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 50,
-						"moveTo": null
-					}
-				},
-				"100": {
-					"0": {
-						"transFrame": 50,
-						"moveTo": [[31.15, 39.25, 46.55], [16.5, 27.643, 47.929]]
-					},
-					"1": {
-						"transFrame": 50,
-						"moveTo": [[31.15, 30.9, 33.25], [16.5, 53.929, 34.3]]
-					},
-					"2": {
-						"transFrame": 50,
-						"moveTo": [[31.05, 32, 38.4], [16.5, 36.3, 27.5]]
-					},
-					"3": {
-						"transFrame": 50,
-						"moveTo": [[32, 38.3, 46.6], [36.214, 27.4, 48.2]]
-					},
-					"4": {
-						"transFrame": 50,
-						"moveTo": [[31.9, 46.55, 30.85], [36.1, 48.214, 53.929]]
-					},
-					"5": {
-						"transFrame": 50,
-						"moveTo": [[30.75, 46.55, 46.05], [53.786, 48.071, 52.643]]
-					},
-					"6": {
-						"transFrame": 50,
-						"moveTo": [[34.25, 45.95, 33.65], [55.5, 52.786, 64.786]]
-					},
-					"7": {
-						"transFrame": 50,
-						"moveTo": [[34.15, 45.95, 37.05], [55.5, 52.929, 57.643]]
-					},
-					"8": {
-						"transFrame": 50,
-						"moveTo": [[35.45, 36.45, 35.35], [60.5, 61.214, 62.071]]
-					},
-					"9": {
-						"transFrame": 50,
-						"moveTo": [[33.55, 45.85, 38.45], [64.643, 52.929, 70.214]]
-					},
-					"20": {
-						"transFrame": 50,
-						"moveTo": [[48.45, 55.95, 49.95], [54.214, 68.214, 75.214]]
-					},
-					"21": {
-						"transFrame": 50,
-						"moveTo": [[48.35, 55.95, 51.65], [54.214, 68.071, 64.786]]
-					},
-					"22": {
-						"transFrame": 50,
-						"moveTo": [[48.45, 49.95, 45.05], [54.214, 75.214, 74.214]]
-					},
-					"23": {
-						"transFrame": 50,
-						"moveTo": [[51.05, 51.85, 51.25], [70.071, 70.357, 71.929]]
-					},
-					"24": {
-						"transFrame": 50,
-						"moveTo": [[48.35, 50.35, 58.75], [54.214, 49.929, 70.786]]
-					},
-					"25": {
-						"transFrame": 50,
-						"moveTo": [[50.45, 64.85, 76.55], [50.071, 43.929, 48.929]]
-					},
-					"26": {
-						"transFrame": 50,
-						"moveTo": [[50.45, 64.75, 65.85], [50.071, 45.214, 57.5]]
-					},
-					"27": {
-						"transFrame": 50,
-						"moveTo": [[50.35, 65.85, 58.65], [50.071, 57.357, 70.786]]
-					},
-					"28": {
-						"transFrame": 50,
-						"moveTo": [[64.65, 76.55, 65.85], [45, 48.929, 57.5]]
-					},
-					"29": {
-						"transFrame": 50,
-						"moveTo": [[65.75, 76.65, 58.65], [57.357, 48.929, 70.786]]
-					}
-				},
-				"150": {
-					"0": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"4": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"5": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"6": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"7": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"8": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"9": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"20": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"21": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"22": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"23": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"24": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"25": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"26": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"27": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"28": {
-						"transFrame": 50,
-						"moveTo": null
-					},
-					"29": {
-						"transFrame": 50,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 400
-		},
-		"tapir:head_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[11.6, 14.9, 13.9], [81.286, 79, 74.429]]
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[9.9, 11.7, 13.95], [72.3, 81.2, 74.571]]
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": [[9.8, 13.8, 18], [72.3, 74.571, 65.7]]
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": [[9.9, 17.9, 11.7], [72.4, 65.857, 56.286]]
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": [[15, 18, 17.4], [41.857, 40, 47.429]]
-					}
-				},
-				"30": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[11.6, 14.9, 13.9], [81.286, 79, 74.429]]
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[9.9, 11.7, 13.95], [72.3, 81.2, 74.571]]
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": [[9.8, 13.8, 18], [72.3, 74.571, 65.7]]
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": [[9.9, 17.9, 11.7], [72.4, 65.857, 56.286]]
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": [[15, 18, 17.4], [41.857, 40, 47.429]]
-					}
-				},
-				"90": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 400
-		},
-		"rhino:leg_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"9": {
-						"transFrame": 140,
-						"moveTo": [[28.6, 37.2, 30.4], [62.5, 60.071, 82.786]]
-					},
-					"10": {
-						"transFrame": 140,
-						"moveTo": [[30.3, 34.7, 36.7], [82.786, 68.071, 82.8]]
-					}
-				},
-				"180": {
-					"9": {
-						"transFrame": 140,
-						"moveTo": [[28.6, 37.2, 34.4], [62.5, 60.071, 80.786]]
-					},
-					"10": {
-						"transFrame": 140,
-						"moveTo": [[34.3, 35.9, 39.7], [80.786, 69.071, 74.8]]
-					}
-				},
-				"360": {
-					"9": {
-						"transFrame": 140,
-						"moveTo": null
-					},
-					"10": {
-						"transFrame": 140,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 600
-		},
-		"rhino:head_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[17.5, 36.4, 21], [56.929, 52.071, 74.5]]
-					},
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[15.1, 18, 21], [70.071, 56.929, 74.5]]
-					},
-					"30": {
-						"transFrame": 30,
-						"moveTo": [[24, 23, 13], [72.5, 73.5, 65]]
-					},
-					"31": {
-						"transFrame": 30,
-						"moveTo": [[23, 14, 15], [75.5, 64.5, 63]]
-					}
-				},
-				"30": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"30": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"31": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[17.5, 36.4, 21], [56.929, 52.071, 74.5]]
-					},
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[15.1, 18, 21], [70.071, 56.929, 74.5]]
-					},
-					"30": {
-						"transFrame": 30,
-						"moveTo": [[24, 23, 13], [72.5, 73.5, 65]]
-					},
-					"31": {
-						"transFrame": 30,
-						"moveTo": [[23, 14, 15], [75.5, 64.5, 63]]
-					}
-				},
-				"90": {
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"30": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"31": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 300
-		},
-		"peccary:hand_move": {
-			"loop": true,
-			"timeline": {
-				"0": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[15.95, 14.95, 22.25], [78.214, 79.929, 79.929]]
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[17.85, 22.05, 16.05], [58.786, 58.5, 78.214]]
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": [[15.95, 21.95, 22], [78.214, 58.214, 79.929]]
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": [[21.95, 26.85, 22], [58.643, 58.357, 79.929]]
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": [[21.95, 26.85, 22.15], [58.5, 58.357, 59]]
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": [[26.75, 29.8, 22.55], [58.5, 79.8, 77.071]]
-					}
-				},
-				"30": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				},
-				"60": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": [[15.95, 14.95, 22.25], [78.214, 79.929, 79.929]]
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": [[17.85, 22.05, 16.05], [58.786, 58.5, 78.214]]
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": [[15.95, 21.95, 22], [78.214, 58.214, 79.929]]
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": [[21.95, 26.85, 22], [58.643, 58.357, 79.929]]
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": [[21.95, 26.85, 22.15], [58.5, 58.357, 59]]
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": [[26.75, 29.8, 22.55], [58.5, 79.8, 77.071]]
-					}
-				},
-				"90": {
-					"0": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"1": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"2": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"3": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"4": {
-						"transFrame": 30,
-						"moveTo": null
-					},
-					"8": {
-						"transFrame": 30,
-						"moveTo": null
-					}
-				}
-			},
-			"totalFrame": 400
+			"totalFrame": 240
 		}
 	}
 }

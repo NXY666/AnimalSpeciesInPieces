@@ -20,7 +20,7 @@ public class TriangleNode {
 			{triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25), triPos[0] + getRandInt(-25, 25)},//在画布范围内随机取x点
 			{triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25), triPos[1] + getRandInt(-25, 25)}//在画布范围内随机取y点
 		};
-		this.oldColor = this.nowColor = this.setColor = Color.decode(setColor);
+		this.oldColor = this.nowColor = this.setColor = DataContainer.ColorDecoder(setColor);
 	}
 
 	public TriangleNode() {
@@ -50,7 +50,7 @@ public class TriangleNode {
 		this.setP = setP;
 		this.oldColor = this.nowColor;
 		if (setColorStr != null) {
-			this.setColor = Color.decode(setColorStr);
+			this.setColor = DataContainer.ColorDecoder(setColorStr);
 		}
 
 		this.waitFrame = waitFrame;
@@ -106,19 +106,29 @@ public class TriangleNode {
 		int disRed = setColor.getRed() - oldColor.getRed();
 		int disGreen = setColor.getGreen() - oldColor.getGreen();
 		int disBlue = setColor.getBlue() - oldColor.getBlue();
-		nowColor = new Color((int) (oldColor.getRed() + disRed * distPercent), (int) (oldColor.getGreen() + disGreen * distPercent), (int) (oldColor.getBlue() + disBlue * distPercent));
+		int disAlpha = setColor.getAlpha() - oldColor.getAlpha();
+		nowColor = new Color((int) (oldColor.getRed() + disRed * distPercent), (int) (oldColor.getGreen() + disGreen * distPercent), (int) (oldColor.getBlue() + disBlue * distPercent), (int) (oldColor.getAlpha() + disAlpha * distPercent));
 	}
 
-	public void render(Graphics2D graphics2D) {
+	public void runFrame() {
+		runFrame(true);
+	}
+
+	public void runFrame(boolean addFrame) {
 		if (waitFrame > 0) {
 			waitFrame--;
 		} else if (usedFrame <= totalFrame) {
 			for (int i = 0; i < 3; i++) {
 				fadePoint(i);
 			}
-			usedFrame++;
+			if (addFrame) {
+				usedFrame++;
+			}
 		}
-		graphics2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+	}
+
+	public void render(Graphics2D graphics2D, boolean isAddFrame) {
+		runFrame(isAddFrame);
 		graphics2D.setColor(nowColor);
 		graphics2D.fillPolygon(new Polygon(nowP[0], nowP[1], 3));
 	}

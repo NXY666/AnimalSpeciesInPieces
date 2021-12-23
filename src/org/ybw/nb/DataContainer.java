@@ -4,15 +4,20 @@ import com.google.gson.Gson;
 import org.ybw.nb.animations.*;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.util.HashMap;
 
 public class DataContainer {
-	static final double SCREEN_X_SCALE = 12.6 / 4, SCREEN_Y_SCALE = 9.0 / 4;
+	static final double SCREEN_X_SCALE = 12.6 / 2, SCREEN_Y_SCALE = 9.0 / 2;
+	static final long FRAME_PER_SECOND = 60;
 	//第X个图 第X个结点 XorY 第X个XorY
 	static int[][][][] NODE_COORDINATE_DATA;
 	static String[][] NODE_COLOR_SET;
 	static String[] BG_COLOR_SET;
 	static Animation[] ANIMATIONS;
+
+	static BufferedImage GRAD_BG;
 
 	static public void init() {
 		try {
@@ -76,10 +81,104 @@ public class DataContainer {
 					}
 				}
 			}
+			// 初始化背景图
+			GRAD_BG = DataContainer.adaptImageSize(DataContainer.setImageTransparent(Resource.getImage("#resource_pack/images/grad-bg.png"), 0.3f), new Color(0, 0, 0, 0), (int) (SCREEN_X_SCALE * 150), (int) (SCREEN_Y_SCALE * 150), AdaptType.FitScreen);
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, "资源初始化失败，请检查资源包文件。(" + e + ")", "错误", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 			System.exit(1);
 		}
+	}
+
+	static public long timeToFrame(int millis) {
+		return millis * FRAME_PER_SECOND / 1000;
+	}
+
+	static public Color ColorDecoder(String colorStr) {
+		int colorInt;
+		if (colorStr.length() == 7) {
+			colorInt = Integer.parseInt(colorStr.substring(1), 16) | 0xff000000;
+		} else {
+			colorInt = Integer.parseUnsignedInt(colorStr.substring(1), 16);
+		}
+		return new Color((colorInt >>> 16) & 0xff, (colorInt >>> 8) & 0xff, (colorInt) & 0xff, (colorInt >>> 24) & 0xff);
+	}
+
+	static public BufferedImage adaptImageSize(BufferedImage imageBi, Color backcolor, int frameWidth, int frameHeight, AdaptType adaptType) {
+		BufferedImage frameBi = new BufferedImage(frameWidth, frameHeight, BufferedImage.TYPE_INT_ARGB);
+		Graphics2D frameGraphics = frameBi.createGraphics();
+		frameGraphics.setColor(backcolor);
+		frameGraphics.fillRect(0, 0, frameWidth, frameHeight);
+
+		int imageWidth = imageBi.getWidth();
+		int imageHeight = imageBi.getHeight();
+
+		int bgX, bgY, bgW, bgH;
+		switch (adaptType) {
+			case FitScreen -> {
+				double sW = (double) imageWidth / frameWidth, sH = (double) imageHeight / frameHeight, maxS = Math.max(sW, sH);
+				if (sW > 1 || sH > 1) {
+					if (sW >= sH) {
+						bgW = frameWidth;
+						bgH = (int) (imageHeight / maxS);
+						bgX = 0;
+						bgY = (frameHeight - bgH) / 2;
+					} else {
+						bgW = (int) (imageWidth / maxS);
+						bgH = frameHeight;
+						bgX = (frameWidth - bgW) / 2;
+						bgY = 0;
+					}
+				} else if (sW < 1 || sH < 1) {
+					if (sW >= sH) {
+						bgW = frameWidth;
+						bgH = (int) (imageHeight / maxS);
+						bgX = 0;
+						bgY = (frameHeight - bgH) / 2;
+					} else {
+						bgW = (int) (imageWidth / maxS);
+						bgH = frameHeight;
+						bgX = (frameWidth - bgW) / 2;
+						bgY = 0;
+					}
+				} else {
+					bgW = frameWidth;
+					bgH = frameHeight;
+					bgX = 0;
+					bgY = 0;
+				}
+			}
+			case FitCenter -> {
+				bgX = (frameWidth - imageWidth) / 2;
+				bgY = (frameHeight - imageHeight) / 2;
+				bgW = imageWidth;
+				bgH = imageHeight;
+			}
+			default -> {
+				bgX = 0;
+				bgY = 0;
+				bgW = imageWidth;
+				bgH = imageHeight;
+			}
+		}
+		frameGraphics.setRenderingHint(
+			RenderingHints.KEY_INTERPOLATION,
+			RenderingHints.VALUE_INTERPOLATION_NEAREST_NEIGHBOR);
+		frameGraphics.drawImage(imageBi, bgX, bgY, bgW, bgH, null);
+		return frameBi;
+	}
+
+	static public BufferedImage setImageTransparent(BufferedImage bi, float alpha) {
+		int w = bi.getWidth(), h = bi.getHeight();
+		BufferedImage bufferedImage = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+		Graphics2D graphics2D = bufferedImage.createGraphics();
+		graphics2D.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha));
+		graphics2D.drawImage(bi, 0, 0, w, h, null);
+		return bufferedImage;
+	}
+
+	enum AdaptType {
+		FitScreen,
+		FitCenter
 	}
 }
