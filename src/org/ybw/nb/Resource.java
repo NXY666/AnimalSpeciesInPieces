@@ -2,6 +2,8 @@ package org.ybw.nb;
 
 import com.google.gson.Gson;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.stream.Collectors;
 
@@ -30,5 +32,9 @@ public class Resource {
 	public static <T> T getJson(String path, Class<T> clazz) throws IOException {
 		String jsonStr = getString(path);
 		return new Gson().fromJson(jsonStr, clazz);
+	}
+
+	public static BufferedImage getImage(String path) throws IOException {
+		return ImageIO.read(getStream(path));
 	}
 }

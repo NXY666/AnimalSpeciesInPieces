@@ -29,7 +29,7 @@ public class FrameContainer extends JFrame {
 
 		// 窗口大小
 		this.setResizable(false);
-		this.setSize((int) (DataContainer.SCREEN_X_SCALE * 100), (int) (DataContainer.SCREEN_Y_SCALE * 100) + 40);
+		this.setSize((int) (DataContainer.SCREEN_X_SCALE * 100), (int) (DataContainer.SCREEN_Y_SCALE * 100));
 
 		// 窗口位置
 		Dimension d = Toolkit.getDefaultToolkit().getScreenSize();

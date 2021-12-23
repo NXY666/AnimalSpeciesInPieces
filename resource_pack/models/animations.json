@@ -7,17 +7,21 @@
 		},
 		{
 			"timeline": {
-				"250": ["vaquita:hand_move", "vaquita:tail_wink"]
+				"250": ["vaquita:hand_move", "vaquita:tail_wink", "vaquita:bubble_shine1"],
+				"268": ["vaquita:bubble_shine2"],
+				"286": ["vaquita:bubble_shine3"]
 			}
 		},
 		{
 			"timeline": {
-				"250": ["tamarin:head_move", "tamarin:tail_move"]
+				"250": ["tamarin:tail_move"],
+				"286": ["tamarin:head_move"]
 			}
 		},
 		{
 			"timeline": {
-				"250": ["frog:eyes_wink", "frog:mouth_open"]
+				"250": ["frog:mouth_open"],
+				"286": ["frog:eyes_wink"]
 			}
 		},
 		{
@@ -27,7 +31,9 @@
 		},
 		{
 			"timeline": {
-				"250": ["turtle:head_move", "turtle:wing_move", "turtle:tail_move"]
+				"250": ["turtle:head_move", "turtle:wing_move", "turtle:tail_move", "turtle:bubble_shine1"],
+				"268": ["turtle:bubble_shine2"],
+				"286": ["turtle:bubble_shine3"]
 			}
 		},
 		{
@@ -47,7 +53,7 @@
 		},
 		{
 			"timeline": {
-				"250": ["armadillo:head_move"]
+				"250": ["armadillo:head_move", "armadillo:horn_move"]
 			}
 		},
 		{
@@ -57,7 +63,7 @@
 		},
 		{
 			"timeline": {
-				"250": ["kakapo:wing_move", "kakapo:head_move"]
+				"250": ["kakapo:wing_move", "kakapo:head_move", "kakapo:tail_move"]
 			}
 		},
 		{
@@ -87,8 +93,7 @@
 		},
 		{
 			"timeline": {
-				"0": ["camel:hand_move"],
-				"300": ["camel:mouth_move"]
+				"250": ["camel:body_move"]
 			}
 		},
 		{
@@ -108,7 +113,7 @@
 		},
 		{
 			"timeline": {
-				"250": ["tapir:head_move"]
+				"250": ["tapir:head_shake"]
 			}
 		},
 		{
@@ -128,7 +133,7 @@
 		},
 		{
 			"timeline": {
-				"250": ["peccary:hand_move"]
+				"250": ["peccary:head_shake"]
 			}
 		},
 		{
