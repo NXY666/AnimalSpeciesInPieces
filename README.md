@@ -8,5 +8,5 @@
 ## 使用说明
 * 使用 ```←``` 和 ```→``` 手动切换动物！
 * 使用 ```空格``` 切换背景透明度！
-* 使用鼠标拖动小动物（轻点）！
+* 使用 ```鼠标``` 拖动小动物（轻点）！
 * 编辑 [DataContainer](https://github.com/NXY666/AnimalSpeciesInPieces/blob/master/src/org/ybw/nb/DataContainer.java) 中的 ```SCREEN_X_SCALE``` 和 ```SCREEN_Y_SCALE``` 修改窗口大小（注意比例）！
